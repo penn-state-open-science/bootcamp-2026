@@ -1,0 +1,11 @@
+qs,qs_short,pid
+Timestamp,timestamp,FALSE
+Email Address,psu_email,FALSE
+Which days of the bootcamp will you attend?,attend_days,FALSE
+What is your name?,name,TRUE
+What is your department or unit?,dept,FALSE
+What is your current position?,position,FALSE
+Any comments?,bootcamp_keynote,FALSE
+Are you interested in registering for the 2.5 day bootcamp or the Keynote address(es)?,which_keynotes,FALSE
+Which Keynote address(es) are you interested in attending?,comments,FALSE
+presenter,presenter,FALSE

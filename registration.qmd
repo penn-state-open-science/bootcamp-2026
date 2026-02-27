@@ -1,0 +1,372 @@
+---
+title: Registration
+code-fold: true
+params:
+    csv_dir: "include/csv"
+    sheets_fn: "Open Scholarship Bootcamp 2025: Registration (Responses)"
+---
+
+## About
+
+This page documents and implements the data processing workflow for bootcamp registration.
+
+## Setup
+
+We load some packages into memory for convenience.
+
+```{r}
+#| label: load-packages
+suppressPackageStartupMessages(library('tidyverse'))
+suppressPackageStartupMessages(library('ggplot2'))
+suppressPackageStartupMessages(library('dplyr'))
+suppressPackageStartupMessages(library('tidyr'))
+suppressPackageStartupMessages(library('stringr'))
+suppressPackageStartupMessages(library('lubridate'))
+```
+
+## Import
+
+The Google Form generates a Google Sheet that we download to a protected directory (`include/csv`) that is *not* synched to GitHub.
+
+
+::: {.callout-important}
+This is because the sheet contains personally identifying information.
+:::
+
+```{r}
+#| label: import-data
+#| message: false
+#| 
+if (!dir.exists(params$csv_dir)) {
+  message("Creating missing `include/csv/`.")
+  dir.create(params$csv_dir)
+}
+
+options(gargle_oauth_email = Sys.getenv("GMAIL_SURVEY"))
+googledrive::drive_auth()
+
+googledrive::drive_download(
+  params$sheets_fn,
+  path = file.path(params$csv_dir, "registrations-2025.csv"),
+  type = "csv",
+  overwrite = TRUE
+)
+```
+
+## Clean
+
+We reimport the saved CSV file and then clean it.
+
+```{r}
+registrations <- readr::read_csv(file.path(params$csv_dir, "registrations-2025.csv"),
+                                 show_col_types = FALSE)
+
+names(registrations)
+```
+
+Google Forms conveniently returns the questions as variable names at the top of each column. These are handy for creating a data dictionary, but awkward for data processing. We rename these for our convenience. We also export a data dictionary.
+
+```{r}
+#| label: tbl-data-dictionary
+#| tbl-cap: "A minimal data dictionary."
+reqistrations_qs <- names(registrations)
+
+registrations_clean <- registrations |>
+  dplyr::rename(
+    timestamp = "Timestamp",
+    attend_days = "Which days of the bootcamp will you attend?",
+    name = "What is your name?",
+    psu_email = "Email Address",
+    dept = "What is your department or unit?",
+    position = "What is your current position?",
+    comments = "Any comments?",
+    bootcamp_keynote = "Are you interested in registering for the 2.5 day bootcamp or the Keynote address(es)?",
+    which_keynotes = "Which Keynote address(es) are you interested in attending?"
+  )
+
+registrations_short <- c(
+  "timestamp",
+  "psu_email",
+  "attend_days",
+  "name",
+  "dept",
+  "position",
+  "bootcamp_keynote",
+  "which_keynotes",
+  "comments",
+  "presenter"
+)
+registrations_pid <- c(FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE)
+
+registrations_dd <- data.frame(qs = reqistrations_qs, qs_short = registrations_short, pid = registrations_pid)
+
+registrations_dd |>
+  knitr::kable(format = 'html')
+
+readr::write_csv(registrations_dd,
+                 file = file.path(params$csv_dir, "registrations-2025-data-dict.csv"))
+```
+
+We eliminate duplicate registrations.
+
+```{r}
+gilmore_dup <- registrations_clean$timestamp != "6/20/2025 9:36:33" & registrations_clean$name == "Rick Gilmore"
+
+eyal_dup <- registrations_clean$name == "Eyal Ben-Yehuda" & registrations_clean$psu_email == "eyalby@psu.edu"
+
+registrations_clean <- registrations_clean |>
+  dplyr::filter(!gilmore_dup | !eyal_dup) |>
+  dplyr::distinct(name, .keep_all = TRUE) |>
+  dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York"))
+```
+
+## Visualize
+
+### Registration numbers {-}
+
+```{r}
+#| label: create-subsetted-dfs
+registrations_yes <- registrations_clean |> 
+  dplyr::mutate(registered = TRUE)
+
+keynotes_only <- registrations_clean |>
+  dplyr::mutate(keynotes = stringr::str_detect(string = bootcamp_keynote, pattern = "address"))
+```
+
+As of `r Sys.Date()`, we have *n*=`r dim(registrations_yes)[1]` registered attendees and presenters. That is `r round(100*dim(registrations_yes)[1]/75, 1)`\% of our target registration/attendance limit of *n*=75.
+
+Of these, *n*=`r sum(keynotes_only$keynotes == TRUE, na.rm = TRUE)` plan to attend a keynote talk, *n*=`r sum(keynotes_only$presenter == 'yes', na.rm = TRUE)` are presenting, and *n*=`r sum(keynotes_only$presenter == 'no', na.rm = TRUE)-sum(keynotes_only$keynotes == TRUE, na.rm = TRUE)` plan to attend one or more sessions.
+
+### Time series {-}
+
+```{r}
+#| label: fig-registration-time-series
+#| fig-cap: "Time series of registrations. Note that the initial group includes presenters and organizers."
+registrations_clean |>
+  dplyr::arrange(timestamp) |>
+  dplyr::mutate(resp_index = seq_along(timestamp)) |>
+  ggplot() +
+  aes(x = timestamp, y = resp_index) +
+  geom_point() +
+  geom_line() +
+  # facet_grid(~ registered) +
+  theme(axis.text.x = element_text(angle = 90)) +
+  labs(x = NULL, y = 'n registrations') +
+  # ylim(0, 45) +
+  scale_color_manual(breaks = c("No", "Yes"),
+                        values=c("red", "green")) +
+  theme(legend.position = "none")
+```
+
+### Registrant attendance plans by day
+
+```{r}
+#| label: tbl-registration-by-day
+#| fig-cap: "Bootcamp registrations by day."
+registrations_clean |>
+  dplyr::mutate(plan_wed = stringr::str_detect(attend_days, "Wed"),
+                plan_thu = stringr::str_detect(attend_days, "Thu"),
+                plan_fri = stringr::str_detect(attend_days, "Fri")) |>
+  dplyr::mutate(n_wed = sum(plan_wed, na.rm = TRUE),
+                n_thu = sum(plan_thu, na.rm = TRUE),
+                n_fri = sum(plan_fri, na.rm = TRUE)) |>
+  dplyr::select(n_wed, n_thu, n_fri) |>
+  dplyr::distinct() |>
+  knitr::kable(format = "html") |>
+  kableExtra::kable_classic()
+```
+
+### Registrations by position & role
+
+```{r}
+#| label: fig-by-position
+#| fig-cap: "Registrations by position and role"
+registrations_yes |>
+  dplyr::filter(!is.na(position)) |>
+  dplyr::count(position, presenter) |>
+  dplyr::arrange(desc(n)) |>
+  dplyr::mutate(presenter = if_else(presenter == 'yes', "presenter", "attendee")) |>
+  # dplyr::mutate(position = factor(position, levels = position)) |>
+  ggplot() +
+  aes(x = position, fill = position) +
+  geom_bar(aes(y = n), stat = "identity") +
+  theme(legend.position = "none") +
+  facet_grid(cols = vars(presenter)) +
+  coord_flip()
+```
+
+```{r}
+xtabs(formula = ~ position + presenter, data = registrations_yes)
+```
+### Registrations by unit
+
+```{r by-dept}
+registrations_yes <- registrations_yes |>
+  dplyr::mutate(
+    dept = dplyr::recode(
+      dept,
+      `Clinical Psychology` = "Psychology",
+      `Psychology (Cognitive)` = "Psychology",
+      `Psychology / SSRI` = "Psychology",
+      `Department of Psychology` = "Psychology",
+      `Cognitive Psychology` = "Psychology",
+      `Psychology, Developmental` = "Psychology",
+      `Developmental Psychology (CAT Lab)` = "Psychology",
+      `Developmental Psychology` = "Psychology",
+      `Psych` = "Psychology",
+      `English language` = "English",
+      `english` = "English",
+      `English Language Teaching` = "English",
+      `English Department` = "English",
+      `Languages` = "Global Languages & Literatures",
+      `Languages and Literature` = "Global Languages & Literatures",
+      `Department of Foreign Languages` = "Global Languages & Literatures",
+      `Linguistics` = "Applied Linguistics",
+      `Department of Sociology and Criminology` = "Sociology & Criminology",
+      `Communication Sciences and Disorders` = "Communication Sciences & Disorders",
+      `CSD` = "Communication Sciences & Disorders",
+      `Human Development and Family Studies & Social Data Analytics` = "HDFS",
+      `Human Development and Family Studies` = "HDFS",
+      `Human Development and Family Studies (HDFS)` = "HDFS",
+      `Department of Human Development and Family Studies` = "HDFS",
+      `Human Development and Family Sciences` = "HDFS",
+      `HDFS/DEMO` = "HDFS",
+      `bbh` = "BBH",
+      `Biobehavioral Health` = "BBH",
+      `Biobehavioural Health` = "BBH",
+      `Biobehavioural  Health` = "BBH",
+      `Biobehavioral health` = "BBH",
+      `RPTM` = "Recreation, Park, & Tourism Management",
+      `Sociology and Social Data Analytics` = "Sociology",
+      `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese",
+      `Spanish, Italian, and Portuguese Department` = "Spanish, Italian, & Portuguese",
+      `Spanish Italian and Portuguese` = "Spanish, Italian, & Portuguese",
+      `Spanish, Italian, and Portuguese` = "Spanish, Italian, & Portuguese",
+      `French and Francophone Studies` = "French & Francophone Studies",
+      `DEMOG` = "Demography",
+      `Nutrition` = "Nutritional Sciences",
+      `College of IST` = "IST",
+      `Statistics Department` = "Statistics",
+      `Department of Statistics` = "Statistics",
+      `Math` = "Mathematics", 
+      `Astronomy and Astrophysics` = "Astronomy & Astrophysics",
+      `Recreation, Park and Tourism Management` = "Recreation, Park, & Tourism Management",
+      `SHS` = "Student Health Svcs",
+      `Department of Chemical Engineering` = "Chemical Engineering",
+      `ESM` = "Engineering Science & Mechanics",
+      `Engineering Science` = "Engineering Science & Mechanics",
+      `Engineering Science and Mechanics` = "Engineering Science & Mechanics",
+      `EECS` = "Electrical Engineering & Comp Sci",
+      `Department of Food Science` = "Food Science",
+      `Libraries` = "University Libraries",
+      `University libraries` = "University Libraries",
+      `Ecosystem Science and Management` = "Ecosystem Science & Management",
+      `PRC` = "Population Research Center",
+      `TLT, PSU Libraries` = "University Libraries",
+      `Business and Economics` = "Business & Economics",
+      `EE` = "Electrical Engineering",
+      `College of Medicine / Clinical and Translational Science Institute` = "CTSI",
+      `Mechanical engineering,Penn state Harrisburg` = "Mechanical Engineering (Harrisburg)",
+      `Smeal College of Business, Accounting` = "Accounting",
+      `School of Science, Engineering, and Technology` = "Sci, Engr, & Tech"
+    )
+  ) |> 
+  dplyr::mutate(
+    college = case_match(
+      dept,
+      "Statistics" ~ "ECoS",
+      "University of Kansas, Psychology" ~ "UKansas",
+      "Biology" ~ "ECoS",
+      "Psychology" ~ "CLA",
+      "Spanish, Italian, & Portuguese" ~ "CLA",
+      "Research Informatics and Publishing" ~ "Libraries",
+      "Political Science" ~ "CLA",
+      "Applied Linguistics" ~ "CLA",
+      "Global Languages & Literatures" ~ "CLA",
+      "Anthropology" ~ "CLA",
+      "Sociology" ~ "CLA",
+      "English" ~ "CLA",
+      "C-SoDA" ~ "CLA",
+      "Office of Digital Pedagogies and Initiatives" ~ "CLA",
+      "Asian Studies" ~ "CLA",
+      "Sociology & Criminology" ~ "CLA",
+      "IST" ~ "IST",
+      "Chemical Engineering" ~ "Engineering",
+      "Material Science and Engineering" ~ "Engineering",
+      "Engineering Science & Mechanics" ~ "Engineering",
+      "College of Engineering" ~ "Engineering",
+      "Biomedical Engineering" ~ "Engineering",
+      "Nutritional Sciences" ~ "HHD",
+      "HDFS" ~ "HHD",
+      "Kinesiology" ~ "HHD",
+      "Recreation, Park, & Tourism Management" ~ "HHD",
+      "BBH" ~ "HHD",
+      "College of Nursing" ~ "Nursing",
+      "Bellisario College of Communication" ~ "Comm",
+      "Mass Communications" ~ "Comm",
+      "Marketing" ~ "Smeal",
+      "Food Science" ~ "Ag",
+      "Neuroscience" ~ "Med",
+      "College of Human and Health Development" ~ "HHD",
+      "University Libraries" ~ "Libraries",
+      "ICDS" ~ "ICDS",
+      "EESI" ~ "EESI",
+      "ORP" ~ "OVPR",
+      "Astronomy & Astrophysics" ~ "ECoS",
+      "Chemistry" ~ "ECoS",
+      "Mathematics" ~ "ECoS",
+      "Entomology" ~ "AgSci",
+      "Ecosystem Science & Management" ~ "AgSci",
+      "Plant Biology" ~ "Huck",
+      "Biotechnology" ~ "Huck",
+      "Acoustics" ~ "Engineering",
+      "Communication Sciences & Disorders" ~ "HHD",
+      "Electrical Engineering & Comp Sci" ~ "Engineering",
+      "Population Research Center" ~ "SSRI",
+      "Psychology (Harrisburg)" ~ "PSU Harrisburg",
+      "Business & Economics" ~ "PSU Brandywine",
+      "Engineering" ~ "Engineering",
+      "LPS/LDT" ~ "Education",
+      "Demography" ~ "CLA",
+      "OVPR" ~ "OVPR",
+      "Mechanical Engineering" ~ "Engineering",
+      "Electrical Engineering" ~ "Engineering",
+      "Medicine" ~ "Medicine",
+      "CTSI" ~ "Medicine",
+      "French & Francophone Studies" ~ "CLA",
+      "Data Analytics" ~ "IST",
+      "Cybersecurity" ~ "IST",
+      "Mechanical Engineering (Harrisburg)" ~ "PSU Harrisburg",
+      "Accounting" ~ "Smeal",
+      "PSU Harrisburg" ~ "PSU Harrisburg",
+      "Sci, Engr, & Tech" ~ "PSU Harrisburg",
+      "Schreyer Institute for Teaching Excellence" ~ "Old Main",
+      "HHD" ~ "HHD"
+    ),
+    .default = "Unknown",
+    .missing = "Unknown"
+  )
+```
+
+```{r}
+#| label: fig-regis-dept-coll
+#| fig-cap: "Registrations by college/unit."
+registrations_yes |>
+  dplyr::filter(!is.na(dept),
+                dept != "University of Pennsylvania") |>
+  # dplyr::count(dept, college, sort = TRUE) |>
+  dplyr::count(college, sort = TRUE) |>
+  # dplyr::mutate(dept = fct_reorder(dept, n)) |>
+  dplyr::mutate(college = fct_reorder(college, n)) |>
+  ggplot() +
+  # aes(x = dept, fill = college) +
+  aes(x = college) +
+  geom_bar(aes(y = n), stat = "identity") +
+  # scale_y_continuous(breaks = c(2, 4, 6, 8, 10, 12)) +
+  theme(legend.position = "right") +
+  theme(legend.title = element_blank()) +
+  theme_classic() +
+  coord_flip()
+```
+
+The bootcamp registrations represent *n*=`r length(unique(registrations_yes$dept))` departments and *n*=`r length(unique(registrations_yes$college))` campuses, colleges, institutes, or administrative entities.

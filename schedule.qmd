@@ -1,0 +1,55 @@
+---
+title: "Schedule"
+format: html
+---
+
+This section provides an overview about what is happening and when over the 2 1/2 day bootcamp.
+See the detailed daily schedules for more information.
+
+## Overview
+
+### Day 1
+
+*Breakfast provided* {{< fa mug-hot >}} {{< fa bread-slice >}}
+
+*Welcome*: [Faye Chadwell](presenters.qmd#faye-chadwell), Dean of the Penn State University Libraries
+
+*Keynote*: "Harnessing AI for scientific integrity", Dr. [Sarah Rajtmajer](people.qmd#sarah-rajtmajer), College of IST, Penn State, Foster Auditorium (102 Pattee)
+
+*Lunch provided* {{< fa bottle-water >}} {{< fa bread-slice >}}
+
+*Movie screening*: "Paywall: The Business of Scholarship"
+
+*Hands-on workshops*
+
+### Day 2
+
+*Breakfast provided* {{< fa mug-hot >}} {{< fa bread-slice >}}
+
+*Keynote*: "Rescuing and preserving public data: The data rescue project", Dr. [Lynda Kellam](presenters.qmd#lynda-kellam), University of Pennsylvania & [Data Rescue Project](https://www.datarescueproject.org), Foster Auditorium (102 Pattee)
+
+*Lunch provided* {{< fa bottle-water >}} {{< fa bread-slice >}}
+
+*Hands-on workshops*
+
+::: {.callout-note}
+### Happy Hour
+Please join us for an open scholarship happy hour to follow immediately after the end of the Day 2 program.
+:::
+
+### Day 3
+
+*Breakfast provided* {{< fa mug-hot >}} {{< fa bread-slice >}}
+
+*Plenary session on open access & licensing* {{< ai open-access >}}
+
+*Hands-on workshops*
+
+*Community dialogue*
+
+*Lunch provided* {{< fa bottle-water >}} {{< fa bread-slice >}}
+
+::: {.callout-note}
+### Logistics
+The bootcamp will end at 12:45.
+:::

@@ -1,0 +1,209 @@
+---
+title: "Session Details"
+format: html
+---
+
+## About
+
+This page provides additional information about the workshop sessions and links to presenter notes. 
+
+::: {.callout-note}
+Some sessions are part of a thematic series, but each session stands on its own. You’re welcome to attend any session, even if you haven’t attended earlier ones.
+:::
+
+## Day 1 • Wed August 13
+
+### Open @ Penn State
+
+What initiatives and resources are available at Penn State related to open scholarship?
+
+*Location*: Dewey Room
+
+---
+
+### Workshop Session 1
+
+#### Harnessing advanced cyberinfrastructure for research: An introduction to Roar and ICDS resources
+
+Join us for a workshop exploring the powerful computational and data resources available through Penn State’s Institute for Computational and Data Sciences (ICDS). Learn how to leverage the Roar supercomputing system—featuring high-performance CPU and GPU capabilities, scalable storage, and support for data-intensive research. Whether you're running complex simulations, processing large datasets, or developing sophisticated workflows, Roar provides flexible solutions tailored to researchers across all disciplines. This session will cover both interactive, user-friendly interfaces and batch computing workflows to help you get started, regardless of your technical background.
+
+*Presenter*: [Carrie Brown](program-committee.qmd#carrie-brown)
+
+*Prerequisites*: Attendees will need an active Roar account. To request Roar access, please complete the [Account Request form](https://accounts.hpc.psu.edu/users/#) by [Tuesday, August 12, 2025]{.highlight-color}.
+
+*Skill level*: All
+
+*Location*: W211A Pattee
+
+---
+
+#### Getting credit for sharing your data (Part I): Good enough data practices
+
+Effective data management is key to research integrity, reproducibility, and making your data useful beyond your own project. Since most researchers have limited time to perfect their workflows, this workshop introduces ‘good enough’ data practices; simple, time-efficient strategies that lay the groundwork for sharing, publishing, and reusing data. You’ll learn how to organize your files using logical directory structures and naming conventions, keep your data tidy and consistent, track changes with version control, and create basic metadata to describe your dataset. By the end of the session, you’ll be equipped with practical tools to make your data easier to manage now and far easier to share later. This is the first of three workshops on *Getting Credit for Sharing Your Data*.
+
+*Presenter*: [Alaina Pearce](directors.qmd#alaina-pearce)
+
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+*Location*: Dewey Room
+
+*Resources*:
+
+- Slides: | [pdf](include/pdf/2025_GoodEnoughRDM.pdf) |  [pptx](include/pptx/2025_GoodEnoughRDM.pptx) |
+- Directory naming worksheet: | [docx](include/docx/directories_naming_worksheet.docx) |
+
+---
+
+### Workshop Session 2
+
+#### Getting started with Python in JupyterLab: A hands-on introduction
+
+Curious about Python and how to get started with coding? Join us for a one-hour, hands-on workshop introducing Python programming using JupyterLab. Designed for beginners, this session will guide you through the basics of Python using interactive example notebooks. You'll gain experience navigating the JupyterLab environment while working through live code, and you'll leave with a set of curated notebooks you can continue exploring on your own. No prior programming experience required!
+
+*Presenter*: [Carrie Brown](program-committee.qmd#carrie-brown)
+
+*Prerequisites*: Attendees will need an active Roar account. To request Roar access, please complete the [Account Request form](https://accounts.hpc.psu.edu/users/#) by [Tuesday, August 12, 2025]{.highlight-color}.
+
+*Skill level*: Novice
+
+*Location*: W211A Pattee
+
+---
+
+#### Questionable research practices
+
+What are questionable research practices? Why are they questionable? How do we avoid them?
+
+*Presenters*: [Nicole Lazar](program-committee.qmd#nicole-lazar) and [Jennifer Valcin](program-committee.qmd#jennifer-valcin)
+
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+*Location*: Dewey Room
+
+## Day 2 • Thu August 14
+
+### Workshop Session 3
+
+#### Quarto (Part I): A tool for open scholarship
+
+[Quarto](https://quarto.org) is an open-source scientific and technical publishing system. As the Quarto site suggests, if you have a story to tell with data, you can tell it with Quarto. This workshop will introduce Quarto and show how it can be a powerful tool for implementing open scholarship practices. This is the first of two workshops on Quarto.
+
+*Presenter*: [Rick Gilmore](directors.qmd#rick-gilmore)
+
+*Prerequisites*: None, but if you plan to bring a laptop, please follow the [instructions here](how-to-install-rstudio-quarto.qmd) to install R, RStudio, and Quarto.
+
+*Skill level*: Novice
+
+*Resources*: 
+
+- Slides: | [html](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I/) |
+- GitHub [template repository](https://github.com/penn-state-open-science/bootcamp-2025-quarto-I-template)
+
+*Location*: W211A Pattee
+
+---
+
+#### Getting credit for sharing your data (Part II): Sharing your data
+
+New funder requirements call for researchers to share their data openly — but simply uploading data files isn't enough. To make data truly reusable, others must be able to find, access, and understand it. This workshop will guide participants through selecting an appropriate data repository and implementing best practices for documenting data with clear, well-structured metadata. We’ll discuss what to consider when choosing a repository, highlighting platforms such as ScholarSphere, Dataverse, the Open Science Framework (OSF), and Databrary. Just as important as where you share your data is how you document it. Metadata provides the essential context—the who, what, when, where, why, and how—that enables others to interpret and build upon your work. We will focus on two essential tools: README files and data dictionaries. By the end of the session, you’ll have the knowledge to identify repository features that meet your needs and the skills to create metadata that supports transparency, reproducibility, and meaningful reuse. This is the second of three workshops on *Getting Credit for Sharing Your Data*.
+
+*Presenter*: [Alaina Pearce](directors.qmd#alaina-pearce)
+
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+*Location*: Dewey Room
+
+*Resources*:
+
+- Slides: | [pdf](include/pdf/2025_DataSharing.pdf) |  [pptx](include/pptx/2025_DataSharing.pptx) |
+- Sample data README: | [md](include/txt/cornell_data_readme.md) | [txt](include/txt/cornell_data_readme.txt) |
+
+### Workshop Session 4
+
+#### LLMs with Jupyter notebooks
+
+Large language models (LLMs) are transforming the way we work with text data. This hands-on workshop introduces the basics of text-as-data, including word embeddings and zero-shot learning, and demonstrates how to deploy a free, open-access LLM using Hugging Face in a Jupyter Notebook. Participants will follow a guided example of sentiment analysis to explore how LLMs can be used for real-world tasks. After the workshop, you will receive a set of curated notebooks to further explore LLMs and their functionalities on your own.
+
+*Skill level*: Intermediate
+
+*Presenter*: [Valerie Li](program-committee.qmd#valerie-li)
+
+*Prerequisites*: Day 1 workshop - [Getting started with Python in JupyterLab: A hands-on introduction](sessions.qmd#getting-started-with-python-in-jupyterlab-a-hands-on-introduction) (preferred but not required); A Google account (to be able to access the free Google [Colab](https://colab.research.google.com/) environment).
+
+*Skill level*: Intermediate
+
+*Location*: W211A Pattee
+
+*Resources*
+
+::: {.callout-note}
+Right-click on the link below to download the file to your computer.
+:::
+
+- Tutorial Jupyter notebook: | [ipynb](include/ipynb/LLM-tutorial-for-2025-Open-Scholarship-Bootcamp.ipynb) |
+
+---
+
+#### Getting credit for sharing your data (Part III): Data papers
+
+Sharing data openly is a growing expectation in research but getting formal recognition for the time and effort involved is still a challenge. This workshop introduces one impactful way to gain academic credit for your data: publishing a data paper. Data papers are peer-reviewed journal articles that describe a dataset in detail—how it was collected, its structure, and its potential value for reuse. Data papers can be particularly helpful for researchers as they will: 1) add a peer-reviewed publication to your CV; 2) increase the visibility and usability of your dataset; and 3) provide a way for others to cite your data that will contribute to your citation count. In this hands-on session, we will explore the structure and purpose of data papers, walk through examples, and begin drafting key components based on your own projects. This is the third of three workshops on *Getting Credit for Sharing Your Data*.
+
+*Presenter*: [Alaina Pearce](directors.qmd#alaina-pearce)
+
+*Location*: Dewey Room
+
+*Resources*:
+
+- Checklist: | [pdf](include/pdf/data_paper_checklist.pdf) |
+- Worksheet: | [docx](include/docx/data_paper_worksheet.docx) |
+
+## Day 3 • Fri August 15
+
+### Plenary session
+
+#### Intro to copyright and open access publishing
+
+[Danielle Steinhart](presenters.qmd#danielle-steinhart), University Libraries
+
+This presentation will provide a brief introduction to U.S. copyright law, open access publishing, and Creative Commons licensing. You will learn what copyright covers and how copyrighted works enter the public domain. You’ll also learn about fair use and other rights that copyright gives to people using copyrighted material. There will also be a brief overview on the different types of Creative Commons licenses.
+
+*Location*: Foster Auditorium
+
+### Workshop Session 5
+
+#### Quarto (Part II): Reproducible research reports
+
+So, Quarto can be used to generate different types of documents, but what can it actually do to help with your scholarship? In this presentation, John West and Rick Gilmore will tell how they use Quarto to produce reproducible research reports that can be readily shared with collaborators or published as supporting materials for papers and related scholarly products.
+
+*Presenters*: [John West](program-committee.qmd#john-west) and [Rick Gilmore](directors.qmd#rick-gilmore)
+
+*Prerequisites*: Quarto (Part I) or equivalent. If you plan to bring a laptop, please follow the [instructions here](how-to-install-rstudio-quarto.qmd) to install R, RStudio, and Quarto.
+
+*Skill level*: Advanced beginner.
+
+*Location*: Foster Auditorium
+
+*Resources*: 
+
+- West slides: | [pptx](include/pptx/west-Open Science Bootcamp Workshop - Quarto Part II.pptx) |
+- Gilmore slides: | [HTML](https://penn-state-open-science.github.io/bootcamp-2025-quarto-II/) |
+
+---
+
+#### Where to start? Open science for early career researchers
+
+How can early career researchers start their open science journey (Allen & Mehler, 2019; Kathawalla et al., 2021)?
+
+*Presenters*: ([Carlos Frietas Almeida](program-committee.qmd#carlos-freitas-almeida), [Olivia Beck](program-committee.qmd#olivia-beck), [Kyle Hallisky](program-committee.qmd#kyle-hallisky))
+
+*Prerequisites*: None
+
+*Skill level*: All
+
+*Location*: Periodicals Room near Starbucks

@@ -1,0 +1,84 @@
+## Registration
+
+::: callout-important
+## To register
+Visit <https://forms.gle/R6SzM4TNppGFzjEY9>.
+**Sorry, but registration has closed.**
+:::
+
+Here is the latest data about Bootcamp registrations:
+
+::: panel-tabset
+## Time series
+![Timeseries of registrations.](include/fig/fig-registration-time-series-1.png)
+## By unit
+![Registrations by college/school.](include/fig/fig-regis-dept-coll-1.png)
+## By workshop
+![Interest by workshop and session.](include/fig/fig-workshop-interest-1.png)
+:::
+
+Click on any image to see a larger version. Also, see [this page](registration.qmd) for details about how these figures are generated.
+
+## Support
+
+The Bootcamp would not be possible without the generosity of our sponsors:
+:::::: columns
+::: {.column width="40%"}
+![](include/img/CSC-Graphic-Multicolor.png){height="90px" width="90px" fig-align="center"}
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="55%"}
+[Child Study Center (CSC)](https://csc.la.psu.edu)
+:::
+::::::
+:::::: columns
+::: {.column width="40%"}
+![](include/img/libraries.png)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="55%"}
+[Penn State University Libraries](https://libraries.psu.edu)
+:::
+::::::
+:::::: columns
+::: {.column width="40%"}
+![](include/img/icds.png)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="55%"}
+[Institute for Computational and Data Sciences (ICDS)](https://www.icds.psu.edu)
+:::
+::::::
+:::::: columns
+::: {.column width="40%"}
+![](include/img/cla-soda-logo.PNG)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="55%"}
+[Center for Social Data Analytics (SoDA)](https://soda.la.psu.edu)
+:::
+::::::
+::::: columns
+::: {.column width="40%"}
+![](include/img/statistics-dept.png)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="55%"}
+[Department of Statistics](https://science.psu.edu/stat)
+:::
+::::::
+::::: columns
+::: {.column width="40%"}
+![](include/img/ssri-logo.png)
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="55%"}
+[Social Sciences Research Institute (SSRI)](https://ssri.psu.edu/)
+:::
+::::::

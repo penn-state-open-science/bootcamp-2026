@@ -1,0 +1,39 @@
+---
+title: "How to install RStudio & Quarto"
+nocite: |
+  @BryanUnknown-ay
+---
+
+## About
+
+This page briefly describes how to install RStudio and Quarto on your personal computer.
+
+If you plan to attend either the [Quarto I](sessions.qmd#quarto-part-i-a-tool-for-open-scholarship) or [Quarto II](sessions.qmd#quarto-part-ii-reproducible-research-reports) workshops, please follow these steps *before* the Bootcamp.
+
+## Install R
+
+![<https://cran.rstudio.com>](include/img/cran-r.png)
+
+## Install RStudio
+
+![<https://posit.co/download/rstudio-desktop/>](include/img/install-rstudio.png)
+
+## Install Quarto
+
+![<https://quarto.org/docs/get-started/>](include/img/install-quarto.png)
+
+## Launch RStudio
+
+![](include/img/rstudio-open.png)
+
+## (Optional) Install git
+
+The version control package git may not be installed on your Windows machine. It is usually installed by default on Mac OS.
+
+If git is not installed, visit <https://git-scm.com/downloads>, download, and install it for your operating system.
+
+You can use R, RStudio, and Quarto without using git, but there are good reasons to consider using it.
+
+If you decide to use the web-based git code sharing service called [GitHub](https://github.com) with RStudio, you will want to follow the excellent instructions [here](https://happygitwithr.com).
+
+## References

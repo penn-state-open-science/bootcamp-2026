@@ -1,0 +1,62 @@
+project:
+  type: book
+  output-dir: docs
+  
+book:
+  title: "Bootcamp 2026"
+  author: ["Rick Gilmore", "Alaina Pearce"]
+  chapters:
+    - index.qmd
+    # - part: schedule.qmd
+    #   chapters:
+    #   - day-1.qmd
+    #   - day-2.qmd
+    #   - day-3.qmd
+    - part: People
+      chapters:
+      - directors.qmd
+      - program-committee.qmd
+      # - presenters.qmd
+    # - part: More
+    #   chapters:
+    #   - text: "Session Details"
+    #     href: sessions.qmd
+    #   - text: "Wayfinding"
+    #     href: wayfinding.qmd
+    #   - text: "Registration Data"
+    #     href: registration.qmd
+    #   - text: "Confirmation Data"
+    #     href: confirmation.qmd
+    #   - text: "Installing Quarto"
+    #     href: how-to-install-rstudio-quarto.qmd
+    #   - resources.qmd
+  repo-url: https://github.com/penn-state-open-science/bootcamp-2026/
+  repo-actions: [edit, issue]
+  repo-subdir: src
+  page-footer:
+    background: $theme-psu-pugh-blue
+    left:
+      - text: "© 2026 by Rick Gilmore & Alaina Pearce under CC BY 4.0"
+        href: https://creativecommons.org/licenses/by/4.0/
+    center: 
+      - text: "Built with Quarto"
+        href: https://quarto.org
+knitr:
+  opts_chunk:
+    fig.path: include/fig/ 
+
+format:
+  html:
+    theme: [cosmo, include/css/psu.scss]
+    number-sections: false
+    date-modified: last-modified
+    bibliography: [include/bib/bootcamp.bib, include/bib/open-sci.bib]
+    csl: include/bib/apa.csl
+    mainfont: roboto
+    link-external-icon: true
+    citations-hover: false
+    footnotes-hover: false
+    crossrefs-hover: true
+    code-tools: true
+    code-fold: true
+    

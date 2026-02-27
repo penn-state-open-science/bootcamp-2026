@@ -1,0 +1,240 @@
+---
+title: "topics"
+format: html
+---
+
+This page summarizes the types of the bootcamp sessions.
+
+## Keynotes
+
+Three in total, one each to start each day. 1:15.
+
+- 1 external speaker
+- 2 internal speakers
+  - Open access, data sharing policies
+
+## Short talks
+
+Typically 15-20 maximum length. Combine 3 into a single hour-long session.
+
+### Possible Topics
+
+- Open science @ PSU: What initiatives and resources are available at Penn State related to open science?
+- Trainee presentations
+- Tips & tricks
+- Open scholarship in practice
+- Version control with git and Github
+- Jupyter notebooks
+- Google colab
+
+
+## Workshops
+
+Two to three hour-long workshop sessions/day. A workshop can take up as many sessions as needed or even cut across days.
+
+### Possible Topics
+
+- Good enough data management practices (Pearce); 1-3 sessions
+- Reproducible workflows with Quarto (Gilmore); 1-3 sessions
+- Data sharing, why, where, how (TBD); 1-2 sessions
+- Open teaching
+- Early career researcher forum
+- Open scholarship in an AI era
+
+<!-- ## Theme: What is open science? Open science @ PSU {-} -->
+
+<!-- ### What is open science? Why do open science? ([Rick Gilmore](program-committee.html#rick-gilmore)) {- #what-is-why} -->
+
+<!-- This talk will describe the main practices and principles of open science and describe -->
+<!-- how these practices and principles can strengthen and enrich the scholarship of researchers at every career stage. -->
+
+<!-- *Talk slides*: [HTML](https://penn-state-open-science.github.io/bootcamp-2023-open-sci-what-why/) -->
+
+<!-- ### Open science @ PSU {-} -->
+
+<!-- What initiatives and resources are available at Penn State related to open science? -->
+
+<!-- <!-- Short (3-5 min) "blitz"-style talks about open science-related initiatives at Penn State. --> -->
+
+<!-- <!-- - Case study: Reproducibility in neuroimaging ([Frank Hillary]? & [Nicole Lazar]?) --> -->
+<!-- <!-- - Case study: ScholarSphere ([Briana Wham]? or [Jennifer Valcin]?) --> -->
+<!-- <!-- - Case study: Data Commons (Maurie Kelly or Bernd Haupt?) --> -->
+<!-- <!-- - Case study: NSF Synthesis Center (Ed O'Brien?) --> -->
+<!-- <!-- - Case study: Databrary & the PLAY Project ([Rick Gilmore]) --> -->
+
+<!-- ### Keynote (Tim Errington) {- #keynote} -->
+
+<!-- *Replication of preclinical cancer biology: Challenges or opportunities?* -->
+
+<!-- The Reproducibility Project: Cancer Biology was a large-scale systematic investigation into the replicability of high-impact, preclinical cancer biology experiments. Overall, there were challenges at every stage of the research process to design and conduct the replications. It was hard to understand what was originally done, there was not always access to the original data or reagents to conduct the experiments, and model systems frequently did not behave as originally reported. The limited transparency and incomplete reporting made the efforts to replicate the findings much harder than was necessary. Of the replication experiments able to be completed, the evidence was much weaker on average than the original findings even though all the replications underwent peer review before conducting the experiments to maximize their quality and rigor. These findings suggest that there is unnecessary friction in the research process that may be slowing the advancement of knowledge, solutions, and treatments. -->
+
+<!-- ### Good enough practices for data and project management ([Alaina Pearce](program-committee#alaina-pearce)) {- #howto_good_enough} -->
+
+<!-- Best practices can be hard to implement, so what open science practices are both useful and “good enough” [@Wilson2017-ot] to have an impact on your work? What are the first steps you can take to make your data more FAIR [@Wilkinson2016-qr]? How can these practices improve your data lifecycle and/or pipeline (e.g., data use and re-use within and between labs)? -->
+
+<!-- ## How to do open science? {-} -->
+
+<!-- These are some possible presentations for [Day 2](#day_1). -->
+<!-- [Day 2](#day_2) would be conducted in 3-5 breakout sessions. -->
+
+<!-- ### Preregistration & registered reports ([Frank Hillary] & [Hollie Mullin]) {- #howto_preregistration} -->
+
+<!-- What is preregistration? What are registered reports? When and why would you want to use these tools? -->
+
+<!-- *Prerequisites*: None -->
+
+<!-- *Skill level*: Novice -->
+
+<!-- *Time required*: 50 min -->
+
+<!-- *Offered*: [Thu AM Session 2](#day_2_am_session_2) -->
+
+<!-- ### Replication studies ([Kevin McManus]) {- #howto_replication} -->
+
+<!-- This session will provide an introduction and overview of the replication process in social science research, focusing on three components: (1) what is replication and why is it important? (2) considerations for selecting a study to replicate (3) recommended practices for executing and writing up a replication study. Taken together, this session seeks to address several questions on the conceptual and practical aspects of doing replication research. -->
+
+<!-- *Prerequisites*: None -->
+
+<!-- *Skill level*: Novice -->
+
+<!-- *Time required*: 50 min -->
+
+<!-- *Offered*: [Thu AM Session 2](#day_2_am_session_2) -->
+
+<!-- ### Responsible and robust research ([Nicole Lazar] & [Jennifer Valcin]) {- #howto_responsible_research} -->
+
+<!-- What are questionable research practices? Why are they questionable? How do we avoid them? -->
+
+<!-- *Prerequisites*: None -->
+
+<!-- *Skill level*: Novice -->
+
+<!-- *Time required*: 50 min -->
+
+<!-- *Offered*: [Thu AM Session 1](#day_2_am_session_1) -->
+
+<!-- ### Reproducible research with R Markdown and Quarto ([Rick Gilmore] & [Jennifer Valcin]){- #howto_rmarkdown} -->
+
+<!-- This workshop will demonstrate how to create reproducible research workflows with [R Markdown](https://rmarkdown.rstudio.com) and its successor, [Quarto](https://quarto.org). -->
+<!-- These tools can be used to analysis reports, create slides, papers, and web sites (like this one) using the same source materials. -->
+
+<!-- *Prerequisites*: None -->
+
+<!-- *Skill level*: Novice -->
+
+<!-- *Time required*: 50 min -->
+
+<!-- *Offered*: [Thu AM Session 2](#day_2_am_session_2). -->
+
+<!-- *Talk slides*: [HTML](https://penn-state-open-science.github.io/bootcamp-2023-rmarkdown-quarto/) -->
+
+<!-- ### Data management: Policies ([Briana Wham] & [Alaina Pearce]) {- #howto_data_management_policies} -->
+
+<!-- How to manage data to meet funder requirements and make sharing with collaborators and other researchers less burdensome. -->
+
+<!-- *Prerequisites*: None -->
+
+<!-- *Skill level*: All -->
+
+<!-- *Time required*: 50 min -->
+
+<!-- *Offered*: [Thurs AM Session 1](#day_2_am_session_1). -->
+
+<!-- ### Data management: Practicalities ([Alaina Pearce] & [Briana Wham]) {- #howto_data_management_practical} -->
+
+<!-- How can you manage data to make sharing with collaborators and other researchers less burdensome? Data management is often learned through trial and error. Therefore, this workshop will provide a set of practices that can make data management and data sharing easier. After a brief overview, this will be a Choose-Your-Own-Adventure workshop so we can dive into the details of data management that will be most helpful for you. Examples include discussing file naming conventions, directory organization for large lab projects, standardized data architectures (e.g., [BIDS](https://bids.neuroimaging.io); [MIxS](https://genomicsstandardsconsortium.github.io/mixs/)), how to make a data dictionary, and data manipulation/creation of new variables. -->
+
+<!-- *Prerequisites*: None -->
+
+<!-- *Skill level*: All -->
+
+<!-- *Time required*: 50 min -->
+
+<!-- *Offered*: [Thurs PM Session 3](#day_2_pm_session_3). -->
+
+<!-- ### Where to start? Open science for early career researchers ([Daisy Lei](), [Hollie Mullin](), & [Sai Koneru]()) {- #howto_early_career} -->
+
+<!-- How can early career researchers start their open science journey [@Kathawalla2021-tk; @Allen2019-js]? -->
+
+<!-- *Prerequisites*: None -->
+
+<!-- *Skill level*: All -->
+
+<!-- *Time required*: 50 min -->
+
+<!-- *Offered*: [Thu PM Session 3](#day_2_pm_session_3) -->
+
+<!-- ### Reproducible research with Jupyter notebooks ([Mike Burnham]()) {- #howto_jupyter} -->
+
+<!-- [Jupyter notebooks](https://jupyter.org) are another literate programming tool, and also another research super-power. -->
+
+<!-- *Prerequisites*: None -->
+
+<!-- *Skill level*: Novice -->
+
+<!-- *Time required*: 50 min -->
+
+<!-- *Offered*: [Thu PM Session 4](#day_2_pm_session_4). -->
+
+<!-- *Talk materials* [Sample Jupyter notebook](html/jupyter.html) -->
+
+<!-- ### Data & materials sharing: Why, when, where, & how ([Rick Gilmore] & [Bruce Desmarais]) {- #howto_data_sharing} -->
+
+<!-- Where can you share data and materials? -->
+<!-- Where *should* you share data and materials? -->
+<!-- *When* can and should you share data and materials? -->
+<!-- This workshop will demonstrate how researchers can use [Dataverse](https://dataverse.org), the [Open Science Framework (OSF)](https://osf.io), [Databrary](https://databrary.org), and other data and materials repositories both to share data and materials and to re-purpose data and materials shared by others. -->
+<!-- The workshop will also discuss recent initiatives in some fields that require -->
+<!-- data and code sharing prior to the publication of an article so that statistical -->
+<!-- results and figures can be verified. -->
+
+<!-- *Prerequisites*: None -->
+
+<!-- *Skill level*: Novice -->
+
+<!-- *Time required*: 50 min -->
+
+<!-- *Offered*: [Thu PM Session 4](#day_2_pm_session_4) -->
+
+<!-- *Talk slides*: [PDF](https://github.com/penn-state-open-science/bootcamp-2023-data-sharing/blob/7aef15bfc83886f488a5256cc76312cc6cf2002a/index.pdf) -->
+
+<!-- ## Other topics/presenters {-} -->
+
+<!-- ### Version control with git, GitHub, and GitLab ([Carrie Brown]) {- #howto_git} -->
+
+<!-- *Prerequisites*: -->
+
+<!-- *Skill level*: -->
+
+<!-- *Time required*: 2-4 hrs. -->
+
+<!-- ### Open access publishing {- #howto_open_access} -->
+
+<!-- Where and how to share your research so that the maximum number of people can read it. -->
+
+<!-- ### Reproducible software ([Carrie Brown]? & [Alaina Pearce]?) {- #reproducible-software} -->
+
+<!-- How to make your code reproducible; Conda; software environments, R packages for data wrangling and cleaning. -->
+
+<!-- *Prerequisites*: Familiarity with a programming language (e.g., R, Python, Matlab) -->
+
+<!-- *Skill level*: Intermediate -->
+
+<!-- *Time required*: -->
+
+<!-- ### Case study: Big data behavioral science: The Play & Learning Across a Year (PLAY) Project ([Rick Gilmore]) {- #casestudy_PLAY} -->
+
+<!-- The [Play & Learning Across a Year (PLAY) Project](https://play-project.org) is an [NIH-funded research project](https://reporter.nih.gov/search/PJYxIpAvQkyD2ZNPUPbp8Q/project-details/9500957) that is recording, annotating, and sharing video recordings of mothers and their infants engaged in natural activities in the home. -->
+<!-- In addition to providing a first-of-its-kind openly shared video corpus of natural behavior via [Databrary](https://databrary.org), PLAY's entire [protocol](https://play-project.org) is openly shared on the web, and the project's survey data results are [openly summarized](https://PLAY-behaviorome.github.io/KoBoToolbox/) and regularly updated. As such, PLAY provides a test-case for how open science practices work in a large-scale, geographically distributed research project that collects and intends to share identifiable data. -->
+
+<!-- ### Reproducible research in economics ([Lars Vilhuber](https://www.ilr.cornell.edu/people/lars-vilhuber), Cornell?) {- #casestudy_economics} -->
+
+<!-- ### Reproducible and robust research has wider reach {- #howto_reproducibility} -->
+
+<!-- Types of reproducibility. How building reproducible research workflows can make your work more robust and more readily shareable. -->
+
+<!-- *Prerequisites*: None -->
+
+<!-- *Skill level*: Novice -->
+
+<!-- *Time required*: 30 min -->

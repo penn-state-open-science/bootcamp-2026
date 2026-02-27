@@ -1,0 +1,120 @@
+---
+nocite: |
+  @EIFL2018-lx
+---
+
+# Day 1 (Wed, Aug 13)
+
+::: {.callout-important}
+## Logistics
+**Times**: All times are Eastern Daylight Time (EDT).
+
+:::: {.columns}
+::: {.column width=70%}
+**Location**: Dewey Room, West Pattee Knowledge Commons, unless otherwise indicated.
+
+[Map](https://map.psu.edu/?id=1134#!ct/25403,26748,26749,26750,27255?m/407561?s/Pattee)
+
+[Directions](wayfinding.qmd)
+:::
+::: {.column width=30%}
+![](include/img/psu_pattee_gallery2.jpg){.lightbox width="300px"}
+:::
+::::
+:::
+
+## Morning {- #day_1_am}
+
+### 08:30 am • Breakfast {{< fa mug-hot >}} {{< fa bread-slice >}} {-}
+
+### 09:00 am • Welcome {-}
+
+:::: {.columns}
+::: {.column width=80%}
+[Faye Chadwell](presenters.qmd#faye-chadwell), Dean of the Penn State University Libraries
+:::
+::: {.column width=20%}
+![](include/img/chadwell-faye.jpg){width=100px height=100px}
+:::
+::::
+
+### 09:10 am • Bootcamp overview {-}
+
+[Rick Gilmore](directors.qmd#rick-gilmore) and [Alaina Pearce](directors.qmd#alaina-pearce); Slides: | [HTML](https://penn-state-open-science.github.io/bootcamp-2025-day-1-welcome/) |
+
+### 09:30 am • Open @ Penn State {- #day_1_plenary_1}
+
+- [*ScholarSphere*](https://scholarsphere.psu.edu), [Alaina Pearce](directors.qmd#alaina-pearce); slides: | [pdf](include/pdf/2025_ScholarSphere.pdf) | [pptx](include/pdf/2025_ScholarSphere.pdf) |
+- *Open Science and the HBCD and ABCD Cohorts*, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar); slides: | [pptx](include/pptx/perez-edgar-Open-Science-HBCD-Workshop 08_2025.pptx) |
+- *Open scholarship and high performance computing*, [Wayne Figurelle](presenters.qmd#wayne-figurelle); slides: | [pptx](include/pptx/roar_ppt - 8-13-25.pptx) |
+- *Advancing reproducibility through team science, data sharing, and transparency: The ENIGMA initiative*, [Frank Hillary](program-committee.qmd#frank-hillary); slides: | [pptx](include/pptx/Hillary_Open_Boot_2025.pptx) |
+
+### 10:15 am • Break {{< fa mug-hot >}} {-}
+
+### 10:45 am • Keynote {- #day_1_plenary_2}
+
+#### Harnessing AI for scientific integrity
+
+:::: {.columns}
+::: {.column width=80%}
+[Sarah Rajtmajer](program-committee.qmd#sarah-rajtmajer), Penn State College of IST
+
+Slides: | [pptx](include/pptx/Bootcamp_Rajtmajer.pptx) |
+
+:::
+::: {.column width=20%}
+![](include/img/rajtmajer-sarah.png){width=100px height=100px}
+:::
+::::
+
+::: {.callout-important}
+## Location
+
+Foster Auditorium (102 Paterno Library)
+:::
+
+### 11:45 am • Lunch {{< fa bottle-water >}} {{< fa bread-slice >}} {-}
+
+## Afternoon {- #day_1_pm}
+
+### 12:00 pm • Movie time
+
+:::: {.columns}
+::: {.column width=80%}
+Screening of [*Paywall: The Business of Scholarship*](https://en.wikipedia.org/wiki/Paywall:_The_Business_of_Scholarship) and discussion
+
+{{< video https://www.youtube.com/watch?v=zAzTR8eq20k height="40%" width="60%" >}}
+
+:::
+::: {.column width=20%}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Paywall_documentary_poster.jpg/1280px-Paywall_documentary_poster.jpg){width=100px}
+:::
+::::
+
+
+### 01:30 pm • Break {{< fa mug-hot >}} {-}
+
+### 01:45 pm • Workshop session 1 {- #day_1_pm_session_1}
+
+| Topic | Presenter | Location |
+|--------------|----------|-------|
+| [*Harnessing advanced cyberinfrastructure for research: An introduction to Roar and ICDS resources*](sessions.qmd#open-access-high-performance-computing) | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A |
+| [*Getting credit for sharing your data (Part I): Good enough data management practices*](sessions.qmd#getting-credit-for-sharing-your-data-part-i-good-enough-data-practices) | [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+
+: {tbl-colwidths="[60,20,20]"}
+
+### 02:45 pm • Break {{< fa mug-hot >}} {-}
+
+### 03:00 pm • Workshop session 2 {- #day_1_pm_session_2}
+
+| Topic | Presenter | Location |
+|--------------|----------|-------|
+| [*Getting started with Python in JupyterLab: A hands-on introduction*](sessions.qmd#getting-started-with-python-in-jupyterlab-a-hands-on-introduction) | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A |
+| [*Questionable research practices*](sessions.qmd#questionable-research-practices) |  [Nicole Lazar](program-committee.qmd#nicole-lazar) & [Jennifer Valcin](program-committee.qmd#jennifer-valcin) | Dewey Room | 
+
+### 04:00 pm • Day 1 wrap-up
+
+### 04:15 pm • End of Day 1 {-}
+
+## References
+

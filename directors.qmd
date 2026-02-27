@@ -1,0 +1,31 @@
+---
+title: "Bootcamp Directors"
+format: html
+---
+
+## Rick Gilmore
+
+:::: {.columns}
+::: {.column width="40%"}
+![](include/img/gilmore-rick.png){width=200px height=200px}
+:::
+::: {.column width="60%"}
+Rick Gilmore is Professor of [Psychology](https://psych.la.psu.edu) and Director of the Open Data and Developmental Science (ODDS) initiative with the [Penn State Child Study Center (CSC)](https://csc.la.psu.edu). He co-founded and co-directs the [Databrary](https://databrary.org) data repository, and serves as Co-PI on the [Play & Learning Across a Year (PLAY) Project](https://play-project.org). Gilmore served as inaugural director of the Penn State [Social, Life, & Engineering Sciences Imaging Center](https://imaging.psu.edu). His research examines the development of perception and action in infants, children, and adults using behavioral, neural, and computational methods. He teaches graduate and undergraduate courses in neuroscience, developmental psychology, and open science.
+
+rog1@psu.edu</br></br>
+:::
+::::
+
+## Alaina Pearce
+
+:::: {.columns}
+::: {.column width="40%"}
+![](include/img/pearce-alaina.jpeg){width=200px height=200px}
+:::
+::: {.column width="60%"}
+
+[Alaina Pearce](https://sites.psu.edu/alainapearce/) is Assistant Research Data Management Librarian in the University Libraries' [Data Learning Center](https://libraries.psu.edu/about/departments/units/data-learning-center) and Director of the [Cognitive Neuroscience of Eating and Obesity - CogNEATO - Lab](https://hhd.psu.edu/nutr/research/lab/cogneato-lab). In her role as a Data Librarian, Dr Pearce curates data for [ScholarSphere](https://scholarsphere.psu.edu), reviews data management plans and provides expert guidance, training, and consultation on a range of topics including data management planning, active data management, reproducible research workflows using R, and data publication. As a developmental cogntiive neuroscientist, Dr. Pearce's research interests center on understanding on the reciprocal association between neurocognitive functioning and pediatric obesity. In addition to her research interests in pediatric obesity, she is interested in advancing open science, reproducible research pipelines, and metadata standards.
+
+azp271@psu.edu</br>
+:::
+::::

@@ -1,0 +1,95 @@
+---
+title: "Day 3 (Fri, Aug 15)"
+format: html
+---
+
+::: {.callout-important}
+### Logistics
+The Bootcamp ends at 12:45 pm.
+
+You **must** enter via the main (Curtin Road) entrance to Pattee and Paterno Library:
+
+![Main entrance to Pattee and Paterno Libraries](include/img/pattee-paterno-entrance.png){#fig-pattee-paterno}
+
+Breakfast and lunch will be in the periodicals room past Starbucks on the first floor.
+
+The keynote will be in Foster Auditorium.
+:::
+
+## Morning {- #day_3_am}
+
+### 08:30 am • Breakfast {{< fa mug-hot >}} {{< fa bread-slice >}} {-}
+
+::: {.callout-important}
+### Location
+
+Periodicals room past Starbucks.
+:::
+
+### 09:00 am • Welcome to Day 3 {-}
+
+::: {.callout-important}
+### Location
+
+Periodicals room past Starbucks.
+:::
+
+[Rick Gilmore](directors.qmd#rick-gilmore) and [Alaina Pearce](directors.qmd#alaina-pearce); slides: | [html](https://penn-state-open-science.github.io/bootcamp-2025-day-3-welcome.html) |
+
+### 09:05 am • Open @ Penn State
+
+- *Inside the [National Synthesis Center for Emergence in the Molecular and Cellular Sciences (NCEMS)](https://ncems.psu.edu)*, [Nicole Lazar](program-committee.qmd#nicole-lazar)
+- *Video as data and documentation: [Databrary.org](https://databrary.org) and the [Play & Learning Across a Year (PLAY) project](https://play-project.org)*, [Rick Gilmore](directors.qmd#rick-gilmore); slides: | [HTML](https://gilmore-lab.github.io/2025-08-15-video-as-data) |
+
+### 09:30 am • Keynote {-}
+
+::: {.callout-important}
+### Location
+
+Foster Auditorium
+:::
+
+#### Intro to copyright and open access publishing ([Abstract](sessions.qmd#intro-to-copyright-and-open-access-publishing))
+
+:::: {.columns}
+::: {.column width=80%}
+[Danielle Steinhart](presenters.qmd#danielle-steinhart), University Libraries
+:::
+::: {.column width=20%}
+![](include/img/steinhart-danielle.jpg){width=100px height=100px}
+:::
+::::
+
+
+### 10:30 am • Break {{< fa mug-hot >}} {-}
+
+::: {.callout-important}
+### Location
+
+Periodicals room past Starbucks.
+:::
+
+### 10:45 am • Workshop session 5 {- #day_3_am_session_5}
+
+| Topic | Presenter | Location |
+|--------------|----------|-------|
+| [*Quarto (Part II): Reproducible research reports*](sessions.qmd#quarto-part-ii-reproducible-research-reports) |  [John West](program-committee.qmd#john-west) & [Rick Gilmore](directors.qmd#rick-gilmore) | Foster Auditorium |  
+| [*Where to start? Early career panel*](sessions.qmd#where-to-start-open-science-for-early-career-researchers) | [Carlos Almeida](program-committee.qmd#carlos-freitas-almeida), [Kyle Hallisky](presenters.qmd#kyle-hallisky), & [Olivia Beck](presenters.qmd#olivia-beck) | Periodicals Room | 
+
+: {tbl-colwidths="[60,20,20]"}
+
+### 11:45 am • Break {-}
+
+## Afternoon {- #day_3_pm}
+
+### 12:00 pm • Community Dialogue & Lunch {{< fa bottle-water >}} {{< fa bread-slice >}} {-}
+
+::: {.callout-important}
+### Location
+
+Periodicals room past Starbucks.
+:::
+
+Plenary session and group discussion about open scholarship initiatives in 2025-26.
+
+### 12:45 pm • End of workshop {-}

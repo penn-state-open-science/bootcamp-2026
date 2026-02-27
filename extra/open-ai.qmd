@@ -1,0 +1,93 @@
+---
+title: "open-ai"
+format: 
+  html:
+    code-fold: true
+---
+
+## About
+
+This page documents how we used OpenAI in planning the bootcamp.
+
+## Setup
+
+::: {.callout-note}
+## Initialization steps
+
+0. Navigate to `~/src`.
+1. Create a virtual environment using `python3 -m venv .venv`
+2. Activate the environment with `source bootcamp/bin/activate`
+3. Install packages with `python3 -m pip install jupyter matplotlib pandas numpy openai`
+
+:::
+
+Use reticulate to activate the virtual environment within this document.
+
+```{r}
+#| label: set-up-python-env
+library(reticulate)
+reticulate::use_virtualenv(file.path(here::here(), "src", ".venv"), required = TRUE)
+```
+
+Now, we can use Python code in chunks.
+
+```{python}
+from openai import OpenAI
+import base64
+```
+
+## Logo generation
+
+We followed the documentation here: 
+
+<https://platform.openai.com/docs/guides/images-vision?api-mode=responses>
+
+```{python}
+client = OpenAI() 
+
+response = client.responses.create(
+    model="gpt-4.1-mini",
+    input="Generate an image of gray tabby cat hugging an otter with an orange scarf",
+    tools=[{"type": "image_generation"}],
+)
+
+image_data = [
+    output.result
+    for output in response.output
+    if output.type == "image_generation_call"
+]
+
+if image_data:
+    image_base64 = image_data[0]
+    with open("cat_and_otter.png", "wb") as f:
+        f.write(base64.b64decode(image_base64))
+
+```
+
+```{python}
+client = OpenAI() 
+
+response = client.responses.create(
+    model="gpt-4.1-mini",
+    input="Generate an image of for a workshop at Penn State University on open science, data sharing, and research transparency ",
+    tools=[{"type": "image_generation"}],
+)
+
+image_data = [
+    output.result
+    for output in response.output
+    if output.type == "image_generation_call"
+]
+
+if image_data:
+    image_base64 = image_data[0]
+    with open("open-scholarship-bootcamp-logo.png", "wb") as f:
+        f.write(base64.b64decode(image_base64))
+
+```
+
+## Cleanup
+
+```{bash}
+deactivate
+```

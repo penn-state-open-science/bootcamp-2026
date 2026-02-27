@@ -1,0 +1,71 @@
+timestamp,psu_email,name,attend_days,food_restrictions,day_1_session_1,day_1_session_2,day_2_session_3,day_2_session_4,day_3_session_5,attend_wed,attend_thu,attend_fri,add_to_listserv,added_to_listserv,plan_wed,plan_thu,plan_fri,withdrew
+2025-08-31T08:00:00Z,NA,Suhwan Gim,NA,NA,NA,NA,NA,NA,NA,yes,no,no,NA,NA,NA,NA,NA,NA
+2025-08-11T10:30:25Z,mms8130@psu.edu,Muhammad Usman Siddiqui,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-11T10:17:23Z,pvo5112@psu.edu,Parisa Osfoori,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-11T10:15:10Z,ljh5825@psu.edu,Logan Harvey,I can no longer attend the workshop,NA,data_mgmt,jupyter_intro,quarto_I,jupyter_llms,quarto_II,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-19T08:00:00Z,cws18@psu.edu,Chaleece Sandberg,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,yes,NA,NA,NA,NA,NA
+2025-08-10T14:55:02Z,zmi5020@psu.edu,Zulal Iscanoglu,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-13T19:25:38Z,ratnanirupama@gmail.com,Ratna Kandala,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,no,no,no,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-09T08:59:13Z,ykw5545@psu.edu,Yuxing Wu,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-08T21:06:34Z,mjw7166@psu.edu,Manasi Wali,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-12T16:25:07Z,aja7154@psu.edu,Abolfazl,I can no longer attend the workshop,NA,data_mgmt,qrps,quarto_I,jupyter_llms,early_career,no,no,no,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-08T15:16:27Z,azc6609@psu.edu,Aoran Chen,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-12T12:22:58Z,bmp5924@psu.edu,Bayron Portilla Revelo,"Wed Aug 13, Thu Aug 14, Fri Aug 15",N/A,intro_roar,qrps,quarto_I,jupyter_llms,quarto_II,yes,yes,yes,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-11T16:30:50Z,rdf5333@psu.edu,Rachel Fan,"Thu Aug 14, Fri Aug 15",NA,NA,NA,sharing_data,data_papers,early_career,no,yes,yes,yes,NA,FALSE,TRUE,TRUE,FALSE
+2025-08-11T14:03:04Z,cpy5190@psu.edu,Caleb Yi,"Wed Aug 13, Thu Aug 14, Fri Aug 15",NA,data_mgmt,qrps,sharing_data,data_papers,early_career,no,yes,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-11T13:19:32Z,evo5255@psu.edu,Emmanuela Oppong,"Wed Aug 13, Fri Aug 15",n/a,intro_roar,jupyter_intro,NA,NA,early_career,yes,yes,no,yes,NA,TRUE,FALSE,TRUE,FALSE
+2025-08-08T14:20:48Z,dbl5689@psu.edu,Daniel Lidstone,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-11T10:31:52Z,nbl5304@psu.edu,Nahyun Lee,"Wed Aug 13, Thu Aug 14",NA,data_mgmt,jupyter_intro,quarto_I,jupyter_llms,early_career,no,no,no,NA,NA,TRUE,TRUE,FALSE,FALSE
+2025-08-08T09:35:14Z,djs7316@psu.edu,David (DJ) Schnabel Jr,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-11T10:14:23Z,arm7254@psu.edu,Annette Mercedes,Wed Aug 13,Vegan,intro_roar,jupyter_intro,NA,NA,NA,no,no,no,NA,NA,TRUE,FALSE,FALSE,FALSE
+2025-08-07T16:20:44Z,kxg5555@psu.edu,Krishna,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-07T12:48:19Z,alp5088@psu.edu,Andrea Pritt,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-11T10:00:01Z,sfk6108@psu.edu,Shreyash Kale,Thu Aug 14,NA,NA,NA,NA,jupyter_llms,NA,no,no,no,NA,NA,FALSE,TRUE,FALSE,FALSE
+2025-08-09T18:35:42Z,dkz5152@psu.edu,Daiqing Zhao,"Wed Aug 13, Thu Aug 14, Fri Aug 15",No food restrictions.,NA,qrps,quarto_I,jupyter_llms,early_career,no,no,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-08T15:58:58Z,age5141@psu.edu,Alyson G. Eggleston,"Wed Aug 13, Thu Aug 14",None,intro_roar,jupyter_intro,quarto_I,jupyter_llms,NA,yes,yes,no,yes,NA,TRUE,TRUE,FALSE,FALSE
+2025-08-08T15:02:36Z,mlh257@psu.edu,Shelley Curling,"Wed Aug 13, Thu Aug 14, Fri Aug 15","No restrictions, but thank you for asking!",intro_roar,jupyter_intro,quarto_I,jupyter_llms,quarto_II,yes,yes,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-06T14:30:36Z,nqk5397@psu.edu,Nick Kitchen,I can no longer attend the workshop,N/A,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-08T14:53:12Z,rachel.marcus@psu.edu,Rachel Marcus,"Wed Aug 13, Thu Aug 14, Fri Aug 15",NA,data_mgmt,qrps,quarto_I,data_papers,quarto_II,yes,yes,yes,yes,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-08T14:21:22Z,bpp5121@psu.edu,Bipana Paudel Timilsena,"Wed Aug 13, Thu Aug 14, Fri Aug 15",NA,data_mgmt,qrps,sharing_data,data_papers,early_career,yes,no,yes,yes,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-08T14:21:15Z,sml7174@psu.edu,Skylar Lin,"Wed Aug 13, Thu Aug 14, Fri Aug 15",NA,data_mgmt,qrps,quarto_I,jupyter_llms,early_career,yes,no,no,yes,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-08T09:14:45Z,kvg5751@psu.edu,Kausik Ghosh,"Wed Aug 13, Thu Aug 14, Fri Aug 15",No,intro_roar,jupyter_intro,quarto_I,jupyter_llms,early_career,yes,yes,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-07T06:59:17Z,ags5546@psu.edu,Adin Schickler,"Wed Aug 13, Thu Aug 14, Fri Aug 15",peanut/treenut allergy,NA,jupyter_intro,NA,jupyter_llms,NA,no,no,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-07T05:57:10Z,tcd5276@psu.edu,Timilehin Durotoye,"Wed Aug 13, Thu Aug 14",None,intro_roar,jupyter_intro,sharing_data,jupyter_llms,NA,no,no,no,NA,NA,TRUE,TRUE,FALSE,FALSE
+2025-08-06T14:48:48Z,opb5142@psu.edu,Olivia Bell,"Wed Aug 13, Thu Aug 14, Fri Aug 15",n/a,intro_roar,jupyter_intro,quarto_I,data_papers,early_career,yes,no,no,yes,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-06T14:31:51Z,jzb545@psu.edu,Jennifer Breese,"Wed Aug 13, Thu Aug 14, Fri Aug 15",No,intro_roar,jupyter_intro,quarto_I,jupyter_llms,quarto_II,no,no,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-06T13:06:33Z,yxl6209@psu.edu,Yan Lou,"Wed Aug 13, Thu Aug 14, Fri Aug 15",None,intro_roar,jupyter_intro,quarto_I,jupyter_llms,quarto_II,yes,yes,no,yes,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-06T12:43:28Z,kro116@psu.edu,Katie O'Hara-Krebs,"Wed Aug 13, Fri Aug 15",N/A,data_mgmt,qrps,NA,NA,early_career,yes,no,yes,NA,NA,TRUE,FALSE,TRUE,FALSE
+2025-08-06T12:15:11Z,smn5869@psu.edu,Shahnoush Nayeri,"Wed Aug 13, Thu Aug 14, Fri Aug 15",No Pork,intro_roar,jupyter_intro,quarto_I,jupyter_llms,early_career,no,no,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-06T12:12:05Z,smh7874@psu.edu,Shah Imran Hossain,"Wed Aug 13, Thu Aug 14, Fri Aug 15",I prefer halal/vegetation options,data_mgmt,jupyter_intro,quarto_I,jupyter_llms,quarto_II,yes,no,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-06T12:06:08Z,nzf5167@psu.edu,Noah Feldman,"Wed Aug 13, Thu Aug 14, Fri Aug 15","I would prefer, but do not require, a vegetarian option.",data_mgmt,jupyter_intro,sharing_data,jupyter_llms,NA,yes,yes,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-06T12:02:41Z,gbi5031@psu.edu,Garryche Ilonga,"Wed Aug 13, Thu Aug 14, Fri Aug 15",NA,NA,NA,NA,NA,NA,yes,yes,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-04T23:42:57Z,adity@psu.edu,Aditya Majumdar,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-06T12:00:06Z,dxn253@psu.edu,David Nieves,Wed Aug 13,No,NA,jupyter_intro,NA,NA,NA,yes,no,no,yes,NA,TRUE,FALSE,FALSE,FALSE
+2025-08-06T11:49:50Z,kbw5646@psu.edu,Kathryn Walters,"Wed Aug 13, Thu Aug 14, Fri Aug 15",No,data_mgmt,jupyter_intro,sharing_data,data_papers,early_career,yes,yes,yes,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-06T09:37:32Z,kylehallisky@gmail.com,Kyle Hallisky,"Wed Aug 13, Thu Aug 14, Fri Aug 15",NA,intro_roar,jupyter_intro,sharing_data,data_papers,early_career,yes,yes,yes,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-05T18:36:02Z,fqk5135@psu.esu,Faranak,"Wed Aug 13, Thu Aug 14, Fri Aug 15",NA,data_mgmt,jupyter_intro,quarto_I,data_papers,early_career,yes,yes,yes,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-05T15:58:26Z,wcb5186@psu.edu,William Chayne Bowmer,"Wed Aug 13, Thu Aug 14, Fri Aug 15",N/A,data_mgmt,jupyter_intro,sharing_data,jupyter_llms,early_career,yes,yes,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-05T11:22:35Z,kfg5272@psu.edu,Kelly Gallagher,"Wed Aug 13, Thu Aug 14, Fri Aug 15",vegetarian,data_mgmt,qrps,quarto_I,data_papers,quarto_II,no,yes,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-05T10:57:12Z,sqp6127@psu.edu,Shreeniket Pawar,"Wed Aug 13, Thu Aug 14, Fri Aug 15",NA,data_mgmt,jupyter_intro,sharing_data,jupyter_llms,quarto_II,no,no,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-05T09:11:10Z,bjr5733@psu.edu,Brandon Rickett,"Wed Aug 13, Thu Aug 14",NA,data_mgmt,qrps,sharing_data,data_papers,NA,yes,no,no,NA,NA,TRUE,TRUE,FALSE,FALSE
+2025-08-05T00:58:48Z,Pxs5614@psu.edu,Pratt Srinivasan,"Wed Aug 13, Thu Aug 14, Fri Aug 15",No beef,data_mgmt,jupyter_intro,quarto_I,jupyter_llms,quarto_II,yes,no,no,yes,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-04T14:52:24Z,dfz5166@psu.edu,Didar Zeytun,"Wed Aug 13, Thu Aug 14",Pescatarian,data_mgmt,qrps,sharing_data,NA,NA,yes,no,no,yes,NA,TRUE,TRUE,FALSE,FALSE
+2025-08-04T09:25:09Z,nad5726@psu.edu,Natalie,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-04T08:18:04Z,alp.aytuglu@psu.edu,Alp Aytuglu,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-04T14:14:06Z,alk5364@psu.edu,Andrea Krohe,"Wed Aug 13, Thu Aug 14, Fri Aug 15",None,data_mgmt,qrps,sharing_data,data_papers,early_career,yes,yes,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-04T13:29:28Z,rps6423@psu.edu,Rahul Sheoran,"Wed Aug 13, Thu Aug 14, Fri Aug 15",I'm a vegetarian.,intro_roar,jupyter_intro,quarto_I,jupyter_llms,early_career,yes,yes,yes,yes,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-04T11:59:40Z,jhc5541@psu.edu,J. Huntley Compton,"Wed Aug 13, Thu Aug 14, Fri Aug 15",n/a,data_mgmt,qrps,sharing_data,data_papers,early_career,no,no,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-04T11:04:14Z,hac5324@psu.edu,Hillmer Chona,"Wed Aug 13, Thu Aug 14, Fri Aug 15",NA,intro_roar,jupyter_intro,sharing_data,data_papers,early_career,yes,yes,yes,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-03T18:34:49Z,ccc143@psu.edu,Carmen Cole,I can no longer attend the workshop,NA,NA,NA,NA,NA,quarto_II,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-03T18:20:19Z,jmc9808@psu.edu,Jeremy Chalas Terrero,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-03T17:53:38Z,meh6686@psu.edu,Mazen,I can no longer attend the workshop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,TRUE
+2025-08-04T10:08:03Z,rrd5339@psu.edu,Rachel Dickerson,"Wed Aug 13, Fri Aug 15",Vegetarian,data_mgmt,jupyter_intro,NA,NA,early_career,yes,no,no,yes,NA,TRUE,FALSE,TRUE,FALSE
+2025-08-04T10:06:45Z,mks7008@psu.edu,Md. Sharear Saon,"Wed Aug 13, Thu Aug 14, Fri Aug 15",No pork,intro_roar,qrps,sharing_data,jupyter_llms,early_career,no,no,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-04T10:06:28Z,efb5663@psu.edu,Eyal Ben-Yehuda,"Wed Aug 13, Thu Aug 14, Fri Aug 15",NA,data_mgmt,qrps,sharing_data,data_papers,early_career,yes,yes,yes,yes,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-04T10:03:22Z,ijapesigan@psu.edu,Ivan Jacob Agaloos Pesigan (Jek),"Wed Aug 13, Thu Aug 14, Fri Aug 15",NA,data_mgmt,qrps,sharing_data,data_papers,early_career,yes,no,yes,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-04T07:56:10Z,stz2@psu.edu,Sarah Zipf,"Wed Aug 13, Thu Aug 14",Gluten free,data_mgmt,qrps,sharing_data,jupyter_llms,NA,yes,yes,no,yes,NA,TRUE,TRUE,FALSE,FALSE
+2025-08-03T22:48:02Z,siyangni@psu.edu,Siyang Ni,"Wed Aug 13, Thu Aug 14, Fri Aug 15",No,intro_roar,qrps,sharing_data,jupyter_llms,early_career,yes,yes,yes,yes,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-03T21:16:47Z,jjm38@psu.edu,John Meier,"Wed Aug 13, Thu Aug 14, Fri Aug 15",No,data_mgmt,qrps,sharing_data,data_papers,early_career,yes,yes,yes,yes,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-03T21:04:33Z,kjn5423@psu.edu,Kirsten Nafziger,"Wed Aug 13, Thu Aug 14, Fri Aug 15",Vegetarian,intro_roar,jupyter_intro,sharing_data,data_papers,early_career,yes,no,no,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-03T17:47:24Z,pfs13@psu.edu,Patrick Suthers,"Wed Aug 13, Thu Aug 14, Fri Aug 15",Vegetarian. Allergy to melons.,data_mgmt,qrps,quarto_I,jupyter_llms,quarto_II,yes,yes,yes,NA,NA,TRUE,TRUE,TRUE,FALSE
+2025-08-03T17:38:30Z,ysl5035@psu.edu,Yash Lad,"Wed Aug 13, Thu Aug 14, Fri Aug 15",No Beef,intro_roar,jupyter_intro,quarto_I,jupyter_llms,early_career,no,no,no,NA,NA,TRUE,TRUE,TRUE,FALSE

@@ -4,3 +4,6 @@
 .Ruserdata
 private
 bootcamp-2026.Rproj
+
+/.quarto/
+**/*.quarto_ipynb

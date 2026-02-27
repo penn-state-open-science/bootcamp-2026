@@ -1,0 +1,24 @@
+---
+title: "Wayfinding"
+format: html
+---
+
+## About
+
+This page provides information about how to find the Dewey Room and Foster Auditorium.
+
+## Finding Bootcamp Locations
+
+### From the revolving door entrance above Pattee Mall:
+
+Walk through the revolving door and go straight ahead to the room with the circulation desk. The Dewey Room is to your left and down one level. You can take an elevator from this room. After you exit the elevator on the ground level, you are in a room with vending machines. Walk away from the elevator and turn right to exit the room, then turn right again and walk through a bright atrium area. On the far side of the atrium is a welcome desk. Past the welcome desk, turn right to arrive at your destination.
+
+### From the "East Welcome Desk" (Curtin Road entrance):
+
+After entering the building, turn right. Walk through an atrium and into the room with the circulation desk. The Dewey Room is to your left and down one level. You can take an elevator from this room. After you exit the elevator on the ground level, you are in a room with vending machines. Walk away from the elevator and turn right to exit the room, then turn right again and walk through a bright atrium area. On the far side of the atrium is a welcome desk. Past the welcome desk, turn right to arrive at your destination.
+
+### From the West Pattee entrance (ground level on the corner nearest to the Sparks Building):
+
+Upon entering, you are at the West Welcome Desk. Turn left, then right, to arrive at the room.
+
+![](include/img/Dewey_Wayfinding_11x17_rotated.png){#fig-dewey-room-schematic}

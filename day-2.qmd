@@ -1,0 +1,107 @@
+---
+title: "Day 2 (Thu, Aug 14)"
+format: html
+---
+
+## Morning {- #day_2_am}
+
+### 08:30 am • Breakfast {{< fa mug-hot >}} {{< fa bread-slice >}} {-}
+
+### 09:00 am • Welcome to Day 2 {-}
+
+[Rick Gilmore](directors.qmd#rick-gilmore) and [Alaina Pearce](directors.qmd#alaina-pearce)
+
+[HTML slides](https://penn-state-open-science.github.io/bootcamp-2025-day-2-welcome/)
+
+### 09:05 am • Open @ Penn State
+
+- [*Penn State Data Commons*](https://www.datacommons.psu.edu), [Maurie Kelly](presenters.qmd#maurie-kelly); slides: | [pptx](include/pptx/DataCommonsBootCamp2025.pptx) |
+- [*Center for Social Data Analytics (SoDA)*](https://soda.la.psu.edu), [Bruce Desmarais](program-committee.qmd#bruce-desmarais); slides: | [pdf](include/pdf/soda_program_slides.pdf) |
+
+### 09:30 am • Panel Discussion {- #day_2_plenary_1}
+
+#### Ethical considerations for open scholarship 
+
+- [Kimberly Petrosky](presenters.qmd#kimberly-petrosky), Penn State Office of Research Protections
+- [Sarah Rajtmajer](program-committee.qmd#sarah-rajtmajer), College of IST & Rock Ethics Institute
+- [Sara Horn](presenters.qmd#sara-horn), Penn State Office of Research Protections
+- [Rick Gilmore](directors.qmd#rick-gilmore), Databrary
+- [Nicole Lazar](program-committee.qmd#nicole-lazar), Department of Statistics (Moderator)
+
+### 10:30 am • Break {{< fa mug-hot >}} {-}
+
+### 10:45 am • Keynote {- #day_2_plenary_2}
+
+#### Rescuing and preserving public data: The Data Rescue Project
+
+:::: {.columns}
+::: {.column width=80%}
+[Lynda Kellam](presenters.qmd#lynda-kellam), University of Pennsylvania
+:::
+::: {.column width=20%}
+![](include/img/kellam-lynda.jpg){width=100px height=100px}
+:::
+::::
+
+::: {.callout-important}
+## Location
+
+Foster Auditorium (102 Paterno Library)
+:::
+
+### 11:45 am • Lunch {{< fa bottle-water >}} {{< fa bread-slice >}} {-}
+
+## Afternoon {- #day_2_pm}
+
+### 01:15 pm • Workshop session 3 {- #day_2_pm_session_3}
+
+| Topic | Presenter | Location |
+|--------------|----------|-------|
+| [*Quarto (Part I): A tool for open scholarship*](sessions.qmd#quarto-part-i-a-tool-for-open-scholarship) | [Rick Gilmore](directors.qmd#directors.qmd#rick-gilmore) | W221A |
+| [*Getting credit (Part II): Sharing your data*](sessions.qmd#getting-credit-for-sharing-your-data-part-ii-sharing-your-data) |  [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+
+: {tbl-colwidths="[60,20,20]"}
+
+### 02:15 pm • Break {{< fa mug-hot >}} {-}
+
+### 02:45 pm • Workshop session 4 {- #day_2_pm_session_4}
+
+| Topic | Presenter | Location |
+|--------------|----------|-------|
+| [*LLMs with Jupyter notebooks*](sessions.qmd#llms-with-jupyter-notebooks) |  [Valerie Li](program-committee.qmd#valerie-li) | W211A |
+| [*Getting credit (Part III): Data papers*](#getting-credit-for-sharing-your-data-part-iii-data-papers) | [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+
+: {tbl-colwidths="[60,20,20]"}
+
+### 03:45 pm • Break {{< fa mug-hot >}} {-}    
+
+### 04:00 pm • Recap Day 2 {- #day_2_pm_recap}
+
+### 04:15 pm • End of Day 2 {-}
+
+### 04:30 pm • Open scholarship happy hour {{< fa wine-glass >}} {- #day_2_happy_hour}
+
+Hors d'oeuvres provided by the Bootcamp sponsors. Cash bar.
+
+::: {.callout-important}
+## Location
+
+The Lobby Bar \
+100 West College Avenue \
+2nd floor, across from The Allen Street Grill
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.538779612024!2d-77.86313658434075!3d40.79415282215678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89cea898cdfb8a73%3A0xe610deef9fe200b0!2sAllen%20Street%20Grill!5e0!3m2!1sen!2sus!4v1752245481214!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+:::: {.columns}
+::: {.column width=45%}
+![Entrance to The Lobby Bar and The Allen Street Grill](include/img/allen-st-grill-entrance.png){.lightbox}
+:::
+::: {.column width=10%}
+:::
+::: {.column width=45%}
+![Inside The Lobby Bar](include/img/lobby-bar.png){.lightbox}
+:::
+::::
+
+:::
+

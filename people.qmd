@@ -1,0 +1,232 @@
+---
+title: "People"
+format: html
+---
+
+This section provides biographical information about the people who make this bootcamp and other [open scholarship activities](https://psu-open-science.github.io/) at Penn State possible.
+
+## Bootcamp Directors
+
+### Rick Gilmore
+
+:::: {.columns}
+::: {.column width="40%"}
+![](include/img/gilmore-rick.png){width=200px height=200px}
+:::
+::: {.column width="60%"}
+Rick Gilmore is Professor of [Psychology](https://psych.la.psu.edu) and Director of the Open Data and Developmental Science (ODDS) initiative with the [Penn State Child Study Center (CSC)](https://csc.la.psu.edu). He co-founded and co-directs the [Databrary](https://databrary.org) data repository, and serves as Co-PI on the [Play & Learning Across a Year (PLAY) Project](https://play-project.org). Gilmore served as inaugural director of the Penn State [Social, Life, & Engineering Sciences Imaging Center](https://imaging.psu.edu). His research examines the development of perception and action in infants, children, and adults using behavioral, neural, and computational methods. He teaches graduate and undergraduate courses in neuroscience, developmental psychology, and open science.
+
+rog1@psu.edu</br></br>
+:::
+::::
+
+### Alaina Pearce
+
+:::: {.columns}
+::: {.column width="40%"}
+![](include/img/pearce-alaina.jpeg){width=200px height=200px}
+:::
+::: {.column width="60%"}
+<<<<<<< HEAD
+
+[Alaina Pearce](https://sites.psu.edu/alainapearce/) is Assistant Research Data Management Librarian in the University Libraries' [Data Learning Center](https://libraries.psu.edu/about/departments/units/data-learning-center) and Director of the [Cognitive Neuroscience of Eating and Obesity - CogNEATO - Lab](https://hhd.psu.edu/nutr/research/lab/cogneato-lab). In her role as a Data Librarian, Dr Pearce curates data for [ScholarSphere](https://scholarsphere.psu.edu), reviews data management plans and provides expert guidance, training, and consultation on a range of topics including data management planning, active data management, reproducible research workflows using R, and data publication. As a developmental cogntiive neuroscientist, Dr. Pearce's research interests center on understanding on the reciprocal association between neurocognitive functioning and pediatric obesity. In addition to her research interests in pediatric obesity, she is interested in advancing open science, reproducible research pipelines, and metadata standards.
+=======
+[Alaina Pearce](https://sites.psu.edu/alainapearce/) is an Assistant Research Data Management Librarian in the University Libraries where she curates data for ScholarSphere, Penn State’s institutional repository, reviews data management plans, and provides training on data management planning, active data management, reproducible research workflows using R, and data publication. She is also the Director of the [Cognitive Neuroscience of Eating and Obesity (CogNEATO Lab)](https://sites.psu.edu/alainapearce/), which investigates the causes and consequences of pediatric obesity. In addition to her research interests in pediatric obesity, Alaina is interested in advancing open science, reproducible research pipelines, and metadata standards.
+>>>>>>> d32ca40 (changes moved to .qmd)
+
+azp271@psu.edu</br>
+:::
+::::
+
+## Program Committee
+
+### Carlos Freitas Almeida
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/almeida-carlos-freitas.jpg){width=200px height=200px}
+:::
+::: {.column width=50%}
+Carlos Freitas Almeida is a graduate student in Psychology at Penn State.
+:::
+::::
+
+
+### Ana Enriquez
+
+:::: {.columns}
+::: {.column width="40%"}
+![](include/img/enriquez-ana.jpg){width=200px height=200px}
+:::
+::: {.column width="60%"}
+
+Ana Enriquez is the Copyright Officer and Head of the Office of Scholarly Communications and Copyright at the Penn State University Libraries. A copyright lawyer by training, she teaches the university community about copyright and publishing, assists researchers in making their work freely available to the public, and supports the Libraries’ negotiations with publishers. Her research focuses on copyright, teaching copyright, and leveraging library expertise to advance the open access movement. 
+
+aee32@psu.edu</br></br>
+:::
+::::
+
+
+### Frank Hillary
+
+:::: {.columns}
+::: {.column width="40%"}
+![](include/img/hillary-frank.jpeg){width=200px height=200px}
+:::
+::: {.column width="60%"}
+
+Frank G. Hillary is a Professor of [Psychology](https://psych.la.psu.edu) and [Neurology](https://med.psu.edu/neurology) at Penn State. His research examines the influence of brain injury and disease on functional brain organization over the lifespan.  To do so, he incorporates cognitive testing, structural and functional MRI, and network neuroscience approaches (e.g., graph theory) in his work. There is a critical need in the neuroimaging literature for open code and data sharing and convergence on accepted methods to increase scientific reliability. Because of this, over the past 5 years Dr. Hillary's work has shifted to focus on the reproducibility of neuroimaging work in the study of brain disorders. He is the leader of an international working group, ENIGMA Brain Injury (see: https://enigma.ini.usc.edu/ongoing/enigma-tbi/), focused on genetics and neuroimaging data sharing and reproducible science.
+
+
+fgh3@psu.edu</br></br>
+:::
+::::
+
+### Zülal İşcanoğlu
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/iscanoglu-zuelal.png){width=200px height=200px}
+:::
+::: {.column width=50%}
+Zülal İşcanoğlu is a postdoctoral researcher with the Development, Risk, and Resilience Lab at Penn State.
+
+zmi5020@psu.edu
+:::
+::::
+
+### Nicole Lazar
+
+:::: {.columns}
+::: {.column width="40%"}
+![](include/img/lazar-nicole.jpg){width=200px height=200px}
+:::
+::: {.column width="60%"}
+
+Nicole Lazar is Professor and Head of the Department of [Statistics](https://science.psu.edu/stat) at Penn State. Her research interests include the foundations of statistical inference and the analysis of functional neuroimaging data. In particular, she has worked on fundamental inferential topics such as model selection, multiple testing problems, and likelihood theory, specifically in the context of modern large-scale data analysis problems. She has done pioneering work on the statistical analysis of cognitive neuroscience data, with a focus on functional magnetic resonance imaging (fMRI). Most recently, Lazar has been involved in the application of topological data analysis methods to scientific questions of interest in psychology and climatology. These techniques are at the interface of statistics, mathematics, and computer science, and exemplify her cross-disciplinary approach to research. Lazar is the author of the book *The Statistical Analysis of Functional MRI Data* published by Springer. Nicole is the Open Science Liaison for the NSF-funded [National Synthesis Center for Emergence in the Molecular and Cellular Sciences (NCEMS)](https://ncems.psu.edu), based at Penn State.
+<!-- Lazar is also Co-PI on an NSF-funded project on fostering open science education for graduate students [NSF-1955049](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955049) which has led to the formation of the [Open Science Alliance](https://openscialliance.github.io/). -->
+
+nfl5182@psu.edu
+:::
+::::
+
+<<<<<<< HEAD
+### Valerie Li {-}
+
+:::: {.columns}
+::: {.column width=40%}
+![](include/img/li-avatar.jpg){width=200px height=200px} 
+:::
+::: {.column width=60%}
+Valerie Li is a graduate student in Political Science and Social Data Analytics at Penn State University. Her major area of study is Comparative Politics, with a minor area of study in Methodology. She received her B.A. in Political Science from McGill University. Her research interests are contentious politics and authoritarian politics.
+:::
+::::
+=======
+>>>>>>> d32ca40 (changes moved to .qmd)
+
+### Sarah Rajtmajer {-}
+
+:::: {.columns}
+::: {.column width=40%}
+![](include/img/rajtmajer-sarah.png){width=200px height=200px}
+:::
+::: {.column width=60%}
+[Sarah Rajtmajer](https://ist.psu.edu/directory/smr48) is Associate Professor in the [College of Information Sciences and Technology](https://ist.psu.edu) at Penn State University and core faculty at Penn State's Rock Ethics Institute. Her work leverages machine learning and mathematical modeling to understand trust and confidence in information.
+
+smr48@psu.edu
+:::
+::::
+
+### Jennifer Valcin
+
+:::: {.columns}
+::: {.column width="40%"}
+![](include/img/valcin-jennifer.png){width=200px height=200px}
+:::
+::: {.column width="60%"}
+Jennifer Valcin is a Statistical Data Analyst at the Penn State University Libraries. Dr. Valcin conducts individual consultations, workshops, and small group trainings to support researchers in the PSU community with data analysis planning and quantitative statistical methods using various software. Prior to joining Penn State University Libraries, she received her Ph.D. in Biomedical Sciences with a focus in Genetics, Genomics, and Bioinformatics from the University of Alabama at Birmingham. 
+
+jpv5319@psu.edu
+:::
+::::
+
+### Briana Wham
+
+:::: {.columns}
+::: {.column width="40%"}
+![](include/img/wham-briana.jpg){width=200px height=200px}
+:::
+::: {.column width="60%"}
+Briana Ezray Wham is Research Data Librarian – STEM at the Penn State University Libraries. Dr. Wham conducts data management plan reviews and provides guidance, training, and consulting services for data management planning, active data management, reproducible research workflows using R, data visualization, data publication, as well as ORCiD integration and utility. She also works as one of the data curators for [ScholarSphere](https://scholarsphere.psu.edu), Penn State's institutional repository. Prior to joining Penn State University Libraries, Briana received her Ph.D. in Entomology from Penn State, where she studied aspects of ecology, evolution, and conservation of bee communities. Briana’s interests include open science, museum collection digitization, and bee conservation.
+
+bde125@psu.edu
+:::
+::::
+
+## Presenters
+
+### Kyle Hallisky {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/generic-ps-shield-blue-gradient.jpg){width=200px height=200px}
+:::
+::: {.column width=50%}
+Kyle Hallisky is a graduate student in the College of Health and Human Development.
+:::
+::::
+
+### Lynda Kellam {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/kellam-lynda.jpg){width=200px height=200px}
+:::
+::: {.column width=50%}
+[Lynda Kellam, Ph.D.](https://www.library.upenn.edu/staff/lynda-kellam) is the Snyder-Granader Director of [Research Data and Digital Scholarship](https://www.library.upenn.edu/rdds) at the University of Pennsylvania. Previously, she was the Senior Data Librarian at the Cornell Institute for Social and Economic Research (now the Cornell Center for Social Sciences). At Cornell, she managed the [CISER Data and Reproduction Archive](https://archive.ciser.cornell.edu/) and supported the [Freedom on the Move project](https://freedomonthemove.org/).
+:::
+::::
+
+### Maurie Kelly {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/kelly-maurie.jpeg){width=200px height=200px}
+:::
+::: {.column width=50%}
+[Maurie Kelly, Ph.D.](https://iee.psu.edu/people/maurie-kelly) is Director of the Pennsylvania Spatial Data Access program, an instructor in the Smeal School of Business and the College of Information Science and Technology, and Director of the Penn State [Data Commons](https://www.datacommons.psu.edu).
+:::
+::::
+
+### Koraly Pérez-Edgar {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/perez-edgar-koraly.jpeg){width=200px height=200px}
+:::
+::: {.column width=50%}
+[Koraly Pérez-Edgar, Ph.D.](https://psych.la.psu.edu/people/kxp24/) is a McCourtney Professor of Child Studies and Professor of Psychology at the Pennsylvania State University. She is Editor-in-Chief of the journal *Developmental Psychology*.
+:::
+::::
+
+### Kimberly Petrosky {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/generic-ps-shield-blue-gradient.jpg){width=200px height=200px}
+:::
+::: {.column width=50%}
+Kimberly Petrosky, J.D. 
+:::
+::::
+
+### Danielle Steinhart {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/generic-ps-shield-blue-gradient.jpg){width=200px height=200px}
+:::
+::: {.column width=50%}
+Danielle Steinhart
+:::
+::::
