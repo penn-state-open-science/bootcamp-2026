@@ -4,7 +4,7 @@ format: html
 lightbox: true
 ---
 
-<!-- ![](include/img/banner.png) -->
+![](include/img/banner-2026.png)
 
 ## About
 
