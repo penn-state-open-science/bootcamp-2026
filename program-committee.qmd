@@ -27,18 +27,18 @@ carrie.brown@psu.edu
 :::
 ::::
 
-<!-- ## Bruce Desmarais -->
+## Bruce Desmarais
 
-<!-- :::: {.columns} -->
-<!-- ::: {.column width=40%} -->
-<!-- ![](include/img/desmarais-bruce.jpeg){width=200px height=200px} -->
-<!-- ::: -->
-<!-- ::: {.column width=60%} -->
-<!-- Bruce Desmarais is the DeGrandis-McCourtney Early Career Professor in [Political Science](https://polisci.la.psu.edu), Director of the [Center for Social Data Analytics](https://soda.la.psu.edu), and a co-hire of the [Institute for Computational and Data Sciences](https://icds.psu.edu) at Penn State University. His research is focused on methodological development and applications that further our understanding of the complex interdependence that underlies politics and public policy. Methodologically, he focuses on methods for modeling networks, analyzing text, and running experiments on social systems. Primary application areas of interest to Bruce include public policy diffusion and digital communications involving political elites. -->
+:::: {.columns}
+::: {.column width=40%}
+![](include/img/desmarais-bruce.jpeg){width=200px height=200px}
+:::
+::: {.column width=60%}
+Bruce Desmarais is the DeGrandis-McCourtney Early Career Professor in [Political Science](https://polisci.la.psu.edu), Director of the [Center for Social Data Analytics](https://soda.la.psu.edu), and a co-hire of the [Institute for Computational and Data Sciences](https://icds.psu.edu) at Penn State University. His research is focused on methodological development and applications that further our understanding of the complex interdependence that underlies politics and public policy. Methodologically, he focuses on methods for modeling networks, analyzing text, and running experiments on social systems. Primary application areas of interest to Bruce include public policy diffusion and digital communications involving political elites.
 
-<!-- bdesmarais@psu.edu -->
-<!-- ::: -->
-<!-- :::: -->
+bdesmarais@psu.edu
+:::
+::::
 
 <!-- ## Ana Enriquez -->
 

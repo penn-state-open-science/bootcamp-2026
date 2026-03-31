@@ -3,28 +3,6 @@ title: "Presenters"
 format: html
 ---
 
-## Olivia Beck {-}
-
-:::: {.columns}
-::: {.column width=50%}
-![](include/img/olivia-beck.jpg){width=200px height=200px}
-:::
-::: {.column width=50%}
-Olivia L. Beck earned her Ph.D. in Statistics from Penn State.
-:::
-::::
-
-## Faye Chadwell {-}
-
-:::: {.columns}
-::: {.column width=50%}
-![](include/img/chadwell-faye.jpg){width=200px height=200px}
-:::
-::: {.column width=50%}
-Faye A. Chadwell is Dean of University Libraries and Scholarly Communications at Penn State. Chadwell had previously served as the Donald and Delpha Campbell University Librarian and Oregon State University Press Director at Oregon State. Chadwell received her bachelor’s and master’s degrees in English from Appalachian State University in Boone, North Carolina, and her master of library science from the University of Illinois at Urbana-Champaign.
-:::
-::::
-
 ## Wayne Figurelle {-}
 
 :::: {.columns}
@@ -33,39 +11,6 @@ Faye A. Chadwell is Dean of University Libraries and Scholarly Communications at
 :::
 ::: {.column width=50%}
 Wayne Figurelle is Assistant Director of Innovation and Outreach at the Institute for Computational and Data Science Sciences (ICDS). Wayne has over 25 years of experience as a senior manager, with a focus in computer engineering. Figurelle joined Penn State in 2001 as senior technical specialist of the Pennsylvania Technical Assistance Program (PennTAP) and was promoted to director of PennTAP in 2006. He has also served as director of Industrial Innovation Programs and the EDA University Center in the Penn State College of Engineering. He joined ICS as assistant director in 2014. Prior to joining Penn State, he held positions at Raytheon and Link Computer Corporation.
-:::
-::::
-
-## Kyle Hallisky {-}
-
-:::: {.columns}
-::: {.column width=50%}
-![](include/img/kyle-hallisky.JPEG){width=200px height=200px}
-:::
-::: {.column width=50%}
-Kyle Hallisky is a Ph.D. Student in Nutritional Science & Social and Behavioral Neuroscience at Penn State. His research integrates behavioral and neuroimaging methods to investigate mechanisms of self-regulation related to children's eating behavior and food choice. Kyle has extensive experience managing NIH-funded longitudinal studies focused on children's eating behavior, and has designed and maintained user-friendly databases to support data collection and analysis for these projects. He actively incorporates open science principles into his research, including preregistration of study hypotheses on ClinicalTrials.gov, transparent data and code sharing on the Open Science Framework, and the use of open-source software to promote reproducibility.
-:::
-::::
-
-## Sara Horn {-}
-
-:::: {.columns}
-::: {.column width=50%}
-![](include/img/sara-horn.jpeg){width=200px height=200px}
-:::
-::: {.column width=50%}
-Sara Horn is the Director of the IRB within the Penn State Human Research Protections Program (HRPP) housed within the Office for Research Protections (ORP) where she is responsible for the compliance and oversight of PSU’s IRBs and HRPP staff reviewing research for all Penn State Colleges and Campuses and Penn State Health.  Sara completed her Bachelor of Science degree in Psychology at Penn State and is a Certified IRB Professional (CIP) with over 20 years of experience working in human research and IRB/HRPP administration. Previously, Sara served as a site visitor for the Association for the Accreditation of Human Research Protection Programs (AAHRPP), an IRB Ambassador for the SMART IRB National Reliance Initiative, and has contributed on the local and national levels to initiatives and presented on topics impacting researchers, IRBs and HRPPs.
-:::
-::::
-
-## Lynda Kellam {-}
-
-:::: {.columns}
-::: {.column width=50%}
-![](include/img/kellam-lynda.jpg){width=200px height=200px}
-:::
-::: {.column width=50%}
-[Lynda Kellam, Ph.D.](https://www.library.upenn.edu/staff/lynda-kellam) is one of the founding organizers of the Data Rescue Project and the Snyder-Granader Director of [Research Data and Digital Scholarship](https://www.library.upenn.edu/rdds) at the University of Pennsylvania Libraries. She has presented extensively on data services, data management, and FAIR Guidelines. She is the current Secretary of IASSIST, an international data professional organization, and has served in multiple leadership positions in ALA, ACRL, and GODORT. She holds an MLIS, an MA in Political Science, and a PhD in American History.
 :::
 ::::
 
@@ -82,6 +27,18 @@ Sara Horn is the Director of the IRB within the Penn State Human Research Protec
 :::
 ::::
 
+
+## Melissa Kline Struhl {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/kline-struhl-melissa.webp){width=200px height=200px}
+:::
+::: {.column width=50%}
+Melissa Kline Struhl is Executive Director of Children Helping Science and is one of the principal developers behind the [Psych-DS](https://psych-ds.github.io) data standard. She earned her Ph.D. in Developmental Psychology from MIT.
+:::
+::::
+
 ## Koraly Pérez-Edgar {-}
 
 :::: {.columns}
@@ -92,29 +49,6 @@ Sara Horn is the Director of the IRB within the Penn State Human Research Protec
 [Koraly Pérez-Edgar, Ph.D.](https://psych.la.psu.edu/people/kxp24/) is the McCourtney Professor of Child Studies and Professor of Psychology at the Pennsylvania State University. She is a site MPI for the HEALthy Brain and Child Development (HBCD) Study. For the consortium she co-chairs the EEG and Publication Committees, and is a member of the Design and Implementation Committee. She is also Editor-in-Chief of the journal *Developmental Psychology*.
 :::
 ::::
-
-## Kimberly Petrosky {-}
-
-:::: {.columns}
-::: {.column width=50%}
-![](include/img/petrosky-kim.png){width=200px height=200px}
-:::
-::: {.column width=50%}
-[Kimberly Petrosky, J.D.](https://researchsupport.psu.edu/orp-staff/kim-petrosky/) is a Senior Research Integrity Analyst in the Office for Research Protections. Prior to joining the ORP in 2015, she was an associate attorney with Delafield, McGee, Jones & Kauffman, P.C., and later served as a judicial law clerk for the Centre County Court of Common Pleas.
-:::
-::::
-
-
-<!-- ## John Russell {-} -->
-
-<!-- :::: {.columns} -->
-<!-- ::: {.column width=50%} -->
-<!-- ![](include/img/russell-john.png){width=200px height=200px} -->
-<!-- ::: -->
-<!-- ::: {.column width=50%} -->
-<!-- [John Russell](https://chi.la.psu.edu/people/john-russell/) is an Assistant Professor in the University Libraries responsible for supporting digital scholarship. Prior to coming to Penn State, John was the Scholarly Communication Librarian at the University of Oregon, where he supported open access, digital initiatives, and regularly taught a graduate course on digital scholarship methods. John teaches the online course "Introduction to Digital Humanities for Librarians" for Library Juice Academy, and is also a Contributing Editor for the dh+lib website. -->
-<!-- ::: -->
-<!-- :::: -->
 
 ## Danielle Steinhart {-}
 

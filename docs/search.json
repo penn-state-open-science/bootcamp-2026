@@ -30,91 +30,13 @@
     ]
   },
   {
-    "objectID": "directors.html",
-    "href": "directors.html",
-    "title": "Bootcamp Directors",
-    "section": "",
-    "text": "Rick Gilmore",
+    "objectID": "index.html#registration",
+    "href": "index.html#registration",
+    "title": "Bootcamp 2026",
+    "section": "Registration",
+    "text": "Registration\n\n\n\n\n\n\nImportantTo register\n\n\n\nVisit https://forms.gle/myMCqAZsAHXQBy4n7.",
     "crumbs": [
-      "People",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bootcamp Directors</span>"
-    ]
-  },
-  {
-    "objectID": "directors.html#rick-gilmore",
-    "href": "directors.html#rick-gilmore",
-    "title": "Bootcamp Directors",
-    "section": "",
-    "text": "Rick Gilmore is Professor of Psychology and Director of the Open Data and Developmental Science (ODDS) initiative with the Penn State Child Study Center (CSC). He co-founded and co-directs the Databrary data repository, and serves as Co-PI on the Play & Learning Across a Year (PLAY) Project. Gilmore served as inaugural director of the Penn State Social, Life, & Engineering Sciences Imaging Center. His research examines the development of perception and action in infants, children, and adults using behavioral, neural, and computational methods. He teaches graduate and undergraduate courses in neuroscience, developmental psychology, and open science.\nrog1@psu.edu",
-    "crumbs": [
-      "People",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bootcamp Directors</span>"
-    ]
-  },
-  {
-    "objectID": "directors.html#alaina-pearce",
-    "href": "directors.html#alaina-pearce",
-    "title": "Bootcamp Directors",
-    "section": "Alaina Pearce",
-    "text": "Alaina Pearce\n\n\n\n\nAlaina Pearce is Assistant Research Data Management Librarian in the University Libraries’ Data Learning Center and Director of the Cognitive Neuroscience of Eating and Obesity - CogNEATO - Lab. In her role as a Data Librarian, Dr Pearce curates data for ScholarSphere, reviews data management plans and provides expert guidance, training, and consultation on a range of topics including data management planning, active data management, reproducible research workflows using R, and data publication. As a developmental cogntiive neuroscientist, Dr. Pearce’s research interests center on understanding on the reciprocal association between neurocognitive functioning and pediatric obesity. In addition to her research interests in pediatric obesity, she is interested in advancing open science, reproducible research pipelines, and metadata standards.\nazp271@psu.edu",
-    "crumbs": [
-      "People",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Bootcamp Directors</span>"
-    ]
-  },
-  {
-    "objectID": "program-committee.html",
-    "href": "program-committee.html",
-    "title": "Program Committee",
-    "section": "",
-    "text": "Carlos Freitas Almeida",
-    "crumbs": [
-      "People",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Program Committee</span>"
-    ]
-  },
-  {
-    "objectID": "program-committee.html#frank-hillary",
-    "href": "program-committee.html#frank-hillary",
-    "title": "Program Committee",
-    "section": "Frank Hillary",
-    "text": "Frank Hillary\n\n\n\n\nFrank G. Hillary is a Professor of Psychology and Neurology at Penn State. His research examines the influence of brain injury and disease on functional brain organization over the lifespan. To do so, he incorporates cognitive testing, structural and functional MRI, and network neuroscience approaches (e.g., graph theory) in his work. There is a critical need in the neuroimaging literature for open code and data sharing and convergence on accepted methods to increase scientific reliability. Because of this, over the past 5 years Dr. Hillary’s work has shifted to focus on the reproducibility of neuroimaging work in the study of brain disorders. He is the leader of an international working group, ENIGMA Brain Injury (see: https://enigma.ini.usc.edu/ongoing/enigma-tbi/), focused on genetics and neuroimaging data sharing and reproducible science.\nfgh3@psu.edu",
-    "crumbs": [
-      "People",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Program Committee</span>"
-    ]
-  },
-  {
-    "objectID": "program-committee.html#nicole-lazar",
-    "href": "program-committee.html#nicole-lazar",
-    "title": "Program Committee",
-    "section": "Nicole Lazar",
-    "text": "Nicole Lazar\n\n\n\n\nNicole Lazar is Professor and Head of the Department of Statistics at Penn State. Her research interests include the foundations of statistical inference and the analysis of functional neuroimaging data. In particular, she has worked on fundamental inferential topics such as model selection, multiple testing problems, and likelihood theory, specifically in the context of modern large-scale data analysis problems. She has done pioneering work on the statistical analysis of cognitive neuroscience data, with a focus on functional magnetic resonance imaging (fMRI). Most recently, Lazar has been involved in the application of topological data analysis methods to scientific questions of interest in psychology and climatology. These techniques are at the interface of statistics, mathematics, and computer science, and exemplify her cross-disciplinary approach to research. Lazar is the author of the book The Statistical Analysis of Functional MRI Data published by Springer. Nicole is the Open Science Liaison for the NSF-funded National Synthesis Center for Emergence in the Molecular and Cellular Sciences (NCEMS), based at Penn State. \nnfl5182@psu.edu",
-    "crumbs": [
-      "People",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Program Committee</span>"
-    ]
-  },
-  {
-    "objectID": "program-committee.html#jennifer-valcin",
-    "href": "program-committee.html#jennifer-valcin",
-    "title": "Program Committee",
-    "section": "Jennifer Valcin",
-    "text": "Jennifer Valcin\n\n\n\n\nJennifer Valcin is a Statistical Data Analyst at the Penn State University Libraries. Dr. Valcin conducts individual consultations, workshops, and small group trainings to support researchers in the PSU community with data analysis planning and quantitative statistical methods using various software. Prior to joining Penn State University Libraries, she received her Ph.D. in Biomedical Sciences with a focus in Genetics, Genomics, and Bioinformatics from the University of Alabama at Birmingham.\njpv5319@psu.edu",
-    "crumbs": [
-      "People",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Program Committee</span>"
-    ]
-  },
-  {
-    "objectID": "program-committee.html#briana-wham",
-    "href": "program-committee.html#briana-wham",
-    "title": "Program Committee",
-    "section": "Briana Wham",
-    "text": "Briana Wham\n\n\n\n\nBriana Ezray Wham is Research Data Librarian – STEM at the Penn State University Libraries. Dr. Wham conducts data management plan reviews and provides guidance, training, and consulting services for data management planning, active data management, reproducible research workflows using R, data visualization, data publication, as well as ORCiD integration and utility. She also works as one of the data curators for ScholarSphere, Penn State’s institutional repository. Prior to joining Penn State University Libraries, Briana received her Ph.D. in Entomology from Penn State, where she studied aspects of ecology, evolution, and conservation of bee communities. Briana’s interests include open science, museum collection digitization, and bee conservation.\nbde125@psu.edu",
-    "crumbs": [
-      "People",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Program Committee</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
   },
   {
@@ -128,13 +50,144 @@
     ]
   },
   {
-    "objectID": "index.html#registration",
-    "href": "index.html#registration",
-    "title": "Bootcamp 2026",
-    "section": "Registration",
-    "text": "Registration\n\n\n\n\n\n\nImportantTo register\n\n\n\nVisit https://forms.gle/BpCPnbrDUU3UMA869.",
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Overview\nThis section provides an overview about what is happening and when over the 2 1/2 day bootcamp. See the detailed daily schedules for more information.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "schedule.html#overview",
+    "href": "schedule.html#overview",
+    "title": "Schedule",
+    "section": "",
+    "text": "Day 1\nBreakfast provided  \nWelcome: Faye Chadwell, Dean of the Penn State University Libraries\nKeynote: “Harnessing AI for scientific integrity”, Dr. Sarah Rajtmajer, College of IST, Penn State, Foster Auditorium (102 Pattee)\nLunch provided  \nMovie screening: “Paywall: The Business of Scholarship”\nHands-on workshops\n\n\nDay 2\nBreakfast provided  \nKeynote: “Rescuing and preserving public data: The data rescue project”, Dr. Lynda Kellam, University of Pennsylvania & Data Rescue Project, Foster Auditorium (102 Pattee)\nLunch provided  \nHands-on workshops\n\n\n\n\n\n\nNoteHappy Hour\n\n\n\nPlease join us for an open scholarship happy hour to follow immediately after the end of the Day 2 program.\n\n\n\n\nDay 3\nBreakfast provided  \nPlenary session on open access & licensing \nHands-on workshops\nCommunity dialogue\nLunch provided  \n\n\n\n\n\n\nNoteLogistics\n\n\n\nThe bootcamp will end at 12:45.",
+    "crumbs": [
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "day-1.html",
+    "href": "day-1.html",
+    "title": "Day 1 (Mon, May 12)",
+    "section": "",
+    "text": "Morning",
+    "crumbs": [
+      "Schedule",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Day 1 (Mon, May 12)</span>"
+    ]
+  },
+  {
+    "objectID": "day-1.html#day_1_am",
+    "href": "day-1.html#day_1_am",
+    "title": "Day 1 (Mon, May 12)",
+    "section": "",
+    "text": "08:30 am • Breakfast  \n\n\n09:00 am • Welcome and Overview\n\n\nRick Gilmore\n\n\n\n\n\n\nAlaina Pearce\n\n\n\n\n\n\n09:15 am • Research Data Stewardship Program\n\n\nBriana Wham\n\n\n\n\n\n\n09:45 am • Open @ Penn State\n\nOpen Science and the HBCD and ABCD Cohorts, Koraly Perez-Edgar\nAdvancing reproducibility through team science, data sharing, and transparency: The ENIGMA initiative, Frank Hillary\n\n\n\n10:00 am • Break \n\n\n10:15 am • Keynote\n\n\nMelissa Kline Struhl\n\n\n\n\n\n\n11:30 am • Lunch & discussion on misuse of open research data  \n\nExpert: Koraly Perez-Edgar\n\n\nResources\n\nMcIntire (2026)\nESIP (2024)",
+    "crumbs": [
+      "Schedule",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Day 1 (Mon, May 12)</span>"
+    ]
+  },
+  {
+    "objectID": "day-1.html#day_1_pm",
+    "href": "day-1.html#day_1_pm",
+    "title": "Day 1 (Mon, May 12)",
+    "section": "Afternoon",
+    "text": "Afternoon\n\n01:30 pm • Workshop session 1\n\n\n\n\n\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nGetting credit for sharing your data (Part I): Good enough data management practices\nAlaina Pearce\nDewey Room\n\n\nVersion control with git\nCarrie Brown\nTBD\n\n\n\n\n\n02:45 pm • Break \n\n\n03:00 pm • Workshop session 2\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nQuarto (Part I): A tool for open scholarship\nRick Gilmore\nW221A\n\n\nGetting credit (Part II): Sharing your data\nAlaina Pearce\nDewey Room\n\n\n\n\n\n04:15 pm • Day 1 wrap-up\n\n\n04:30 pm • End of Day 1",
+    "crumbs": [
+      "Schedule",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Day 1 (Mon, May 12)</span>"
+    ]
+  },
+  {
+    "objectID": "day-1.html#references",
+    "href": "day-1.html#references",
+    "title": "Day 1 (Mon, May 12)",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\n\n\nESIP. (2024). OS webinar #3: What is research data “misuse”? And how can it be prevented or mitigated? Youtube. Retrieved from https://www.youtube.com/watch?v=5PAs2MFAM9Q\n\n\nMcIntire, M. (2026, January 24). Genetic data from over 20,000 U.S. Children misused for “race science.” The New York Times. The New York Times. Retrieved from https://www.nytimes.com/2026/01/24/us/children-genetics-race-science.html",
+    "crumbs": [
+      "Schedule",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Day 1 (Mon, May 12)</span>"
+    ]
+  },
+  {
+    "objectID": "day-2.html",
+    "href": "day-2.html",
+    "title": "Day 2 (Tues, May 12)",
+    "section": "",
+    "text": "Morning",
+    "crumbs": [
+      "Schedule",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Day 2 (Tues, May 12)</span>"
+    ]
+  },
+  {
+    "objectID": "day-2.html#day_2_am",
+    "href": "day-2.html#day_2_am",
+    "title": "Day 2 (Tues, May 12)",
+    "section": "",
+    "text": "08:30 am • Breakfast  \n\n\n09:00 am • Welcome to Day 2\n\n\nAlaina Pearce\n\n\n\n\n\n\n09:15 am • Workshop session 3\n\n\n\n\n\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nHarnessing advanced cyberinfrastructure for research: An introduction to Roar and ICDS resources\nCarrie Brown\nTBD\n\n\nQuarto (Part II)\nRick Gilmore\nTBD\n\n\n\n\n\n10:15 am • Break \n\n\n10:30 am • Open @ Penn State\n\nPenn State Data Commons, Maurie Kelly\nOpen scholarship and high performance computing, Wayne Figurelle\n\n\n\n11:00 am Workshop session 4\n\n\n\n\n\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nIntro to copyright and open access publishing\nDanielle Steinhart, University Libraries\nTBD\n\n\nIntroduction to data standards\nAlaina Pearce\nTBD",
+    "crumbs": [
+      "Schedule",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Day 2 (Tues, May 12)</span>"
+    ]
+  },
+  {
+    "objectID": "day-2.html#day_2_pm",
+    "href": "day-2.html#day_2_pm",
+    "title": "Day 2 (Tues, May 12)",
+    "section": "Afternoon",
+    "text": "Afternoon\n\n12:00 pm • Lunch  \n\n\n01:30 pm • Panel Discussion\n\nOpen research data and AI ethics\n\nCourtney Karmelita\nChristopher Darcy\n\n\n\n\n02:45 pm • Break \n\n\n03:00 pm • Workshop session 5\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nQuarto (Part III): Reproducible research reports\nJohn West\nTBD\n\n\nIntroduction to Jupyter notebooks\nTBD\nTBD\n\n\n\n\n\n04:15 pm • End of bootcamp wrap-up\n\n\n04:30 pm • Open scholarship happy hour \nLocation: TBD",
+    "crumbs": [
+      "Schedule",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Day 2 (Tues, May 12)</span>"
+    ]
+  },
+  {
+    "objectID": "directors.html",
+    "href": "directors.html",
+    "title": "Bootcamp Directors",
+    "section": "",
+    "text": "Rick Gilmore",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bootcamp Directors</span>"
+    ]
+  },
+  {
+    "objectID": "directors.html#rick-gilmore",
+    "href": "directors.html#rick-gilmore",
+    "title": "Bootcamp Directors",
+    "section": "",
+    "text": "Rick Gilmore is Professor of Psychology and Director of the Open Data and Developmental Science (ODDS) initiative with the Penn State Child Study Center (CSC). He co-founded and co-directs the Databrary data repository, and serves as Co-PI on the Play & Learning Across a Year (PLAY) Project. Gilmore served as inaugural director of the Penn State Social, Life, & Engineering Sciences Imaging Center. His research examines the development of perception and action in infants, children, and adults using behavioral, neural, and computational methods. He teaches graduate and undergraduate courses in neuroscience, developmental psychology, and open science.\nrog1@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bootcamp Directors</span>"
+    ]
+  },
+  {
+    "objectID": "directors.html#alaina-pearce",
+    "href": "directors.html#alaina-pearce",
+    "title": "Bootcamp Directors",
+    "section": "Alaina Pearce",
+    "text": "Alaina Pearce\n\n\n\n\nAlaina Pearce is Assistant Research Data Management Librarian in the University Libraries’ Data Learning Center and Director of the Cognitive Neuroscience of Eating and Obesity - CogNEATO - Lab. In her role as a Data Librarian, Dr Pearce curates data for ScholarSphere, reviews data management plans and provides expert guidance, training, and consultation on a range of topics including data management planning, active data management, reproducible research workflows using R, and data publication. As a developmental cogntiive neuroscientist, Dr. Pearce’s research interests center on understanding on the reciprocal association between neurocognitive functioning and pediatric obesity. In addition to her research interests in pediatric obesity, she is interested in advancing open science, reproducible research pipelines, and metadata standards.\nazp271@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bootcamp Directors</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html",
+    "href": "program-committee.html",
+    "title": "Program Committee",
+    "section": "",
+    "text": "Carlos Freitas Almeida",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Program Committee</span>"
     ]
   },
   {
@@ -145,7 +198,7 @@
     "text": "Carlos Freitas Almeida is a graduate student in Psychology at Penn State.",
     "crumbs": [
       "People",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Program Committee</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Program Committee</span>"
     ]
   },
   {
@@ -156,7 +209,51 @@
     "text": "Carrie Brown\n\n\n\n\nCarrie Brown is Client Support Lead with the Institute for Computational & Data Science (ICDS).\ncarrie.brown@psu.edu",
     "crumbs": [
       "People",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Program Committee</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#bruce-desmarais",
+    "href": "program-committee.html#bruce-desmarais",
+    "title": "Program Committee",
+    "section": "Bruce Desmarais",
+    "text": "Bruce Desmarais\n\n\n\n\nBruce Desmarais is the DeGrandis-McCourtney Early Career Professor in Political Science, Director of the Center for Social Data Analytics, and a co-hire of the Institute for Computational and Data Sciences at Penn State University. His research is focused on methodological development and applications that further our understanding of the complex interdependence that underlies politics and public policy. Methodologically, he focuses on methods for modeling networks, analyzing text, and running experiments on social systems. Primary application areas of interest to Bruce include public policy diffusion and digital communications involving political elites.\nbdesmarais@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#frank-hillary",
+    "href": "program-committee.html#frank-hillary",
+    "title": "Program Committee",
+    "section": "Frank Hillary",
+    "text": "Frank Hillary\n\n\n\n\nFrank G. Hillary is a Professor of Psychology and Neurology at Penn State. His research examines the influence of brain injury and disease on functional brain organization over the lifespan. To do so, he incorporates cognitive testing, structural and functional MRI, and network neuroscience approaches (e.g., graph theory) in his work. There is a critical need in the neuroimaging literature for open code and data sharing and convergence on accepted methods to increase scientific reliability. Because of this, over the past 5 years Dr. Hillary’s work has shifted to focus on the reproducibility of neuroimaging work in the study of brain disorders. He is the leader of an international working group, ENIGMA Brain Injury (see: https://enigma.ini.usc.edu/ongoing/enigma-tbi/), focused on genetics and neuroimaging data sharing and reproducible science.\nfgh3@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#nicole-lazar",
+    "href": "program-committee.html#nicole-lazar",
+    "title": "Program Committee",
+    "section": "Nicole Lazar",
+    "text": "Nicole Lazar\n\n\n\n\nNicole Lazar is Professor and Head of the Department of Statistics at Penn State. Her research interests include the foundations of statistical inference and the analysis of functional neuroimaging data. In particular, she has worked on fundamental inferential topics such as model selection, multiple testing problems, and likelihood theory, specifically in the context of modern large-scale data analysis problems. She has done pioneering work on the statistical analysis of cognitive neuroscience data, with a focus on functional magnetic resonance imaging (fMRI). Most recently, Lazar has been involved in the application of topological data analysis methods to scientific questions of interest in psychology and climatology. These techniques are at the interface of statistics, mathematics, and computer science, and exemplify her cross-disciplinary approach to research. Lazar is the author of the book The Statistical Analysis of Functional MRI Data published by Springer. Nicole is the Open Science Liaison for the NSF-funded National Synthesis Center for Emergence in the Molecular and Cellular Sciences (NCEMS), based at Penn State. \nnfl5182@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#jennifer-valcin",
+    "href": "program-committee.html#jennifer-valcin",
+    "title": "Program Committee",
+    "section": "Jennifer Valcin",
+    "text": "Jennifer Valcin\n\n\n\n\nJennifer Valcin is a Statistical Data Analyst at the Penn State University Libraries. Dr. Valcin conducts individual consultations, workshops, and small group trainings to support researchers in the PSU community with data analysis planning and quantitative statistical methods using various software. Prior to joining Penn State University Libraries, she received her Ph.D. in Biomedical Sciences with a focus in Genetics, Genomics, and Bioinformatics from the University of Alabama at Birmingham.\njpv5319@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Program Committee</span>"
     ]
   },
   {
@@ -167,7 +264,216 @@
     "text": "John West\n\n\n\n\nJohn West is a postdoctoral researcher in the Department of Psychology.\njohnwest@psu.edu",
     "crumbs": [
       "People",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Program Committee</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#briana-wham",
+    "href": "program-committee.html#briana-wham",
+    "title": "Program Committee",
+    "section": "Briana Wham",
+    "text": "Briana Wham\n\n\n\n\nBriana Ezray Wham is Research Data Librarian – STEM at the Penn State University Libraries. Dr. Wham conducts data management plan reviews and provides guidance, training, and consulting services for data management planning, active data management, reproducible research workflows using R, data visualization, data publication, as well as ORCiD integration and utility. She also works as one of the data curators for ScholarSphere, Penn State’s institutional repository. Prior to joining Penn State University Libraries, Briana received her Ph.D. in Entomology from Penn State, where she studied aspects of ecology, evolution, and conservation of bee communities. Briana’s interests include open science, museum collection digitization, and bee conservation.\nbde125@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html",
+    "href": "presenters.html",
+    "title": "Presenters",
+    "section": "",
+    "text": "Wayne Figurelle",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#wayne-figurelle",
+    "href": "presenters.html#wayne-figurelle",
+    "title": "Presenters",
+    "section": "",
+    "text": "Wayne Figurelle is Assistant Director of Innovation and Outreach at the Institute for Computational and Data Science Sciences (ICDS). Wayne has over 25 years of experience as a senior manager, with a focus in computer engineering. Figurelle joined Penn State in 2001 as senior technical specialist of the Pennsylvania Technical Assistance Program (PennTAP) and was promoted to director of PennTAP in 2006. He has also served as director of Industrial Innovation Programs and the EDA University Center in the Penn State College of Engineering. He joined ICS as assistant director in 2014. Prior to joining Penn State, he held positions at Raytheon and Link Computer Corporation.",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#maurie-kelly",
+    "href": "presenters.html#maurie-kelly",
+    "title": "Presenters",
+    "section": "Maurie Kelly",
+    "text": "Maurie Kelly\n\n\n\n\nMaurie Kelly, Ph.D. is Director of the Pennsylvania Spatial Data Access program, an instructor in the Smeal School of Business and the College of Information Science and Technology, and Director of the Penn State Data Commons.\nMaurie Kelly, Ph.D. is a member of the research faculty at Penn State Institute of Energy and the Environment where she serves as the Director of Pennsylvania Spatial Data Access, the PA geospatial data access portal and the Penn State Data Commons, a PSU institutional research data repository. In addition to PASDA and the Data Commons, she currently leads several big data/geospatial projects including the PA Mine Map Atlas, the PA Flood Risk Assessment Tool, and Penn Pilot. She is a member of the Pennsylvania Geospatial Coordinating Board, and several related task forces including the Emerging Technologies subcommittee, Services Delivery Task Force, and the Elevation Working Group. Maurie also serves as an instructor for the Smeal College of Business, teaching courses in international business, sustainability, and complex negotiations. She is a member of the editorial board of the International Journal of Data Mining, Modelling, and Management and the International Journal of Society Systems Science.",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#melissa-kline-struhl",
+    "href": "presenters.html#melissa-kline-struhl",
+    "title": "Presenters",
+    "section": "Melissa Kline Struhl",
+    "text": "Melissa Kline Struhl\n\n\n\n\nMelissa Kline Struhl is Executive Director of Children Helping Science and is one of the principal developers behind the Psych-DS data standard. She earned her Ph.D. in Developmental Psychology from MIT.",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#koraly-pérez-edgar",
+    "href": "presenters.html#koraly-pérez-edgar",
+    "title": "Presenters",
+    "section": "Koraly Pérez-Edgar",
+    "text": "Koraly Pérez-Edgar\n\n\n\n\nKoraly Pérez-Edgar, Ph.D. is the McCourtney Professor of Child Studies and Professor of Psychology at the Pennsylvania State University. She is a site MPI for the HEALthy Brain and Child Development (HBCD) Study. For the consortium she co-chairs the EEG and Publication Committees, and is a member of the Design and Implementation Committee. She is also Editor-in-Chief of the journal Developmental Psychology.",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#danielle-steinhart",
+    "href": "presenters.html#danielle-steinhart",
+    "title": "Presenters",
+    "section": "Danielle Steinhart",
+    "text": "Danielle Steinhart\n\n\n\n\nDanielle Steinhart, J.D. is the Interim Head of the Office of Scholarly Communications and Copyright at Penn State University Libraries where she assists faculty, staff, and students, with copyright and scholarly communications matters and serves as a resource on these topics for the Libraries departments and projects. Danielle practiced law early in her career before transitioning to academia and has been with Penn State Libraries for the last three years.",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "registration.html",
+    "href": "registration.html",
+    "title": "Registration",
+    "section": "",
+    "text": "About\nThis page documents and implements the data processing workflow for bootcamp registration.",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Registration Data</span>"
+    ]
+  },
+  {
+    "objectID": "registration.html#setup",
+    "href": "registration.html#setup",
+    "title": "Registration",
+    "section": "Setup",
+    "text": "Setup\nWe load some packages into memory for convenience.\n\n\nCode\nsuppressPackageStartupMessages(library('tidyverse'))\nsuppressPackageStartupMessages(library('ggplot2'))\nsuppressPackageStartupMessages(library('dplyr'))\nsuppressPackageStartupMessages(library('tidyr'))\nsuppressPackageStartupMessages(library('stringr'))\nsuppressPackageStartupMessages(library('lubridate'))\nsuppressPackageStartupMessages(library('janitor'))",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Registration Data</span>"
+    ]
+  },
+  {
+    "objectID": "registration.html#import",
+    "href": "registration.html#import",
+    "title": "Registration",
+    "section": "Import",
+    "text": "Import\nThe Google Form generates a Google Sheet that we download to a protected directory (include/csv) that is not synched to GitHub.\n\n\n\n\n\n\nImportant\n\n\n\nThis is because the sheet contains personally identifying information.\n\n\n\n\nCode\nx &lt;- assertthat::is.string(params$csv_dir)\nif (!dir.exists(params$csv_dir)) {\n  message(\"Creating missing `include/csv/`.\")\n  dir.create(params$csv_dir)\n}\nx &lt;- assertthat::is.writeable(params$csv_dir)\n\n# options(gargle_oauth_email = Sys.getenv(\"GMAIL_SURVEY\"))\n# googledrive::drive_auth()\n\nx &lt;- assertthat::is.string(params$psu_id)\ngooglesheets4::gs4_auth(email = params$psu_id)\n\nx &lt;- assertthat::is.string(params$sheets_id)\nregistrations &lt;- googlesheets4::read_sheet(params$reg_sheets_id,\n                                           sheet = \"Form Responses 1\")\nassertthat::assert_that(is_tibble(registrations))\n\n\n[1] TRUE\n\n\nCode\nregistration_full_fn &lt;- file.path(params$csv_dir, params$registration_fn)\nx &lt;- assertthat::is.string(registration_full_fn)\n\nreadr::write_csv(registrations, file = registration_full_fn)\n\n\nDownload program committee member data, too.\n\n\nCode\nprogram_comm &lt;- googlesheets4::read_sheet(params$reg_sheets_id,\n                                          sheet = \"planning_committee\")\nassertthat::assert_that(is_tibble(program_comm))\n\n\n[1] TRUE\n\n\nCode\nx &lt;- assertthat::is.string(params$program_comm_fn)\nprogram_comm_full_fn &lt;- file.path(params$csv_dir, params$program_comm_fn)\n\nreadr::write_csv(program_comm, file = program_comm_full_fn)",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Registration Data</span>"
+    ]
+  },
+  {
+    "objectID": "registration.html#clean",
+    "href": "registration.html#clean",
+    "title": "Registration",
+    "section": "Clean",
+    "text": "Clean\nGoogle Forms conveniently returns the questions as variable names at the top of each column. These are handy for creating a data dictionary, but awkward for data processing. We rename these for our convenience. We also export a data dictionary.\n\n\nCode\nreqistrations_qs &lt;- names(registrations)\n\nregistrations_clean &lt;- registrations |&gt;\n  dplyr::rename(\n    timestamp = \"Timestamp\",\n    attend_days = \"Which days of the bootcamp will you attend?\",\n    name = \"What is your name?\",\n    psu_email = \"Email Address\",\n    dept = \"What is your department or unit?\",\n    position = \"What is your current position?\",\n    comments = \"Any comments?\"\n  )\n\nregistrations_short &lt;- c(\n  \"timestamp\",\n  \"psu_email\",\n  \"attend_days\",\n  \"name\",\n  \"dept\",\n  \"position\",\n  \"comments\"\n)\nregistrations_pid &lt;- c(FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE)\n\nregistrations_dd &lt;- data.frame(qs = reqistrations_qs, \n                               qs_short = registrations_short, \n                               pid = registrations_pid)\n\nregistrations_dd |&gt;\n  knitr::kable(format = 'html')\ndata_dict_fn &lt;- file.path(params$csv_dir, \"registrations-2026-data-dict.csv\")\nx &lt;- assertthat::is.string(data_dict_fn)\nreadr::write_csv(registrations_dd,\n                 file = data_dict_fn)\n\n\n\n\nTable 7.1: A minimal data dictionary.\n\n\n\n\n\n\nqs\nqs_short\npid\n\n\n\n\nTimestamp\ntimestamp\nFALSE\n\n\nEmail Address\npsu_email\nFALSE\n\n\nWhich days of the bootcamp will you attend?\nattend_days\nFALSE\n\n\nWhat is your name?\nname\nTRUE\n\n\nWhat is your department or unit?\ndept\nFALSE\n\n\nWhat is your current position?\nposition\nFALSE\n\n\nAny comments?\ncomments\nFALSE\n\n\n\n\n\n\n\n\nWe drop some of responses that were used to test the workflow.\n\n\nCode\nregistrations_clean &lt;- registrations_clean |&gt;\n  dplyr::filter(psu_email != \"nittany.amateur.radio.club@gmail.com\")",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Registration Data</span>"
+    ]
+  },
+  {
+    "objectID": "registration.html#visualize",
+    "href": "registration.html#visualize",
+    "title": "Registration",
+    "section": "Visualize",
+    "text": "Visualize\n\nRegistration numbers\n\n\nCode\nregistrations_yes &lt;- registrations_clean |&gt; \n  dplyr::mutate(registered = TRUE)\n\n\nAs of 2026-03-31, we have n=8 registered attendees and presenters. That is 10.7% of our target registration/attendance limit of n=75.\n\n\nTime series\n\n\nCode\nregistrations_clean |&gt;\n  dplyr::arrange(timestamp) |&gt;\n  dplyr::mutate(resp_index = seq_along(timestamp)) |&gt;\n  ggplot() +\n  aes(x = timestamp, y = resp_index) +\n  geom_point() +\n  geom_line() +\n  theme(axis.text.x = element_text(angle = 90)) +\n  labs(x = NULL, y = 'n registrations') +\n  scale_color_manual(breaks = c(\"No\", \"Yes\"),\n                        values=c(\"red\", \"green\")) +\n  theme(legend.position = \"none\")\n\n\n\n\n\n\n\n\nFigure 7.1: Time series of registrations.\n\n\n\n\n\n\n\nRegistrant attendance plans by day\n\n\nCode\nregistrations_clean |&gt;\n  dplyr::mutate(plan_wed = stringr::str_detect(attend_days, \"Mon\"),\n                plan_thu = stringr::str_detect(attend_days, \"Tue\")) |&gt;\n  dplyr::mutate(n_mon = sum(plan_wed, na.rm = TRUE),\n                n_tue = sum(plan_thu, na.rm = TRUE)) |&gt;\n  dplyr::select(n_mon, n_tue) |&gt;\n  dplyr::distinct() |&gt;\n  knitr::kable(format = \"html\") |&gt;\n  kableExtra::kable_classic()\n\n\n\n\nTable 7.2\n\n\n\n\n\n\n\nn_mon\n\n\nn_tue\n\n\n\n\n\n\n8\n\n\n8\n\n\n\n\nBootcamp registrations by day.",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Registration Data</span>"
+    ]
+  },
+  {
+    "objectID": "how-to-install-rstudio-quarto.html",
+    "href": "how-to-install-rstudio-quarto.html",
+    "title": "How to install RStudio & Quarto",
+    "section": "",
+    "text": "About\nThis page briefly describes how to install RStudio and Quarto on your personal computer.\nIf you plan to attend either the Quarto I or Quarto II workshops, please follow these steps before the Bootcamp.",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "how-to-install-rstudio-quarto.html#install-r",
+    "href": "how-to-install-rstudio-quarto.html#install-r",
+    "title": "How to install RStudio & Quarto",
+    "section": "Install R",
+    "text": "Install R\n\n\n\nhttps://cran.rstudio.com",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "how-to-install-rstudio-quarto.html#install-rstudio",
+    "href": "how-to-install-rstudio-quarto.html#install-rstudio",
+    "title": "How to install RStudio & Quarto",
+    "section": "Install RStudio",
+    "text": "Install RStudio\n\n\n\nhttps://posit.co/download/rstudio-desktop/",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "how-to-install-rstudio-quarto.html#install-quarto",
+    "href": "how-to-install-rstudio-quarto.html#install-quarto",
+    "title": "How to install RStudio & Quarto",
+    "section": "Install Quarto",
+    "text": "Install Quarto\n\n\n\nhttps://quarto.org/docs/get-started/",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "how-to-install-rstudio-quarto.html#launch-rstudio",
+    "href": "how-to-install-rstudio-quarto.html#launch-rstudio",
+    "title": "How to install RStudio & Quarto",
+    "section": "Launch RStudio",
+    "text": "Launch RStudio",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "how-to-install-rstudio-quarto.html#optional-install-git",
+    "href": "how-to-install-rstudio-quarto.html#optional-install-git",
+    "title": "How to install RStudio & Quarto",
+    "section": "(Optional) Install git",
+    "text": "(Optional) Install git\nThe version control package git may not be installed on your Windows machine. It is usually installed by default on Mac OS.\nIf git is not installed, visit https://git-scm.com/downloads, download, and install it for your operating system.\nYou can use R, RStudio, and Quarto without using git, but there are good reasons to consider using it.\nIf you decide to use the web-based git code sharing service called GitHub with RStudio, you will want to follow the excellent instructions here.",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "how-to-install-rstudio-quarto.html#references",
+    "href": "how-to-install-rstudio-quarto.html#references",
+    "title": "How to install RStudio & Quarto",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\nBryan, J., the STAT 545 TAs, & Hester, J. (n.d.). Let’s git started. Retrieved August 14, 2025, from https://happygitwithr.com/",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Installing Quarto</span>"
     ]
   }
 ]

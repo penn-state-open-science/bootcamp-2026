@@ -126,6 +126,13 @@ readr::write_csv(registrations_dd,
                  file = data_dict_fn)
 ```
 
+We drop some of responses that were used to test the workflow.
+
+```{r}
+registrations_clean <- registrations_clean |>
+  dplyr::filter(psu_email != "nittany.amateur.radio.club@gmail.com")
+```
+
 ## Visualize
 
 ### Registration numbers {-}
