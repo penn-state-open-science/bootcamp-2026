@@ -35,7 +35,7 @@ This schedule is a work-in-progress and is subject to change.
 
 [Rick Gilmore](directors.qmd#rick-gilmore) and [Alaina Pearce](directors.qmd#alaina-pearce), Bootcamp Directors.
 
-### 09:15 am • Research Data Stewardship Program {-}
+### 09:15 am • Penn State Research Data Stewardship Program {-}
 
 :::: {.columns}
 ::: {.column width=80%}
@@ -64,13 +64,15 @@ This schedule is a work-in-progress and is subject to change.
 :::
 ::::
 
-### 11:30 am • Lunch & discussion on misuse of open research data {{< fa bottle-water >}} {{< fa bread-slice >}} {-}
+### 11:30 am • Lunch & Discussion hour {{< fa bottle-water >}} {{< fa bread-slice >}} {-}
+
+#### The uses and misuses of open research data
 
 Openly shared research data can be used for purposes beyond those envisioned by the scientists who originally collected the data.
 Some of these uses advance discovery and some veer into misuse or worse misconduct.
-What's the difference? Who decides? How can researchers who share data widely promote constructive uses? Come discuss these issues with us over lunch, informed by a local expert who's been on the front lines of these issues, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar).
+What's the difference? Who decides? How can researchers who share data widely promote constructive uses? Come discuss these issues with us over lunch, informed by a local expert ([Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar)) who's been on the front lines of these issues.
 
-#### Resources
+*Resources*
 
 - @McIntire2026-rg
 - @ESIP2024-hn
@@ -94,6 +96,8 @@ What's the difference? Who decides? How can researchers who share data widely pr
 |--------------|----------|-------|
 | *Quarto (Part I): A tool for open scholarship* | [Rick Gilmore](directors.qmd#directors.qmd#rick-gilmore) | W221A |
 | *Getting credit (Part II): Sharing your data* |  [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+
+: {tbl-colwidths="[60,20,20]"}
 
 ### 04:15 pm • Day 1 wrap-up {-}
 

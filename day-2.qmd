@@ -29,7 +29,7 @@ This schedule is a work-in-progress and subject to change.
 | Topic | Presenter | Location |
 |--------------|----------|-------|
 | *Harnessing advanced cyberinfrastructure for research: An introduction to Roar and ICDS resources* | [Carrie Brown](program-committee.qmd#carrie-brown) | TBD |
-| *Quarto (Part II)* | [Rick Gilmore](directors.qmd#rick-gilmore) | TBD | 
+| *Quarto (Part II): Making useful things reproducibly* | [Rick Gilmore](directors.qmd#rick-gilmore) | TBD | 
 
 : {tbl-colwidths="[60,20,20]"}
 
@@ -83,6 +83,8 @@ This schedule is a work-in-progress and subject to change.
 |--------------|----------|-------|
 | *Quarto (Part III): Reproducible research reports* | [John West](program-committee.qmd#john-west) | TBD | 
 | *Introduction to Jupyter notebooks* | TBD | TBD |
+
+: {tbl-colwidths="[60,20,20]"}
 
 ### 04:15 pm • End of bootcamp wrap-up {- #day_2_pm_recap}
 

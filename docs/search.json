@@ -54,7 +54,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Overview\nThis section provides an overview about what is happening and when over the 2 1/2 day bootcamp. See the detailed daily schedules for more information.",
+    "text": "Overview\nThis section provides an overview about what is happening and when over the 2 day bootcamp. See the detailed daily schedules for more information.",
     "crumbs": [
       "Schedule"
     ]
@@ -64,7 +64,7 @@
     "href": "schedule.html#overview",
     "title": "Schedule",
     "section": "",
-    "text": "Day 1\nBreakfast provided  \nWelcome: Faye Chadwell, Dean of the Penn State University Libraries\nKeynote: “Harnessing AI for scientific integrity”, Dr. Sarah Rajtmajer, College of IST, Penn State, Foster Auditorium (102 Pattee)\nLunch provided  \nMovie screening: “Paywall: The Business of Scholarship”\nHands-on workshops\n\n\nDay 2\nBreakfast provided  \nKeynote: “Rescuing and preserving public data: The data rescue project”, Dr. Lynda Kellam, University of Pennsylvania & Data Rescue Project, Foster Auditorium (102 Pattee)\nLunch provided  \nHands-on workshops\n\n\n\n\n\n\nNoteHappy Hour\n\n\n\nPlease join us for an open scholarship happy hour to follow immediately after the end of the Day 2 program.\n\n\n\n\nDay 3\nBreakfast provided  \nPlenary session on open access & licensing \nHands-on workshops\nCommunity dialogue\nLunch provided  \n\n\n\n\n\n\nNoteLogistics\n\n\n\nThe bootcamp will end at 12:45.",
+    "text": "Day 1\nBreakfast provided  \nWelcome: Rick Gilmore and Alaina Pearce\nPresentation: Research Data Stewardship Program, Briana Wham\nKeynote: TBD, Melissa Kline Struhl, Director, Children Helping Science\nLunch provided  \nDiscussion: Uses and misuses open research data\nHands-on workshops\n\n\nDay 2\nBreakfast provided  \nHands-on workshops\nLunch provided  \nPanel Discussion: Open research data and AI ethics\nHands-on workshops\n\n\n\n\n\n\nNoteSocial Event\n\n\n\nTBD",
     "crumbs": [
       "Schedule"
     ]
@@ -85,7 +85,7 @@
     "href": "day-1.html#day_1_am",
     "title": "Day 1 (Mon, May 12)",
     "section": "",
-    "text": "08:30 am • Breakfast  \n\n\n09:00 am • Welcome and Overview\nRick Gilmore and Alaina Pearce\n\n\n09:15 am • Research Data Stewardship Program\n\n\nBriana Wham\n\n\n\n\n\n\n09:45 am • Open @ Penn State\n\nOpen Science and the HBCD and ABCD Cohorts, Koraly Perez-Edgar\nAdvancing reproducibility through team science, data sharing, and transparency: The ENIGMA initiative, Frank Hillary\n\n\n\n10:00 am • Break \n\n\n10:15 am • Keynote\n\n\nMelissa Kline Struhl\n\n\n\n\n\n\n11:30 am • Lunch & discussion on misuse of open research data  \nOpenly shared research data can be used for purposes beyond those envisioned by the scientists who originally collected the data. Some of these uses advance discovery and some veer into misuse or worse misconduct. What’s the difference? Who decides? How can researchers who share data widely promote constructive uses? Come discuss these issues with us over lunch, informed by a local expert who’s been on the front lines of these issues, Koraly Perez-Edgar.\n\nResources\n\nMcIntire (2026)\nESIP (2024)",
+    "text": "08:30 am • Breakfast  \n\n\n09:00 am • Welcome and Overview\nRick Gilmore and Alaina Pearce, Bootcamp Directors.\n\n\n09:15 am • Penn State Research Data Stewardship Program\n\n\nBriana Wham\n\n\n\n\n\n\n09:45 am • Open @ Penn State\n\nOpen Science and the HBCD and ABCD Cohorts, Koraly Perez-Edgar\nAdvancing reproducibility through team science, data sharing, and transparency: The ENIGMA initiative, Frank Hillary\n\n\n\n10:00 am • Break \n\n\n10:15 am • Keynote\n\n\nMelissa Kline Struhl\n\n\n\n\n\n\n11:30 am • Lunch & Discussion hour  \n\nThe uses and misuses of open research data\nOpenly shared research data can be used for purposes beyond those envisioned by the scientists who originally collected the data. Some of these uses advance discovery and some veer into misuse or worse misconduct. What’s the difference? Who decides? How can researchers who share data widely promote constructive uses? Come discuss these issues with us over lunch, informed by a local expert (Koraly Perez-Edgar) who’s been on the front lines of these issues.\nResources\n\nMcIntire (2026)\nESIP (2024)",
     "crumbs": [
       "Schedule",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Day 1 (Mon, May 12)</span>"
@@ -96,7 +96,7 @@
     "href": "day-1.html#day_1_pm",
     "title": "Day 1 (Mon, May 12)",
     "section": "Afternoon",
-    "text": "Afternoon\n\n01:30 pm • Workshop session 1\n\n\n\n\n\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nGetting credit for sharing your data (Part I): Good enough data management practices\nAlaina Pearce\nDewey Room\n\n\nVersion control with git\nCarrie Brown\nTBD\n\n\n\n\n\n02:45 pm • Break \n\n\n03:00 pm • Workshop session 2\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nQuarto (Part I): A tool for open scholarship\nRick Gilmore\nW221A\n\n\nGetting credit (Part II): Sharing your data\nAlaina Pearce\nDewey Room\n\n\n\n\n\n04:15 pm • Day 1 wrap-up\n\n\n04:30 pm • End of Day 1",
+    "text": "Afternoon\n\n01:30 pm • Workshop session 1\n\n\n\n\n\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nGetting credit for sharing your data (Part I): Good enough data management practices\nAlaina Pearce\nDewey Room\n\n\nVersion control with git\nCarrie Brown\nTBD\n\n\n\n\n\n02:45 pm • Break \n\n\n03:00 pm • Workshop session 2\n\n\n\n\n\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nQuarto (Part I): A tool for open scholarship\nRick Gilmore\nW221A\n\n\nGetting credit (Part II): Sharing your data\nAlaina Pearce\nDewey Room\n\n\n\n\n\n04:15 pm • Day 1 wrap-up\n\n\n04:30 pm • End of Day 1",
     "crumbs": [
       "Schedule",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Day 1 (Mon, May 12)</span>"
@@ -129,7 +129,7 @@
     "href": "day-2.html#day_2_am",
     "title": "Day 2 (Tues, May 12)",
     "section": "",
-    "text": "08:30 am • Breakfast  \n\n\n09:00 am • Welcome to Day 2\n\n\nAlaina Pearce\n\n\n\n\n\n\n09:15 am • Workshop session 3\n\n\n\n\n\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nHarnessing advanced cyberinfrastructure for research: An introduction to Roar and ICDS resources\nCarrie Brown\nTBD\n\n\nQuarto (Part II)\nRick Gilmore\nTBD\n\n\n\n\n\n10:15 am • Break \n\n\n10:30 am • Open @ Penn State\n\nPenn State Data Commons, Maurie Kelly\nOpen scholarship and high performance computing, Wayne Figurelle\n\n\n\n11:00 am Workshop session 4\n\n\n\n\n\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nIntro to copyright and open access publishing\nDanielle Steinhart, University Libraries\nTBD\n\n\nIntroduction to data standards\nAlaina Pearce\nTBD",
+    "text": "08:30 am • Breakfast  \n\n\n09:00 am • Welcome to Day 2\n\n\nAlaina Pearce\n\n\n\n\n\n\n09:15 am • Workshop session 3\n\n\n\n\n\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nHarnessing advanced cyberinfrastructure for research: An introduction to Roar and ICDS resources\nCarrie Brown\nTBD\n\n\nQuarto (Part II): Making useful things reproducibly\nRick Gilmore\nTBD\n\n\n\n\n\n10:15 am • Break \n\n\n10:30 am • Open @ Penn State\n\nPenn State Data Commons, Maurie Kelly\nOpen scholarship and high performance computing, Wayne Figurelle\n\n\n\n11:00 am Workshop session 4\n\n\n\n\n\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nIntro to copyright and open access publishing\nDanielle Steinhart\nTBD\n\n\nIntroduction to data standards\nAlaina Pearce\nTBD",
     "crumbs": [
       "Schedule",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Day 2 (Tues, May 12)</span>"
@@ -140,7 +140,7 @@
     "href": "day-2.html#day_2_pm",
     "title": "Day 2 (Tues, May 12)",
     "section": "Afternoon",
-    "text": "Afternoon\n\n12:00 pm • Lunch  \n\n\n01:30 pm • Panel Discussion\n\nOpen research data and AI ethics\n\nCourtney Karmelita\nChristopher Dancy\n\n\n\n\n02:45 pm • Break \n\n\n03:00 pm • Workshop session 5\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nQuarto (Part III): Reproducible research reports\nJohn West\nTBD\n\n\nIntroduction to Jupyter notebooks\nTBD\nTBD\n\n\n\n\n\n04:15 pm • End of bootcamp wrap-up\n\n\n04:30 pm • Open scholarship happy hour \nLocation: TBD",
+    "text": "Afternoon\n\n12:00 pm • Lunch  \n\n\n01:30 pm • Panel Discussion\n\nOpen research data and AI ethics\n\nCourtney Karmelita\nChristopher Dancy\n\n\n\n\n02:45 pm • Break \n\n\n03:00 pm • Workshop session 5\n\n\n\n\n\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nQuarto (Part III): Reproducible research reports\nJohn West\nTBD\n\n\nIntroduction to Jupyter notebooks\nTBD\nTBD\n\n\n\n\n\n04:15 pm • End of bootcamp wrap-up\n\n\n04:30 pm • Open scholarship happy hour \nLocation: TBD",
     "crumbs": [
       "Schedule",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Day 2 (Tues, May 12)</span>"
@@ -261,7 +261,7 @@
     "href": "program-committee.html#john-west",
     "title": "Program Committee",
     "section": "John West",
-    "text": "John West\n\n\n\n\nJohn West is a postdoctoral researcher and Assistant Teaching Professor in the Department of Psychology.\njohnwest@psu.edu",
+    "text": "John West\n\n\n\n\nJohn West, Ph.D. is a postdoctoral researcher and Assistant Teaching Professor in the Department of Psychology.\njohnwest@psu.edu",
     "crumbs": [
       "People",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Program Committee</span>"
