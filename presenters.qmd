@@ -3,6 +3,17 @@ title: "Presenters"
 format: html
 ---
 
+## Christopher Dancy {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/dancy-christopher.png){width=200px height=200px}
+:::
+::: {.column width=50%}
+Christopher L. Dancy, Ph.D. is the Harold and Inge Marcus Industrial and Manufacturing Career Development Associate Professor with appointments in Industrial and Manufacturing Engineering and Computer Science and Engineering. He has research interests in AI and Cognitive Science, computational physiology, affective neuroscience, and emotion theory. Dancy creates information processing agents in software, using these agents for behavior simulation, theory exploration, HCI, and systems engineering purposes, and understanding agents and AI systems in the context of existing social structures
+:::
+::::
+
 ## Wayne Figurelle {-}
 
 :::: {.columns}
@@ -11,6 +22,17 @@ format: html
 :::
 ::: {.column width=50%}
 Wayne Figurelle is Assistant Director of Innovation and Outreach at the Institute for Computational and Data Science Sciences (ICDS). Wayne has over 25 years of experience as a senior manager, with a focus in computer engineering. Figurelle joined Penn State in 2001 as senior technical specialist of the Pennsylvania Technical Assistance Program (PennTAP) and was promoted to director of PennTAP in 2006. He has also served as director of Industrial Innovation Programs and the EDA University Center in the Penn State College of Engineering. He joined ICS as assistant director in 2014. Prior to joining Penn State, he held positions at Raytheon and Link Computer Corporation.
+:::
+::::
+
+## Courtney Karmelita {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/karmelita-courtney.jpg){width=200px height=200px}
+:::
+::: {.column width=50%}
+[Courtney Karmelita, D.Ed.](https://researchsupport.psu.edu/orp-staff/courtney-karmelita/) is Chief of Staff for the Office of Research Protections and Penn State's Research Integrity Officer.
 :::
 ::::
 
@@ -35,7 +57,7 @@ Wayne Figurelle is Assistant Director of Innovation and Outreach at the Institut
 ![](include/img/kline-struhl-melissa.webp){width=200px height=200px}
 :::
 ::: {.column width=50%}
-Melissa Kline Struhl is Executive Director of Children Helping Science and is one of the principal developers behind the [Psych-DS](https://psych-ds.github.io) data standard. She earned her Ph.D. in Developmental Psychology from MIT.
+Melissa Kline Struhl, Ph.D. is Executive Director of Children Helping Science and is one of the principal developers behind the [Psych-DS](https://psych-ds.github.io) data standard. She earned her Ph.D. in Developmental Psychology from MIT.
 :::
 ::::
 

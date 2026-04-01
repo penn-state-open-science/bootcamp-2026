@@ -85,7 +85,7 @@
     "href": "day-1.html#day_1_am",
     "title": "Day 1 (Mon, May 12)",
     "section": "",
-    "text": "08:30 am • Breakfast  \n\n\n09:00 am • Welcome and Overview\n\n\nRick Gilmore\n\n\n\n\n\n\nAlaina Pearce\n\n\n\n\n\n\n09:15 am • Research Data Stewardship Program\n\n\nBriana Wham\n\n\n\n\n\n\n09:45 am • Open @ Penn State\n\nOpen Science and the HBCD and ABCD Cohorts, Koraly Perez-Edgar\nAdvancing reproducibility through team science, data sharing, and transparency: The ENIGMA initiative, Frank Hillary\n\n\n\n10:00 am • Break \n\n\n10:15 am • Keynote\n\n\nMelissa Kline Struhl\n\n\n\n\n\n\n11:30 am • Lunch & discussion on misuse of open research data  \n\nExpert: Koraly Perez-Edgar\n\n\nResources\n\nMcIntire (2026)\nESIP (2024)",
+    "text": "08:30 am • Breakfast  \n\n\n09:00 am • Welcome and Overview\nRick Gilmore and Alaina Pearce\n\n\n09:15 am • Research Data Stewardship Program\n\n\nBriana Wham\n\n\n\n\n\n\n09:45 am • Open @ Penn State\n\nOpen Science and the HBCD and ABCD Cohorts, Koraly Perez-Edgar\nAdvancing reproducibility through team science, data sharing, and transparency: The ENIGMA initiative, Frank Hillary\n\n\n\n10:00 am • Break \n\n\n10:15 am • Keynote\n\n\nMelissa Kline Struhl\n\n\n\n\n\n\n11:30 am • Lunch & discussion on misuse of open research data  \nOpenly shared research data can be used for purposes beyond those envisioned by the scientists who originally collected the data. Some of these uses advance discovery and some veer into misuse or worse misconduct. What’s the difference? Who decides? How can researchers who share data widely promote constructive uses? Come discuss these issues with us over lunch, informed by a local expert who’s been on the front lines of these issues, Koraly Perez-Edgar.\n\nResources\n\nMcIntire (2026)\nESIP (2024)",
     "crumbs": [
       "Schedule",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Day 1 (Mon, May 12)</span>"
@@ -107,7 +107,7 @@
     "href": "day-1.html#references",
     "title": "Day 1 (Mon, May 12)",
     "section": "References",
-    "text": "References\n\n\n\n\n\n\n\n\nESIP. (2024). OS webinar #3: What is research data “misuse”? And how can it be prevented or mitigated? Youtube. Retrieved from https://www.youtube.com/watch?v=5PAs2MFAM9Q\n\n\nMcIntire, M. (2026, January 24). Genetic data from over 20,000 U.S. Children misused for “race science.” The New York Times. The New York Times. Retrieved from https://www.nytimes.com/2026/01/24/us/children-genetics-race-science.html",
+    "text": "References\n\n\n\n\n\n\n\n\nESIP. (2024). OS webinar #3: What is research data “misuse”? And how can it be prevented or mitigated? YouTube. Retrieved from https://www.youtube.com/watch?v=5PAs2MFAM9Q\n\n\nMcIntire, M. (2026, January 24). Genetic data from over 20,000 U.S. Children misused for “race science.” The New York Times. The New York Times. Retrieved from https://www.nytimes.com/2026/01/24/us/children-genetics-race-science.html",
     "crumbs": [
       "Schedule",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Day 1 (Mon, May 12)</span>"
@@ -140,7 +140,7 @@
     "href": "day-2.html#day_2_pm",
     "title": "Day 2 (Tues, May 12)",
     "section": "Afternoon",
-    "text": "Afternoon\n\n12:00 pm • Lunch  \n\n\n01:30 pm • Panel Discussion\n\nOpen research data and AI ethics\n\nCourtney Karmelita\nChristopher Darcy\n\n\n\n\n02:45 pm • Break \n\n\n03:00 pm • Workshop session 5\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nQuarto (Part III): Reproducible research reports\nJohn West\nTBD\n\n\nIntroduction to Jupyter notebooks\nTBD\nTBD\n\n\n\n\n\n04:15 pm • End of bootcamp wrap-up\n\n\n04:30 pm • Open scholarship happy hour \nLocation: TBD",
+    "text": "Afternoon\n\n12:00 pm • Lunch  \n\n\n01:30 pm • Panel Discussion\n\nOpen research data and AI ethics\n\nCourtney Karmelita\nChristopher Dancy\n\n\n\n\n02:45 pm • Break \n\n\n03:00 pm • Workshop session 5\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nQuarto (Part III): Reproducible research reports\nJohn West\nTBD\n\n\nIntroduction to Jupyter notebooks\nTBD\nTBD\n\n\n\n\n\n04:15 pm • End of bootcamp wrap-up\n\n\n04:30 pm • Open scholarship happy hour \nLocation: TBD",
     "crumbs": [
       "Schedule",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Day 2 (Tues, May 12)</span>"
@@ -261,7 +261,7 @@
     "href": "program-committee.html#john-west",
     "title": "Program Committee",
     "section": "John West",
-    "text": "John West\n\n\n\n\nJohn West is a postdoctoral researcher in the Department of Psychology.\njohnwest@psu.edu",
+    "text": "John West\n\n\n\n\nJohn West is a postdoctoral researcher and Assistant Teaching Professor in the Department of Psychology.\njohnwest@psu.edu",
     "crumbs": [
       "People",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Program Committee</span>"
@@ -283,7 +283,7 @@
     "href": "presenters.html",
     "title": "Presenters",
     "section": "",
-    "text": "Wayne Figurelle",
+    "text": "Christopher Dancy",
     "crumbs": [
       "People",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenters</span>"
@@ -293,8 +293,8 @@
     "objectID": "presenters.html#wayne-figurelle",
     "href": "presenters.html#wayne-figurelle",
     "title": "Presenters",
-    "section": "",
-    "text": "Wayne Figurelle is Assistant Director of Innovation and Outreach at the Institute for Computational and Data Science Sciences (ICDS). Wayne has over 25 years of experience as a senior manager, with a focus in computer engineering. Figurelle joined Penn State in 2001 as senior technical specialist of the Pennsylvania Technical Assistance Program (PennTAP) and was promoted to director of PennTAP in 2006. He has also served as director of Industrial Innovation Programs and the EDA University Center in the Penn State College of Engineering. He joined ICS as assistant director in 2014. Prior to joining Penn State, he held positions at Raytheon and Link Computer Corporation.",
+    "section": "Wayne Figurelle",
+    "text": "Wayne Figurelle\n\n\n\n\nWayne Figurelle is Assistant Director of Innovation and Outreach at the Institute for Computational and Data Science Sciences (ICDS). Wayne has over 25 years of experience as a senior manager, with a focus in computer engineering. Figurelle joined Penn State in 2001 as senior technical specialist of the Pennsylvania Technical Assistance Program (PennTAP) and was promoted to director of PennTAP in 2006. He has also served as director of Industrial Innovation Programs and the EDA University Center in the Penn State College of Engineering. He joined ICS as assistant director in 2014. Prior to joining Penn State, he held positions at Raytheon and Link Computer Corporation.",
     "crumbs": [
       "People",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenters</span>"
@@ -474,6 +474,28 @@
     "crumbs": [
       "More",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#christopher-dancy",
+    "href": "presenters.html#christopher-dancy",
+    "title": "Presenters",
+    "section": "",
+    "text": "Christopher L. Dancy is the Harold and Inge Marcus Industrial and Manufacturing Career Development Associate Professor. He has research interests in AI and Cognitive Science, computational physiology, affective neuroscience, and emotion theory. Dancy creates information processing agents in software, using these agents for behavior simulation, theory exploration, HCI, and systems engineering purposes, and understanding agents and AI systems in the context of existing social structures",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#courtney-karmelita",
+    "href": "presenters.html#courtney-karmelita",
+    "title": "Presenters",
+    "section": "Courtney Karmelita",
+    "text": "Courtney Karmelita\n\n\n\n\nCourtney Karmelita, D.Ed. is Chief of Staff for the Office of Research Protections and Penn State’s Research Integrity Officer.",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenters</span>"
     ]
   }
 ]

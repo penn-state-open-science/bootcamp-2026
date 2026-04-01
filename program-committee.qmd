@@ -138,11 +138,11 @@ jpv5319@psu.edu
 ## John West
 
 :::: {.columns}
-::: {.column width=50%}
+::: {.column width=40%}
 ![](include/img/west-john.jpg){width=200px height=200px}
 :::
-::: {.column width=50%}
-John West is a postdoctoral researcher in the Department of Psychology.
+::: {.column width=60%}
+John West, Ph.D. is a postdoctoral researcher and Assistant Teaching Professor in the Department of Psychology.
 
 johnwest@psu.edu
 :::

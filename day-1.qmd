@@ -33,23 +33,7 @@ This schedule is a work-in-progress and is subject to change.
 
 ### 09:00 am • Welcome and Overview {-}
 
-:::: {.columns}
-::: {.column width=80%}
-[Rick Gilmore](directors.qmd#rick-gilmore)
-:::
-::: {.column width=20%}
-![](include/img/gilmore-rick.png){width=100px height=100px}
-:::
-::::
-
-:::: {.columns}
-::: {.column width=80%}
-[Alaina Pearce](directors.qmd#alaina-pearce)
-:::
-::: {.column width=20%}
-![](include/img/pearce-alaina.jpeg){width=100px height=100px}
-:::
-::::
+[Rick Gilmore](directors.qmd#rick-gilmore) and [Alaina Pearce](directors.qmd#alaina-pearce), Bootcamp Directors.
 
 ### 09:15 am • Research Data Stewardship Program {-}
 
@@ -73,7 +57,7 @@ This schedule is a work-in-progress and is subject to change.
 
 :::: {.columns}
 ::: {.column width=80%}
-Melissa Kline Struhl
+[Melissa Kline Struhl](presenters.qmd#melissa-kline-struhl)
 :::
 ::: {.column width=20%}
 ![](include/img/kline-struhl-melissa.webp){width=100px height=100px}
@@ -82,7 +66,9 @@ Melissa Kline Struhl
 
 ### 11:30 am • Lunch & discussion on misuse of open research data {{< fa bottle-water >}} {{< fa bread-slice >}} {-}
 
-- Expert: [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar)
+Openly shared research data can be used for purposes beyond those envisioned by the scientists who originally collected the data.
+Some of these uses advance discovery and some veer into misuse or worse misconduct.
+What's the difference? Who decides? How can researchers who share data widely promote constructive uses? Come discuss these issues with us over lunch, informed by a local expert who's been on the front lines of these issues, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar).
 
 #### Resources
 

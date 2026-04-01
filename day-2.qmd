@@ -44,7 +44,7 @@ This schedule is a work-in-progress and subject to change.
 
 | Topic | Presenter | Location |
 |--------------|----------|-------|
-| *Intro to copyright and open access publishing* | [Danielle Steinhart](presenters.qmd#danielle-steinhart), University Libraries | TBD |
+| *Intro to copyright and open access publishing* | [Danielle Steinhart](presenters.qmd#danielle-steinhart) | TBD |
 | *Introduction to data standards* |  [Alaina Pearce](directors.qmd#alaina-pearce) | TBD |
 
 : {tbl-colwidths="[60,20,20]"}
@@ -72,8 +72,8 @@ This schedule is a work-in-progress and subject to change.
 
 #### Open research data and AI ethics 
 
-- Courtney Karmelita
-- Christopher Darcy
+- [Courtney Karmelita](presenters.qmd#courtney-karmelita)
+- [Christopher Dancy](presenters.qmd#christopher-dancy)
 
 ### 02:45 pm • Break {{< fa mug-hot >}} {-}
 
