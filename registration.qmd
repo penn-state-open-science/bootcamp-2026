@@ -2,7 +2,7 @@
 title: Registration
 code-fold: true
 params:
-    csv_dir: "include/csv"
+    csv_dir: "private/csv"
     registration_fn: "registrations-2026.csv"
     program_comm_fn: "program-comm-2026.csv"
     sheets_fn: "Open Scholarship Bootcamp 2026: Registration (Responses)"
@@ -59,7 +59,7 @@ googlesheets4::gs4_auth(email = params$psu_id)
 x <- assertthat::is.string(params$sheets_id)
 registrations <- googlesheets4::read_sheet(params$reg_sheets_id,
                                            sheet = "Form Responses 1")
-assertthat::assert_that(is_tibble(registrations))
+x <- assertthat::assert_that(is_tibble(registrations))
 
 registration_full_fn <- file.path(params$csv_dir, params$registration_fn)
 x <- assertthat::is.string(registration_full_fn)
@@ -75,7 +75,7 @@ Download program committee member data, too.
 
 program_comm <- googlesheets4::read_sheet(params$reg_sheets_id,
                                           sheet = "planning_committee")
-assertthat::assert_that(is_tibble(program_comm))
+x <- assertthat::assert_that(is_tibble(program_comm))
 
 x <- assertthat::is.string(params$program_comm_fn)
 program_comm_full_fn <- file.path(params$csv_dir, params$program_comm_fn)
@@ -187,7 +187,7 @@ registrations_clean |>
 <!-- ```{r} -->
 <!-- #| label: fig-by-position -->
 <!-- #| fig-cap: "Registrations by position and role" -->
-<!-- registrations_yes |> -->
+<!-- registrations_clean |> -->
 <!--   dplyr::filter(!is.na(position)) |> -->
 <!--   dplyr::count(position, presenter) |> -->
 <!--   dplyr::arrange(desc(n)) |> -->
@@ -205,175 +205,176 @@ registrations_clean |>
 <!-- xtabs(formula = ~ position + presenter, data = registrations_yes) -->
 <!-- ``` -->
 
-<!-- ### Registrations by unit -->
+### Registrations by unit
 
-<!-- ```{r by-dept} -->
-<!-- registrations_yes <- registrations_yes |> -->
-<!--   dplyr::mutate( -->
-<!--     dept = dplyr::recode( -->
-<!--       dept, -->
-<!--       `Clinical Psychology` = "Psychology", -->
-<!--       `Psychology (Cognitive)` = "Psychology", -->
-<!--       `Psychology / SSRI` = "Psychology", -->
-<!--       `Department of Psychology` = "Psychology", -->
-<!--       `Cognitive Psychology` = "Psychology", -->
-<!--       `Psychology, Developmental` = "Psychology", -->
-<!--       `Developmental Psychology (CAT Lab)` = "Psychology", -->
-<!--       `Developmental Psychology` = "Psychology", -->
-<!--       `Psych` = "Psychology", -->
-<!--       `English language` = "English", -->
-<!--       `english` = "English", -->
-<!--       `English Language Teaching` = "English", -->
-<!--       `English Department` = "English", -->
-<!--       `Languages` = "Global Languages & Literatures", -->
-<!--       `Languages and Literature` = "Global Languages & Literatures", -->
-<!--       `Department of Foreign Languages` = "Global Languages & Literatures", -->
-<!--       `Linguistics` = "Applied Linguistics", -->
-<!--       `Department of Sociology and Criminology` = "Sociology & Criminology", -->
-<!--       `Communication Sciences and Disorders` = "Communication Sciences & Disorders", -->
-<!--       `CSD` = "Communication Sciences & Disorders", -->
-<!--       `Human Development and Family Studies & Social Data Analytics` = "HDFS", -->
-<!--       `Human Development and Family Studies` = "HDFS", -->
-<!--       `Human Development and Family Studies (HDFS)` = "HDFS", -->
-<!--       `Department of Human Development and Family Studies` = "HDFS", -->
-<!--       `Human Development and Family Sciences` = "HDFS", -->
-<!--       `HDFS/DEMO` = "HDFS", -->
-<!--       `bbh` = "BBH", -->
-<!--       `Biobehavioral Health` = "BBH", -->
-<!--       `Biobehavioural Health` = "BBH", -->
-<!--       `Biobehavioural  Health` = "BBH", -->
-<!--       `Biobehavioral health` = "BBH", -->
-<!--       `RPTM` = "Recreation, Park, & Tourism Management", -->
-<!--       `Sociology and Social Data Analytics` = "Sociology", -->
-<!--       `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese", -->
-<!--       `Spanish, Italian, and Portuguese Department` = "Spanish, Italian, & Portuguese", -->
-<!--       `Spanish Italian and Portuguese` = "Spanish, Italian, & Portuguese", -->
-<!--       `Spanish, Italian, and Portuguese` = "Spanish, Italian, & Portuguese", -->
-<!--       `French and Francophone Studies` = "French & Francophone Studies", -->
-<!--       `DEMOG` = "Demography", -->
-<!--       `Nutrition` = "Nutritional Sciences", -->
-<!--       `College of IST` = "IST", -->
-<!--       `Statistics Department` = "Statistics", -->
-<!--       `Department of Statistics` = "Statistics", -->
-<!--       `Math` = "Mathematics",  -->
-<!--       `Astronomy and Astrophysics` = "Astronomy & Astrophysics", -->
-<!--       `Recreation, Park and Tourism Management` = "Recreation, Park, & Tourism Management", -->
-<!--       `SHS` = "Student Health Svcs", -->
-<!--       `Department of Chemical Engineering` = "Chemical Engineering", -->
-<!--       `ESM` = "Engineering Science & Mechanics", -->
-<!--       `Engineering Science` = "Engineering Science & Mechanics", -->
-<!--       `Engineering Science and Mechanics` = "Engineering Science & Mechanics", -->
-<!--       `EECS` = "Electrical Engineering & Comp Sci", -->
-<!--       `Department of Food Science` = "Food Science", -->
-<!--       `Libraries` = "University Libraries", -->
-<!--       `University libraries` = "University Libraries", -->
-<!--       `Ecosystem Science and Management` = "Ecosystem Science & Management", -->
-<!--       `PRC` = "Population Research Center", -->
-<!--       `TLT, PSU Libraries` = "University Libraries", -->
-<!--       `Business and Economics` = "Business & Economics", -->
-<!--       `EE` = "Electrical Engineering", -->
-<!--       `College of Medicine / Clinical and Translational Science Institute` = "CTSI", -->
-<!--       `Mechanical engineering,Penn state Harrisburg` = "Mechanical Engineering (Harrisburg)", -->
-<!--       `Smeal College of Business, Accounting` = "Accounting", -->
-<!--       `School of Science, Engineering, and Technology` = "Sci, Engr, & Tech" -->
-<!--     ) -->
-<!--   ) |>  -->
-<!--   dplyr::mutate( -->
-<!--     college = case_match( -->
-<!--       dept, -->
-<!--       "Statistics" ~ "ECoS", -->
-<!--       "University of Kansas, Psychology" ~ "UKansas", -->
-<!--       "Biology" ~ "ECoS", -->
-<!--       "Psychology" ~ "CLA", -->
-<!--       "Spanish, Italian, & Portuguese" ~ "CLA", -->
-<!--       "Research Informatics and Publishing" ~ "Libraries", -->
-<!--       "Political Science" ~ "CLA", -->
-<!--       "Applied Linguistics" ~ "CLA", -->
-<!--       "Global Languages & Literatures" ~ "CLA", -->
-<!--       "Anthropology" ~ "CLA", -->
-<!--       "Sociology" ~ "CLA", -->
-<!--       "English" ~ "CLA", -->
-<!--       "C-SoDA" ~ "CLA", -->
-<!--       "Office of Digital Pedagogies and Initiatives" ~ "CLA", -->
-<!--       "Asian Studies" ~ "CLA", -->
-<!--       "Sociology & Criminology" ~ "CLA", -->
-<!--       "IST" ~ "IST", -->
-<!--       "Chemical Engineering" ~ "Engineering", -->
-<!--       "Material Science and Engineering" ~ "Engineering", -->
-<!--       "Engineering Science & Mechanics" ~ "Engineering", -->
-<!--       "College of Engineering" ~ "Engineering", -->
-<!--       "Biomedical Engineering" ~ "Engineering", -->
-<!--       "Nutritional Sciences" ~ "HHD", -->
-<!--       "HDFS" ~ "HHD", -->
-<!--       "Kinesiology" ~ "HHD", -->
-<!--       "Recreation, Park, & Tourism Management" ~ "HHD", -->
-<!--       "BBH" ~ "HHD", -->
-<!--       "College of Nursing" ~ "Nursing", -->
-<!--       "Bellisario College of Communication" ~ "Comm", -->
-<!--       "Mass Communications" ~ "Comm", -->
-<!--       "Marketing" ~ "Smeal", -->
-<!--       "Food Science" ~ "Ag", -->
-<!--       "Neuroscience" ~ "Med", -->
-<!--       "College of Human and Health Development" ~ "HHD", -->
-<!--       "University Libraries" ~ "Libraries", -->
-<!--       "ICDS" ~ "ICDS", -->
-<!--       "EESI" ~ "EESI", -->
-<!--       "ORP" ~ "OVPR", -->
-<!--       "Astronomy & Astrophysics" ~ "ECoS", -->
-<!--       "Chemistry" ~ "ECoS", -->
-<!--       "Mathematics" ~ "ECoS", -->
-<!--       "Entomology" ~ "AgSci", -->
-<!--       "Ecosystem Science & Management" ~ "AgSci", -->
-<!--       "Plant Biology" ~ "Huck", -->
-<!--       "Biotechnology" ~ "Huck", -->
-<!--       "Acoustics" ~ "Engineering", -->
-<!--       "Communication Sciences & Disorders" ~ "HHD", -->
-<!--       "Electrical Engineering & Comp Sci" ~ "Engineering", -->
-<!--       "Population Research Center" ~ "SSRI", -->
-<!--       "Psychology (Harrisburg)" ~ "PSU Harrisburg", -->
-<!--       "Business & Economics" ~ "PSU Brandywine", -->
-<!--       "Engineering" ~ "Engineering", -->
-<!--       "LPS/LDT" ~ "Education", -->
-<!--       "Demography" ~ "CLA", -->
-<!--       "OVPR" ~ "OVPR", -->
-<!--       "Mechanical Engineering" ~ "Engineering", -->
-<!--       "Electrical Engineering" ~ "Engineering", -->
-<!--       "Medicine" ~ "Medicine", -->
-<!--       "CTSI" ~ "Medicine", -->
-<!--       "French & Francophone Studies" ~ "CLA", -->
-<!--       "Data Analytics" ~ "IST", -->
-<!--       "Cybersecurity" ~ "IST", -->
-<!--       "Mechanical Engineering (Harrisburg)" ~ "PSU Harrisburg", -->
-<!--       "Accounting" ~ "Smeal", -->
-<!--       "PSU Harrisburg" ~ "PSU Harrisburg", -->
-<!--       "Sci, Engr, & Tech" ~ "PSU Harrisburg", -->
-<!--       "Schreyer Institute for Teaching Excellence" ~ "Old Main", -->
-<!--       "HHD" ~ "HHD" -->
-<!--     ), -->
-<!--     .default = "Unknown", -->
-<!--     .missing = "Unknown" -->
-<!--   ) -->
-<!-- ``` -->
+Clean and recode.
 
-<!-- ```{r} -->
-<!-- #| label: fig-regis-dept-coll -->
-<!-- #| fig-cap: "Registrations by college/unit." -->
-<!-- registrations_yes |> -->
-<!--   dplyr::filter(!is.na(dept), -->
-<!--                 dept != "University of Pennsylvania") |> -->
-<!--   # dplyr::count(dept, college, sort = TRUE) |> -->
-<!--   dplyr::count(college, sort = TRUE) |> -->
-<!--   # dplyr::mutate(dept = fct_reorder(dept, n)) |> -->
-<!--   dplyr::mutate(college = fct_reorder(college, n)) |> -->
-<!--   ggplot() + -->
-<!--   # aes(x = dept, fill = college) + -->
-<!--   aes(x = college) + -->
-<!--   geom_bar(aes(y = n), stat = "identity") + -->
-<!--   # scale_y_continuous(breaks = c(2, 4, 6, 8, 10, 12)) + -->
-<!--   theme(legend.position = "right") + -->
-<!--   theme(legend.title = element_blank()) + -->
-<!--   theme_classic() + -->
-<!--   coord_flip() -->
-<!-- ``` -->
+```{r by-dept}
+registrations_clean <- registrations_clean |>
+  dplyr::mutate(
+    dept = dplyr::recode(
+      dept,
+      `Clinical Psychology` = "Psychology",
+      `Psychology (Cognitive)` = "Psychology",
+      `Psychology / SSRI` = "Psychology",
+      `Psychology (Developmental)` = "Psychology",
+      `Department of Psychology` = "Psychology",
+      `Cognitive Psychology` = "Psychology",
+      `Psychology, Developmental` = "Psychology",
+      `Developmental Psychology (CAT Lab)` = "Psychology",
+      `Developmental Psychology` = "Psychology",
+      `Psych` = "Psychology",
+      `English language` = "English",
+      `english` = "English",
+      `English Language Teaching` = "English",
+      `English Department` = "English",
+      `Languages` = "Global Languages & Literatures",
+      `Languages and Literature` = "Global Languages & Literatures",
+      `Department of Foreign Languages` = "Global Languages & Literatures",
+      `Linguistics` = "Applied Linguistics",
+      `Department of Sociology and Criminology` = "Sociology & Criminology",
+      `Communication Sciences and Disorders` = "Communication Sciences & Disorders",
+      `CSD` = "Communication Sciences & Disorders",
+      `Human Development and Family Studies & Social Data Analytics` = "HDFS",
+      `Human Development and Family Studies` = "HDFS",
+      `Human Development and Family Studies (HDFS)` = "HDFS",
+      `Department of Human Development and Family Studies` = "HDFS",
+      `Human Development and Family Sciences` = "HDFS",
+      `HDFS/DEMO` = "HDFS",
+      `bbh` = "BBH",
+      `Biobehavioral Health` = "BBH",
+      `Biobehavioural Health` = "BBH",
+      `Biobehavioural  Health` = "BBH",
+      `Biobehavioral health` = "BBH",
+      `RPTM` = "Recreation, Park, & Tourism Management",
+      `Sociology and Social Data Analytics` = "Sociology",
+      `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese",
+      `Spanish, Italian, and Portuguese Department` = "Spanish, Italian, & Portuguese",
+      `Spanish Italian and Portuguese` = "Spanish, Italian, & Portuguese",
+      `Spanish, Italian, and Portuguese` = "Spanish, Italian, & Portuguese",
+      `French and Francophone Studies` = "French & Francophone Studies",
+      `DEMOG` = "Demography",
+      `Germanic & Slavic Languages & Literatures` = "German & Slavic Languages",
+      `Nutrition` = "Nutritional Sciences",
+      `College of IST` = "IST",
+      `Statistics Department` = "Statistics",
+      `Department of Statistics` = "Statistics",
+      `Math` = "Mathematics",
+      `Astronomy and Astrophysics` = "Astronomy & Astrophysics",
+      `Recreation, Park and Tourism Management` = "Recreation, Park, & Tourism Management",
+      `SHS` = "Student Health Svcs",
+      `Department of Chemical Engineering` = "Chemical Engineering",
+      `ESM` = "Engineering Science & Mechanics",
+      `Engineering Science` = "Engineering Science & Mechanics",
+      `Engineering Science and Mechanics` = "Engineering Science & Mechanics",
+      `EECS` = "Electrical Engineering & Comp Sci",
+      `Department of Food Science` = "Food Science",
+      `Libraries` = "University Libraries",
+      `University libraries` = "University Libraries",
+      `Ecosystem Science and Management` = "Ecosystem Science & Management",
+      `PRC` = "Population Research Center",
+      `TLT, PSU Libraries` = "University Libraries",
+      `Business and Economics` = "Business & Economics",
+      `EE` = "Electrical Engineering",
+      `College of Medicine / Clinical and Translational Science Institute` = "CTSI",
+      `Mechanical engineering,Penn state Harrisburg` = "Mechanical Engineering (Harrisburg)",
+      `Smeal College of Business, Accounting` = "Accounting",
+      `School of Science, Engineering, and Technology` = "Sci, Engr, & Tech",
+      `institute for Computational and Data Sciences` = "ICDS"
+    )
+  ) |>
+  dplyr::mutate(
+    college = recode_values(
+      dept,
+      "Statistics" ~ "ECoS",
+      "University of Kansas, Psychology" ~ "UKansas",
+      "Biology" ~ "ECoS",
+      "Psychology" ~ "CLA",
+      "Spanish, Italian, & Portuguese" ~ "CLA",
+      "German & Slavic Languages" ~ "CLA",
+      "Research Informatics and Publishing" ~ "Libraries",
+      "Political Science" ~ "CLA",
+      "Applied Linguistics" ~ "CLA",
+      "Global Languages & Literatures" ~ "CLA",
+      "Anthropology" ~ "CLA",
+      "Sociology" ~ "CLA",
+      "English" ~ "CLA",
+      "C-SoDA" ~ "CLA",
+      "Office of Digital Pedagogies and Initiatives" ~ "CLA",
+      "Asian Studies" ~ "CLA",
+      "Sociology & Criminology" ~ "CLA",
+      "IST" ~ "IST",
+      "Chemical Engineering" ~ "Engineering",
+      "Material Science and Engineering" ~ "Engineering",
+      "Engineering Science & Mechanics" ~ "Engineering",
+      "College of Engineering" ~ "Engineering",
+      "Biomedical Engineering" ~ "Engineering",
+      "Nutritional Sciences" ~ "HHD",
+      "HDFS" ~ "HHD",
+      "Kinesiology" ~ "HHD",
+      "Recreation, Park, & Tourism Management" ~ "HHD",
+      "BBH" ~ "HHD",
+      "College of Nursing" ~ "Nursing",
+      "Bellisario College of Communication" ~ "Comm",
+      "Mass Communications" ~ "Comm",
+      "Marketing" ~ "Smeal",
+      "Food Science" ~ "Ag",
+      "Neuroscience" ~ "Med",
+      "College of Human and Health Development" ~ "HHD",
+      "University Libraries" ~ "Libraries",
+      "ICDS" ~ "ICDS",
+      "EESI" ~ "EESI",
+      "Astronomy & Astrophysics" ~ "ECoS",
+      "Chemistry" ~ "ECoS",
+      "Mathematics" ~ "ECoS",
+      "Entomology" ~ "AgSci",
+      "Ecosystem Science & Management" ~ "AgSci",
+      "Plant Biology" ~ "Huck",
+      "Biotechnology" ~ "Huck",
+      "Acoustics" ~ "Engineering",
+      "Communication Sciences & Disorders" ~ "HHD",
+      "Electrical Engineering & Comp Sci" ~ "Engineering",
+      "Population Research Center" ~ "SSRI",
+      "Psychology (Harrisburg)" ~ "PSU Harrisburg",
+      "Business & Economics" ~ "PSU Brandywine",
+      "Engineering" ~ "Engineering",
+      "LPS/LDT" ~ "Education",
+      "Demography" ~ "CLA",
+      "OVPR" ~ "OVPR",
+      "ORP" ~ "OVPR",
+      "Mechanical Engineering" ~ "Engineering",
+      "Electrical Engineering" ~ "Engineering",
+      "Medicine" ~ "Medicine",
+      "CTSI" ~ "Medicine",
+      "French & Francophone Studies" ~ "CLA",
+      "Data Analytics" ~ "IST",
+      "Cybersecurity" ~ "IST",
+      "Mechanical Engineering (Harrisburg)" ~ "PSU Harrisburg",
+      "Accounting" ~ "Smeal",
+      "PSU Harrisburg" ~ "PSU Harrisburg",
+      "Sci, Engr, & Tech" ~ "PSU Harrisburg",
+      "Schreyer Institute for Teaching Excellence" ~ "Old Main",
+      "HHD" ~ "HHD"
+    ),
+    .default = "Unknown",
+    .missing = "Unknown"
+  )
+```
 
-<!-- The bootcamp registrations represent *n*=`r length(unique(registrations_yes$dept))` departments and *n*=`r length(unique(registrations_yes$college))` campuses, colleges, institutes, or administrative entities. -->
+Plot.
+
+```{r}
+#| label: fig-regis-dept-coll
+#| fig-cap: "Registrations by college/unit."
+registrations_clean |>
+  dplyr::count(college, sort = TRUE) |>
+  dplyr::mutate(college = fct_reorder(college, n)) |>
+  ggplot() +
+  geom_bar(aes(x = college, y = n), fill = "#BF8226", stat = "identity") +
+  theme(legend.position = "right") +
+  theme(legend.title = element_blank()) +
+  theme_classic() +
+  coord_flip()
+```
+
+The bootcamp registrations represent *n*=`r length(unique(registrations_clean$dept))` departments and *n*=`r length(unique(registrations_clean$college))` campuses, colleges, institutes, or administrative entities.

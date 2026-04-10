@@ -1,8 +1,0 @@
-qs,qs_short,pid
-Timestamp,timestamp,FALSE
-Email Address,psu_email,FALSE
-Which days of the bootcamp will you attend?,attend_days,FALSE
-What is your name?,name,TRUE
-What is your department or unit?,dept,FALSE
-What is your current position?,position,FALSE
-Any comments?,comments,FALSE
