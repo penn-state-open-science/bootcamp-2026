@@ -209,6 +209,14 @@ registrations_clean |>
 
 Clean and recode.
 
+```{r}
+select_this <- registrations_clean$name == "Parisa Osfoori"
+registrations_clean$dept[select_this] <- "Communication Sciences & Disorders"
+
+select_this <- registrations_clean$name == "Koraly Pérez-Edgar"
+registrations_clean$dept[select_this] <- "Psychology"
+```
+
 ```{r by-dept}
 registrations_clean <- registrations_clean |>
   dplyr::mutate(
@@ -371,6 +379,7 @@ registrations_clean |>
   dplyr::mutate(college = fct_reorder(college, n)) |>
   ggplot() +
   geom_bar(aes(x = college, y = n), fill = "#BF8226", stat = "identity") +
+  scale_y_continuous(breaks = seq(2, 10, by = 2)) +
   theme(legend.position = "right") +
   theme(legend.title = element_blank()) +
   theme_classic() +

@@ -82,7 +82,8 @@ This schedule is a work-in-progress and subject to change.
 | Topic | Presenter | Location |
 |--------------|----------|-------|
 | *Quarto (Part III): Reproducible research reports* | [John West](program-committee.qmd#john-west) | TBD | 
-| *Introduction to Jupyter notebooks* | TBD | TBD |
+| *Questionable research practices* |  [Jennifer Valcin](program-committee.qmd#jennifer-valcin) | TBD |
+| *Introduction to Python and Jupyter notebooks* | TBD |
 
 : {tbl-colwidths="[60,20,20]"}
 

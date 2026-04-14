@@ -48,7 +48,8 @@ This schedule is a work-in-progress and is subject to change.
 
 ### 09:45 am • Open @ Penn State {- #day_1_plenary_1}
 
-- *Open Science and the HBCD and ABCD Cohorts*, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar)
+<!-- - *Open Science and the HBCD and ABCD Cohorts*, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar) -->
+- *Sharing identifiable video data: Databrary.org and the PLAY Project*, [Rick Gilmore](directors.qmd#rick-gilmore)
 - *Advancing reproducibility through team science, data sharing, and transparency: The ENIGMA initiative*, [Frank Hillary](program-committee.qmd#frank-hillary)
 
 ### 10:00 am • Break {{< fa mug-hot >}} {-}
@@ -83,7 +84,7 @@ What's the difference? Who decides? How can researchers who share data widely pr
 
 | Topic | Presenter | Location |
 |--------------|----------|-------|
-| *Getting credit for sharing your data (Part I): Good enough data management practices* | [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+| *Getting credit for sharing your data (Part I): Good enough data management practices* | [Alaina Pearce](directors.qmd#alaina-pearce) | TBD |
 | *Version control with git* | [Carrie Brown](program-committee.qmd#carrie-brown) | TBD |
 
 : {tbl-colwidths="[60,20,20]"}
@@ -94,8 +95,8 @@ What's the difference? Who decides? How can researchers who share data widely pr
 
 | Topic | Presenter | Location |
 |--------------|----------|-------|
-| *Quarto (Part I): A tool for open scholarship* | [Rick Gilmore](directors.qmd#directors.qmd#rick-gilmore) | W221A |
-| *Getting credit (Part II): Sharing your data* |  [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+| *Quarto (Part I): A tool for open scholarship* | [Rick Gilmore](directors.qmd#directors.qmd#rick-gilmore) | TBD |
+| *Getting credit (Part II): Sharing your data* |  [Alaina Pearce](directors.qmd#alaina-pearce) | TBD |
 
 : {tbl-colwidths="[60,20,20]"}
 
