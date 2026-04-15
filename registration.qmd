@@ -263,6 +263,7 @@ registrations_clean <- registrations_clean |>
       `French and Francophone Studies` = "French & Francophone Studies",
       `DEMOG` = "Demography",
       `Germanic & Slavic Languages & Literatures` = "German & Slavic Languages",
+      `Germanic and Slavic Languages and Literatures` = "German & Slavic Languages",
       `Nutrition` = "Nutritional Sciences",
       `College of IST` = "IST",
       `Statistics Department` = "Statistics",
