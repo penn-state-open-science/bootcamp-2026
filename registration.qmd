@@ -289,7 +289,10 @@ registrations_clean <- registrations_clean |>
       `Mechanical engineering,Penn state Harrisburg` = "Mechanical Engineering (Harrisburg)",
       `Smeal College of Business, Accounting` = "Accounting",
       `School of Science, Engineering, and Technology` = "Sci, Engr, & Tech",
-      `institute for Computational and Data Sciences` = "ICDS"
+      `institute for Computational and Data Sciences` = "ICDS",
+      `Plant Pathology and environmental microbiology` = "Plant Pathology & Environmental Microbiology",
+      `Meteorology and Atmospheric Sciences` = "Meteorology & Atmospheric Sciences",
+      `School of Labor and Employment Relations` = "School of Labor & Employment Relations"
     )
   ) |>
   dplyr::mutate(
@@ -312,6 +315,7 @@ registrations_clean <- registrations_clean |>
       "Office of Digital Pedagogies and Initiatives" ~ "CLA",
       "Asian Studies" ~ "CLA",
       "Sociology & Criminology" ~ "CLA",
+      "School of Labor & Employment Relations" ~ "CLA",
       "IST" ~ "IST",
       "Chemical Engineering" ~ "Engineering",
       "Material Science and Engineering" ~ "Engineering",
@@ -327,7 +331,6 @@ registrations_clean <- registrations_clean |>
       "Bellisario College of Communication" ~ "Comm",
       "Mass Communications" ~ "Comm",
       "Marketing" ~ "Smeal",
-      "Food Science" ~ "Ag",
       "Neuroscience" ~ "Med",
       "College of Human and Health Development" ~ "HHD",
       "University Libraries" ~ "Libraries",
@@ -338,7 +341,9 @@ registrations_clean <- registrations_clean |>
       "Mathematics" ~ "ECoS",
       "Entomology" ~ "AgSci",
       "Ecosystem Science & Management" ~ "AgSci",
+      "Plant Pathology & Environmental Microbiology" ~ "AgSci",
       "Plant Biology" ~ "Huck",
+      "Food Science" ~ "AgSci",
       "Biotechnology" ~ "Huck",
       "Acoustics" ~ "Engineering",
       "Communication Sciences & Disorders" ~ "HHD",
@@ -358,12 +363,14 @@ registrations_clean <- registrations_clean |>
       "French & Francophone Studies" ~ "CLA",
       "Data Analytics" ~ "IST",
       "Cybersecurity" ~ "IST",
+      "Information Science and Technology" ~ "IST",
       "Mechanical Engineering (Harrisburg)" ~ "PSU Harrisburg",
       "Accounting" ~ "Smeal",
       "PSU Harrisburg" ~ "PSU Harrisburg",
       "Sci, Engr, & Tech" ~ "PSU Harrisburg",
       "Schreyer Institute for Teaching Excellence" ~ "Old Main",
-      "HHD" ~ "HHD"
+      "HHD" ~ "HHD",
+      "Meteorology & Atmospheric Sciences" ~ "EMS"
     ),
     .default = "Unknown",
     .missing = "Unknown"
