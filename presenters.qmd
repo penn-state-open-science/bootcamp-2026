@@ -25,6 +25,17 @@ Wayne Figurelle is Assistant Director of Innovation and Outreach at the Institut
 :::
 ::::
 
+## Bernd Haupt {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/haupt-bernd.jpg){width=200px height=200px}
+:::
+::: {.column width=50%}
+[Bernd Haupt, Ph.D.](https://eesi.psu.edu/who-we-are/our-people/bernd-haupt/) is Senior Research Associate, Systems Engineer, and Research Affiliate with the [Earth and Environmental Systems Institute (EESI)](https://eesi.psu.edu).
+:::
+::::
+
 ## Courtney Karmelita {-}
 
 :::: {.columns}
@@ -69,6 +80,17 @@ Melissa Kline Struhl, Ph.D. is Executive Director of Children Helping Science an
 :::
 ::: {.column width=50%}
 [Koraly Pérez-Edgar, Ph.D.](https://psych.la.psu.edu/people/kxp24/) is the McCourtney Professor of Child Studies and Professor of Psychology at the Pennsylvania State University. She is a site MPI for the HEALthy Brain and Child Development (HBCD) Study. For the consortium she co-chairs the EEG and Publication Committees, and is a member of the Design and Implementation Committee. She is also Editor-in-Chief of the journal *Developmental Psychology*.
+:::
+::::
+
+## Aleksandra (Seša) Slavkovic 
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/slavkovic-alexandra.jpg){width=200px height=200px}
+:::
+::: {.column width=50%}
+Aleksandra (Seša) Slavkovic, Ph.D. is a Professor of Statistics & Public Health Sciences, the Dorothy Foehr Huck and J. Lloyd Huck Chair in Data Privacy and Confidentiality, and Associate Dean for Research in the Eberly College of Science at Penn State. Her research focuses on developing methodologies for data privacy and confidentiality, particularly in small- and large-scale surveys, health, genomic, and network data. She has made significant contributions to differential privacy and broad data access, ensuring accurate statistical inference to support reliable science and policy. Slavkovic has held multiple editorial and leadership roles and serves on several advisory committees, including the board of the Society for Privacy and Confidentiality Research, which supports the Journal of Privacy and Confidentiality and related initiatives. She is a fellow of the American Statistical Association, the Institute of Mathematical Statistics, and the International Statistical Institute. She earned her Ph.D. (2004) and M.S. (2001) in Statistics, as well as a Master of Human-Computer Interaction (1999) from Carnegie Mellon University. She holds a B.A. in Psychology from Duquesne University (1996).
 :::
 ::::
 

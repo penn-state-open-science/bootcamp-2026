@@ -18,7 +18,8 @@ This site documents and describes the 2026 Open Scholarship Bootcamp to be held 
 
 ## Location
 
-The Bootcamp will be held at the Pattee and Paterno Libraries on the Penn State University Park campus. See [this link](wayfinding.qmd) for specific directions.
+The Bootcamp will be held at the Pattee and Paterno Libraries on the Penn State University Park campus.
+The Dewey Room on Ground floor of the Collaboration Commons in (W043) Pattee Library is the principal location. See [this link](wayfinding.qmd) for specific directions.
 
 ![](include/img/psu_pattee_gallery2.jpg)
 

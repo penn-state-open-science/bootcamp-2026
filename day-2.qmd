@@ -72,8 +72,9 @@ This schedule is a work-in-progress and subject to change.
 
 #### Open research data and AI ethics 
 
-- [Courtney Karmelita](presenters.qmd#courtney-karmelita)
 - [Christopher Dancy](presenters.qmd#christopher-dancy)
+- [Courtney Karmelita](presenters.qmd#courtney-karmelita)
+- [Aleksandra (Seša) Slavkovic](presenters.qmd#aleksandra-seša-slavkovic)
 
 ### 02:45 pm • Break {{< fa mug-hot >}} {-}
 

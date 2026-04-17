@@ -24,7 +24,7 @@
     "href": "index.html#location",
     "title": "Bootcamp 2026",
     "section": "Location",
-    "text": "Location\nThe Bootcamp will be held at the Pattee and Paterno Libraries on the Penn State University Park campus. See this link for specific directions.",
+    "text": "Location\nThe Bootcamp will be held at the Pattee and Paterno Libraries on the Penn State University Park campus. The Dewey Room on Ground floor of the Collaboration Commons in (W043) Pattee Library is the principal location. See this link for specific directions.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Home</span>"
     ]
@@ -85,7 +85,7 @@
     "href": "day-1.html#day_1_am",
     "title": "Day 1 (Mon, May 12)",
     "section": "",
-    "text": "08:30 am • Breakfast  \n\n\n09:00 am • Welcome and Overview\nRick Gilmore and Alaina Pearce, Bootcamp Directors.\n\n\n09:15 am • Penn State Research Data Stewardship Program\n\n\nBriana Wham\n\n\n\n\n\n\n09:45 am • Open @ Penn State\n\n\nSharing identifiable video data: Databrary.org and the PLAY Project, Rick Gilmore\nAdvancing reproducibility through team science, data sharing, and transparency: The ENIGMA initiative, Frank Hillary\n\n\n\n10:00 am • Break \n\n\n10:15 am • Keynote\n\n\nMelissa Kline Struhl\n\n\n\n\n\n\n11:30 am • Lunch & Discussion hour  \n\nThe uses and misuses of open research data\nOpenly shared research data can be used for purposes beyond those envisioned by the scientists who originally collected the data. Some of these uses advance discovery and some veer into misuse or worse misconduct. What’s the difference? Who decides? How can researchers who share data widely promote constructive uses? Come discuss these issues with us over lunch, informed by a local expert (Koraly Perez-Edgar) who’s been on the front lines of these issues.\nResources\n\nMcIntire (2026)\nESIP (2024)",
+    "text": "08:30 am • Breakfast  \n\n\n09:00 am • Welcome and Overview\nRick Gilmore and Alaina Pearce, Bootcamp Directors.\n\n\n09:15 am • Penn State Research Data Stewardship Program\n\n\nBriana Wham\n\n\n\n\n\n\n09:45 am • Open @ Penn State\n\n\nSharing identifiable video data: Databrary.org and the PLAY Project, Rick Gilmore\nAdvancing reproducibility through team science, data sharing, and transparency: The ENIGMA initiative, Frank Hillary\n\n\n\n10:00 am • Break \n\n\n10:15 am • Keynote\n\n\nMelissa Kline Struhl\n\n\n\n\n\n\n11:30 am • Lunch & Discussion hour  \n\nThe uses and misuses of open research data\nOpenly shared research data can be used for purposes beyond those envisioned by the scientists who originally collected the data. Some of these uses advance discovery and some veer into misuse or worse misconduct. What’s the difference? Who decides? How can researchers who share data widely promote constructive uses? Come discuss these issues with us over lunch, informed by local experts (Koraly Perez-Edgar and Bernd Haupt) who have been on the front lines of these issues.\nResources\n\nMcIntire (2026)\nESIP (2024)",
     "crumbs": [
       "Schedule",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Day 1 (Mon, May 12)</span>"
@@ -496,6 +496,28 @@
     "crumbs": [
       "More",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#bernd-haupt",
+    "href": "presenters.html#bernd-haupt",
+    "title": "Presenters",
+    "section": "Bernd Haupt",
+    "text": "Bernd Haupt\n\n\n\n\nBernd Haupt, Ph.D. is Senior Research Associate, Systems Engineer, and Research Affiliate with the Earth and Environmental Systems Institute (EESI).",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#aleksandra-seša-slavkovic",
+    "href": "presenters.html#aleksandra-seša-slavkovic",
+    "title": "Presenters",
+    "section": "Aleksandra (Seša) Slavkovic",
+    "text": "Aleksandra (Seša) Slavkovic\n\n\n\n\nAleksandra (Seša) Slavkovic, Ph.D. is a Professor of Statistics & Public Health Sciences, the Dorothy Foehr Huck and J. Lloyd Huck Chair in Data Privacy and Confidentiality, and Associate Dean for Research in the Eberly College of Science at Penn State. Her research focuses on developing methodologies for data privacy and confidentiality, particularly in small- and large-scale surveys, health, genomic, and network data. She has made significant contributions to differential privacy and broad data access, ensuring accurate statistical inference to support reliable science and policy. Slavkovic has held multiple editorial and leadership roles and serves on several advisory committees, including the board of the Society for Privacy and Confidentiality Research, which supports the Journal of Privacy and Confidentiality and related initiatives. She is a fellow of the American Statistical Association, the Institute of Mathematical Statistics, and the International Statistical Institute. She earned her Ph.D. (2004) and M.S. (2001) in Statistics, as well as a Master of Human-Computer Interaction (1999) from Carnegie Mellon University. She holds a B.A. in Psychology from Duquesne University (1996).",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenters</span>"
     ]
   }
 ]
