@@ -55,7 +55,7 @@ Librarian with the Penn State University Libraries. He earned his doctoral degre
 ![](include/img/karmelita-courtney.jpg){width=200px height=200px}
 :::
 ::: {.column width=50%}
-[Courtney Karmelita, D.Ed.](https://researchsupport.psu.edu/orp-staff/courtney-karmelita/) is Chief of Staff for the Office of Research Protections and Penn State's Research Integrity Officer.
+[Courtney Karmelita, D.Ed.](https://researchsupport.psu.edu/orp-staff/courtney-karmelita/) is Chief of Staff for Penn State’s Office for Research Protections, Research Integrity Officer, and Executive Director of Ethical Research and Outreach. She oversees Quality Assurance, Research Integrity, and Education and Outreach Program. She also oversees data management monitoring and compliance at Penn State, advancing data stewardship initiatives across the university. Dr. Karmelita recently presented at the Council on Government Relations on the responsible use of AI in research. She leads Penn State’s AI Ethics Framework Working Group and participates on other AI literacy and risk assessment committees. Lastly, Dr. Karmelita was awarded a grant with the HHS Office of Research Integrity to organize Penn State's inaugural Research Ethics Conference. 
 :::
 ::::
 

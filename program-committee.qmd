@@ -129,7 +129,7 @@ nfl5182@psu.edu
 ![](include/img/valcin-jennifer.png){width=200px height=200px}
 :::
 ::: {.column width="60%"}
-Jennifer Valcin is a Statistical Data Analyst at the Penn State University Libraries. Dr. Valcin conducts individual consultations, workshops, and small group trainings to support researchers in the PSU community with data analysis planning and quantitative statistical methods using various software. Prior to joining Penn State University Libraries, she received her Ph.D. in Biomedical Sciences with a focus in Genetics, Genomics, and Bioinformatics from the University of Alabama at Birmingham. 
+Jennifer Valcin, Ph.D., is a Statistician in the Research Data Stewardship department at Penn State University Libraries. Dr. Valcin conducts individual consultations, workshops, and small group trainings to support researchers in the Penn State community with data analysis planning and quantitative statistical methods using a variety of software tools. Prior to joining Penn State University Libraries, she earned her Ph.D. in Biomedical Sciences, with a focus in Genetics, Genomics, and Bioinformatics, from the University of Alabama at Birmingham.
 
 jpv5319@psu.edu
 :::

@@ -291,7 +291,8 @@ registrations_clean <- registrations_clean |>
       `institute for Computational and Data Sciences` = "ICDS",
       `Plant Pathology and environmental microbiology` = "Plant Pathology & Environmental Microbiology",
       `Meteorology and Atmospheric Sciences` = "Meteorology & Atmospheric Sciences",
-      `School of Labor and Employment Relations` = "School of Labor & Employment Relations"
+      `School of Labor and Employment Relations` = "School of Labor & Employment Relations",
+      `stat` = "Statistics"
     )
   ) |>
   dplyr::mutate(
