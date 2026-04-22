@@ -169,21 +169,21 @@ registrations_clean |>
   theme(legend.position = "none")
 ```
 
-### Registrant attendance plans by day
+<!-- ### Registrant attendance plans by day -->
 
-```{r}
-#| label: tbl-registration-by-day
-#| fig-cap: "Bootcamp registrations by day."
-registrations_clean |>
-  dplyr::mutate(plan_wed = stringr::str_detect(attend_days, "Mon"),
-                plan_thu = stringr::str_detect(attend_days, "Tue")) |>
-  dplyr::mutate(n_mon = sum(plan_wed, na.rm = TRUE),
-                n_tue = sum(plan_thu, na.rm = TRUE)) |>
-  dplyr::select(n_mon, n_tue) |>
-  dplyr::distinct() |>
-  knitr::kable(format = "html") |>
-  kableExtra::kable_classic()
-```
+<!-- ```{r} -->
+<!-- #| label: tbl-registration-by-day -->
+<!-- #| fig-cap: "Bootcamp registrations by day." -->
+<!-- registrations_clean |> -->
+<!--   dplyr::mutate(plan_mon = stringr::str_detect(attend_days, "Mon"), -->
+<!--                 plan_tue = stringr::str_detect(attend_days, "Tue")) |> -->
+<!--   dplyr::mutate(n_mon = sum(plan_mon, na.rm = TRUE), -->
+<!--                 n_tue = sum(plan_tue, na.rm = TRUE)) |> -->
+<!--   dplyr::select(n_mon, n_tue) |> -->
+<!--   dplyr::distinct() |> -->
+<!--   knitr::kable(format = "html") |> -->
+<!--   kableExtra::kable_classic() -->
+<!-- ``` -->
 
 ### Registrations by position
 
@@ -295,7 +295,10 @@ registrations_clean <- registrations_clean |>
       `Plant Pathology and environmental microbiology` = "Plant Pathology & Environmental Microbiology",
       `Meteorology and Atmospheric Sciences` = "Meteorology & Atmospheric Sciences",
       `School of Labor and Employment Relations` = "School of Labor & Employment Relations",
-      `stat` = "Statistics"
+      `stat` = "Statistics",
+      `PCD` = "Preservation Conservation & Digitization",
+      `Vazquez Lab/Eberly College of Science/Bio` = "Biology",
+      `WORKFORCE EDUCATION AND DEVELOPMENT` = "Workforce Education & Development"
     )
   ) |>
   dplyr::mutate(
@@ -358,6 +361,7 @@ registrations_clean <- registrations_clean |>
       "Business & Economics" ~ "PSU Brandywine",
       "Engineering" ~ "Engineering",
       "LPS/LDT" ~ "Education",
+      "Workforce Education & Development" ~ "Education",
       "Demography" ~ "CLA",
       "OVPR" ~ "OVPR",
       "ORP" ~ "OVPR",
@@ -375,7 +379,8 @@ registrations_clean <- registrations_clean |>
       "Sci, Engr, & Tech" ~ "PSU Harrisburg",
       "Schreyer Institute for Teaching Excellence" ~ "Old Main",
       "HHD" ~ "HHD",
-      "Meteorology & Atmospheric Sciences" ~ "EMS"
+      "Meteorology & Atmospheric Sciences" ~ "EMS",
+      "Preservation Conservation & Digitization" ~ "Libraries"
     ),
     .default = "Unknown",
     .missing = "Unknown"
@@ -402,5 +407,3 @@ registrations_clean |>
 ```
 
 The bootcamp registrations represent *n*=`r length(unique(registrations_clean$dept))` departments and *n*=`r length(unique(registrations_clean$college))` campuses, colleges, institutes, or administrative entities.
-
-
