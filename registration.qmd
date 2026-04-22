@@ -4,7 +4,7 @@ code-fold: true
 params:
     csv_dir: "private/csv"
     registration_fn: "registrations-2026.csv"
-    program_comm_fn: "program-comm-2026.csv"
+    presenters_fn: "presenters-2026.csv"
     sheets_fn: "Open Scholarship Bootcamp 2026: Registration (Responses)"
     reg_sheets_id: "1mM0rSuFS5_y2sQtU9AI9zm8kuOGeDzilJZdu1MUR8zk"
     psu_id: "rog1@psu.edu"
@@ -67,20 +67,20 @@ x <- assertthat::is.string(registration_full_fn)
 readr::write_csv(registrations, file = registration_full_fn)
 ```
 
-Download program committee member data, too.
+Download presenter data, too.
 
 ```{r}
 #| label: download-save-program-committee
 #| message: false
 
-program_comm <- googlesheets4::read_sheet(params$reg_sheets_id,
-                                          sheet = "planning_committee")
-x <- assertthat::assert_that(is_tibble(program_comm))
+presenters <- googlesheets4::read_sheet(params$reg_sheets_id,
+                                          sheet = "presenters")
+x <- assertthat::assert_that(is_tibble(presenters))
 
-x <- assertthat::is.string(params$program_comm_fn)
-program_comm_full_fn <- file.path(params$csv_dir, params$program_comm_fn)
+x <- assertthat::is.string(params$presenters_fn)
+presenters_full_fn <- file.path(params$csv_dir, params$presenters_fn)
 
-readr::write_csv(program_comm, file = program_comm_full_fn)
+readr::write_csv(presenters, file = presenters_full_fn)
 ```
 
 ## Clean
@@ -141,11 +141,14 @@ registrations_clean <- registrations_clean |>
 
 ```{r}
 #| label: create-subsetted-dfs
-registrations_yes <- registrations_clean |> 
-  dplyr::mutate(registered = TRUE)
+attendees_names <- registrations_clean$name
+presenter_names <- presenters$Presenter
+all_names <- unique(c(attendees_names, presenter_names))
 ```
 
-As of `r Sys.Date()`, we have *n*=`r dim(registrations_yes)[1]` registered attendees and presenters. That is `r round(100*dim(registrations_yes)[1]/75, 1)`\% of our target registration/attendance limit of *n*=75.
+As of `r Sys.Date()`, we have *n*=`r dim(registrations_clean)[1]` registered attendees. We also have *n*=`r length(presenter_names)` presenters. A handful of presenters also registered, so we have *n*=`r length(all_names)` unique attendees who plan to come.
+
+That is `r round(100*(length(all_names))/75, 1)`\% of our target registration/attendance limit of *n*=75.
 
 ### Time series {-}
 
