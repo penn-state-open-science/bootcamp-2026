@@ -301,7 +301,10 @@ registrations_clean <- registrations_clean |>
       `WORKFORCE EDUCATION AND DEVELOPMENT` = "Workforce Education & Development",
       `College of Medicine, CTSI` = "CTSI",
       `Curriculum and Instructions` = "Curriculum & Instruction",
-      `Kinesiology, HHD` = "Kinesiology"
+      `Kinesiology, HHD` = "Kinesiology",
+      `BME` = "Biomedical Engineering",
+      `Computer Science` = "Computer Science & Engineering",
+      `Department of Computer Science and Engineering` = "Computer Science & Engineering"
     )
   ) |>
   dplyr::mutate(
@@ -385,7 +388,9 @@ registrations_clean <- registrations_clean |>
       "HHD" ~ "HHD",
       "Meteorology & Atmospheric Sciences" ~ "EMS",
       "Preservation Conservation & Digitization" ~ "Libraries",
-      "CTSI" ~ "Hershey"
+      "CTSI" ~ "Hershey",
+      "Biomedical Engineering" ~ "Engineering",
+      "Computer Science & Engineering" ~ "Engineering"
     ),
     .default = "Unknown",
     .missing = "Unknown"
