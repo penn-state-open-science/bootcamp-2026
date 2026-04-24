@@ -11,7 +11,20 @@ This page provides additional information about the workshop sessions and links 
 Some sessions are part of a thematic series, but each session stands on its own. You’re welcome to attend any session, even if you haven’t attended earlier ones.
 :::
 
-## Day 1 • Wed August 13
+## Day 1 • Mon May 11
+
+### Research Data Stewardship Program
+
+Penn State has recently approved and the Provost endorsed a training program in Research Data Stewardship.
+Hear more about this exciting new program and learning opportunity from one of its creators.
+
+*Presenter*: [Briana Wham](program-committee.qmd#briana-wham)
+
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+*Location*: Dewey Room
 
 ### Open @ Penn State
 
@@ -26,7 +39,6 @@ What initiatives and resources are available at Penn State related to open schol
 #### Getting credit (Part I): Good enough data practices
 
 Effective data management is key to research integrity, reproducibility, and making your data useful beyond your own project. Since most researchers have limited time to perfect their workflows, this workshop introduces ‘good enough’ data practices; simple, time-efficient strategies that lay the groundwork for sharing, publishing, and reusing data. You’ll learn how to organize your files using logical directory structures and naming conventions, keep your data tidy and consistent, track changes with version control, and create basic metadata to describe your dataset. By the end of the session, you’ll be equipped with practical tools to make your data easier to manage now and far easier to share later. This is the first of three workshops on *Getting Credit for Sharing Your Data*.
-
 
 *Presenter*: [Alaina Pearce](directors.qmd#alaina-pearce)
 
@@ -49,7 +61,7 @@ Effective data management is key to research integrity, reproducibility, and mak
 
 *Presenter*: [Carrie Brown](program-committee.qmd#carrie-brown)
 
-*Prerequisites*: Attendees will need an active Roar account. To request Roar access, please complete the [Account Request form](https://accounts.hpc.psu.edu/users/#) by [Tuesday, August 12, 2025]{.highlight-color}.
+*Prerequisites*: Attendees will need an active Roar account. To request Roar access, please complete the [Account Request form](https://accounts.hpc.psu.edu/users/#) by [Tuesday, May 5, 2026]{.highlight-color}.
 
 *Skill level*: All
 
@@ -71,8 +83,8 @@ Effective data management is key to research integrity, reproducibility, and mak
 
 *Resources*: 
 
-- Slides: | [html](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I/) |
-- GitHub [template repository](https://github.com/penn-state-open-science/bootcamp-2025-quarto-I-template)
+- Slides: | [html](https://penn-state-open-science.github.io/bootcamp-2026-quarto-I/) |
+- GitHub [template repository](https://github.com/penn-state-open-science/bootcamp-2026-quarto-I-template)
 
 *Location*: W211A Pattee
 
@@ -98,7 +110,7 @@ Just as important as sharing your data is how you document it. Metadata provides
 - Sample PsychDS json file: [json](include/txt/dataset_description.json) |
 
 
-## Day 2 • Thu August 14
+## Day 2 • Tue May 12
 
 ### Workshop Session 3
 
@@ -108,7 +120,7 @@ Join us for a workshop exploring the powerful computational and data resources a
 
 *Presenter*: [Carrie Brown](program-committee.qmd#carrie-brown)
 
-*Prerequisites*: Attendees will need an active Roar account. To request Roar access, please complete the [Account Request form](https://accounts.hpc.psu.edu/users/#) by [Tuesday, August 12, 2025]{.highlight-color}.
+*Prerequisites*: Attendees will need an active Roar account. To request Roar access, please complete the [Account Request form](https://accounts.hpc.psu.edu/users/#) by [Tuesday, May 5, 2026]{.highlight-color}.
 
 *Skill level*: All
 
@@ -116,7 +128,7 @@ Join us for a workshop exploring the powerful computational and data resources a
 
 ---
 
-#### Intro to copyright and open access publishing
+#### Introduction to copyright and open access publishing {-}
 
 [Danielle Steinhart](presenters.qmd#danielle-steinhart), University Libraries
 
@@ -127,20 +139,19 @@ This presentation will provide a brief introduction to U.S. copyright law, open 
 
 ### Workshop Session 4
 
-#### Quarto (Part II): Making useful things reproducibly
+#### Quarto (Part II): Making useful things reproducibly {-}
+
+Rick Gilmore will show how to build useful scholarly products in a reproducible way using Quarto and GitHub.
 
 *Presenter*: [Rick Gilmore](directors.qmd#rick-gilmore)
 
-*Prerequisites*: Quarto (Part I) or equivalent. If you plan to bring a laptop, please follow the [instructions here](how-to-install-rstudio-quarto.qmd) to install R, RStudio, and Quarto.
+*Prerequisites*: Quarto (Part I) or equivalent. If you plan to bring a laptop, please follow the [instructions here](how-to-install-rstudio-quarto.qmd) to install R, RStudio, and Quarto. If you do not already have a [GitHub](https://github.com) account, this is a good time to create one.
 
 *Skill level*: Advanced beginner.
 
 *Location*: Foster Auditorium
 
 *Resources*: 
-
-- West slides: | [pptx](include/pptx/west-Open Science Bootcamp Workshop - Quarto Part II.pptx) |
-- Gilmore slides: | [HTML](https://penn-state-open-science.github.io/bootcamp-2025-quarto-II/) |
 
 ---
 
@@ -181,24 +192,24 @@ What are questionable research practices? Why are they questionable? How do we a
 
 ---
 
-#### Quarto (Part III): Reproducible research reports
+<!-- #### Quarto (Part III): Reproducible research reports -->
 
-So, Quarto can be used to generate different types of documents, but what can it actually do to help with your scholarship? In this presentation, John West and Rick Gilmore will tell how they use Quarto to produce reproducible research reports that can be readily shared with collaborators or published as supporting materials for papers and related scholarly products.
+<!-- So, Quarto can be used to generate different types of documents, but what can it actually do to help with your scholarship? In this presentation, John West and Rick Gilmore will tell how they use Quarto to produce reproducible research reports that can be readily shared with collaborators or published as supporting materials for papers and related scholarly products. -->
 
-*Presenters*: [John West](program-committee.qmd#john-west)
+<!-- *Presenters*: [John West](program-committee.qmd#john-west) -->
 
-*Prerequisites*: Quarto (Part I) or equivalent. If you plan to bring a laptop, please follow the [instructions here](how-to-install-rstudio-quarto.qmd) to install R, RStudio, and Quarto.
+<!-- *Prerequisites*: Quarto (Part I) or equivalent. If you plan to bring a laptop, please follow the [instructions here](how-to-install-rstudio-quarto.qmd) to install R, RStudio, and Quarto. -->
 
-*Skill level*: Advanced beginner.
+<!-- *Skill level*: Advanced beginner. -->
 
-*Location*: Foster Auditorium
+<!-- *Location*: Foster Auditorium -->
 
-*Resources*: 
+<!-- *Resources*:  -->
 
-- West slides: | [pptx](include/pptx/west-Open Science Bootcamp Workshop - Quarto Part II.pptx) |
-- Gilmore slides: | [HTML](https://penn-state-open-science.github.io/bootcamp-2025-quarto-II/) |
+<!-- - West slides: | [pptx](include/pptx/west-Open Science Bootcamp Workshop - Quarto Part II.pptx) | -->
+<!-- - Gilmore slides: | [HTML](https://penn-state-open-science.github.io/bootcamp-2025-quarto-II/) | -->
 
----
+<!-- --- -->
 
 <!-- ## Day 3 • Fri August 15 -->
 

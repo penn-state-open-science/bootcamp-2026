@@ -66,7 +66,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./how-to-install-rstudio-quarto.html" rel="next">
-<link href="./presenters.html" rel="prev">
+<link href="./sessions.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -118,7 +118,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./registration.html">More</a></li><li class="breadcrumb-item"><a href="./registration.html"><span class="chapter-title">Registration Data</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sessions.html">More</a></li><li class="breadcrumb-item"><a href="./registration.html"><span class="chapter-title">Registration Data</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -209,6 +209,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./sessions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Session Details</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./registration.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Registration Data</span></a>
   </div>
 </li>
@@ -251,7 +256,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./registration.html">More</a></li><li class="breadcrumb-item"><a href="./registration.html"><span class="chapter-title">Registration Data</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sessions.html">More</a></li><li class="breadcrumb-item"><a href="./registration.html"><span class="chapter-title">Registration Data</span></a></li></ol></nav>
 <div class="quarto-title">
 <div class="quarto-title-block"><div><h1 class="title"><span class="chapter-title">Registration</span></h1><button type="button" class="btn code-tools-button dropdown-toggle" id="quarto-code-tools-menu" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi"></i> Code</button><ul class="dropdown-menu dropdown-menu-end" aria-labelelledby="quarto-code-tools-menu"><li><a id="quarto-show-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Show All Code</a></li><li><a id="quarto-hide-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Hide All Code</a></li><li><hr class="dropdown-divider"></li><li><a id="quarto-view-source" class="dropdown-item" href="javascript:void(0)" role="button">View Source</a></li></ul></div></div>
 </div>
@@ -399,7 +404,7 @@ Important
 <div id="tbl-data-dictionary" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-data-dictionary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;7.1: A minimal data dictionary.
+Table&nbsp;8.1: A minimal data dictionary.
 </figcaption>
 <div aria-describedby="tbl-data-dictionary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
@@ -475,8 +480,8 @@ Table&nbsp;7.1: A minimal data dictionary.
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>all_names <span class="ot">&lt;-</span> <span class="fu">unique</span>(<span class="fu">c</span>(attendees_names, presenter_names))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
-<p>As of 2026-04-24, we have <em>n</em>=47 registered attendees. We also have <em>n</em>=17 presenters. A handful of presenters also registered, so we have <em>n</em>=58 unique attendees who plan to come.</p>
-<p>That is 77.3% of our target registration/attendance limit of <em>n</em>=75.</p>
+<p>As of 2026-04-24, we have <em>n</em>=49 registered attendees. We also have <em>n</em>=17 presenters. A handful of presenters also registered, so we have <em>n</em>=60 unique attendees who plan to come.</p>
+<p>That is 80% of our target registration/attendance limit of <em>n</em>=75.</p>
 </section>
 <section id="time-series" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="time-series">Time series</h3>
@@ -503,7 +508,7 @@ Table&nbsp;7.1: A minimal data dictionary.
 <img src="include/fig/fig-registration-time-series-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-registration-time-series-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7.1: Time series of registrations.
+Figure&nbsp;8.1: Time series of registrations.
 </figcaption>
 </figure>
 </div>
@@ -549,7 +554,7 @@ Figure&nbsp;7.1: Time series of registrations.
 <img src="include/fig/fig-by-position-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-by-position-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7.2: Registrations by position.
+Figure&nbsp;8.2: Registrations by position.
 </figcaption>
 </figure>
 </div>
@@ -775,13 +780,13 @@ Figure&nbsp;7.2: Registrations by position.
 <img src="include/fig/fig-regis-dept-coll-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-regis-dept-coll-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7.3: Registrations by college/unit.
+Figure&nbsp;8.3: Registrations by college/unit.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>The bootcamp registrations represent <em>n</em>=29 departments and <em>n</em>=14 campuses, colleges, institutes, or administrative entities.</p>
+<p>The bootcamp registrations represent <em>n</em>=31 departments and <em>n</em>=14 campuses, colleges, institutes, or administrative entities.</p>
 
 
 <!-- -->
@@ -1192,8 +1197,8 @@ Figure&nbsp;7.3: Registrations by college/unit.
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./presenters.html" class="pagination-link" aria-label="Presenters">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Presenters</span></span>
+      <a href="./sessions.html" class="pagination-link" aria-label="Session Details">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Session Details</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

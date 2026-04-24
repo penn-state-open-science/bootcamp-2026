@@ -121,7 +121,7 @@ Aleksandra (Seša) Slavkovic, Ph.D. is a Professor of Statistics & Public Health
 
 :::: {.columns}
 ::: {.column width=50%}
-![](include/img/rui_zhang.jpg){width=200px height=200px}
+![](include/img/zhang-rui.jpg){width=200px height=200px}
 :::
 ::: {.column width=50%}
 [Rui Zhang, Ph.D.](https://ryanzhumich.github.io) is is an Assistant Professor in the Computer Science and Engineering Department of Penn State University. He is a co-director of the PSU Natural Language Processing Lab. His research interest lies in Natural Language Processing, Machine Learning, and Artificial Intelligence, especially focusing on Trustworthy Human-Centered AI, LLM Agents, and AI for Science. He received an NSF CAREER Award, Senior Area Chair Paper Award at NAACL 2025, and Outstanding Area Chair at EMNLP 2024. His research is supported by a Microsoft Research Award, an Amazon Research Award, an eBay Research Award, and a Cisco Research Award.

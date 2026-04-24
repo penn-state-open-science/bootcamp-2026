@@ -26,6 +26,12 @@ See the detailed daily schedules for more information.
 
 *Hands-on workshops*
 
+::: {.callout-note}
+### Social Event {{< fa wine-glass >}} {{< fa pizza-slice >}}
+
+Early career scholar gathering.
+:::
+
 ### Day 2
 
 *Breakfast provided* {{< fa mug-hot >}} {{< fa bread-slice >}}
@@ -39,7 +45,7 @@ See the detailed daily schedules for more information.
 *Hands-on workshops*
 
 ::: {.callout-note}
-### Social Event
+### Social Event {{< fa wine-glass >}} {{< fa utensils >}}
 
-TBD
+End of bootcamp reception @ The Lobby Bar.
 :::

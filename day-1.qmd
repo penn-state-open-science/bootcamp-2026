@@ -65,7 +65,7 @@ Bootcamp Co-Directors
 :::
 ::::
 
-### 09:15 am • Penn State Research Data Stewardship Program {-}
+### 09:15 am • [Penn State Research Data Stewardship Program](sessions.html#research-data-stewardship-program) {-}
 
 :::: {.columns}
 ::: {.column width=80%}
@@ -123,8 +123,8 @@ What's the difference? Who decides? How can researchers who share data widely pr
 
 | Topic | Presenter | Location |
 |--------------|----------|-------|
-| *Getting credit (Part I): Good enough data management practices* | [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
-| *Version control with git* | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A Pattee |
+| [*Getting credit (Part I): Good enough data management practices*](sessions.html#getting-credit-part-i-good-enough-data-practices) | [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+| [*Version control with git*](sessions.html#version-control-with-git) | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A Pattee |
 
 : {tbl-colwidths="[60,20,20]"}
 
@@ -134,13 +134,24 @@ What's the difference? Who decides? How can researchers who share data widely pr
 
 | Topic | Presenter | Location |
 |--------------|----------|-------|
-| *Quarto (Part I): A tool for open scholarship* | [Rick Gilmore](directors.qmd#directors.qmd#rick-gilmore) | W211A Pattee |
-| *Getting credit (Part II): Making your data make sense* |  [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+| [*Quarto (Part I): A tool for open scholarship*](sessions.html#quarto-part-i-a-tool-for-open-scholarship) | [Rick Gilmore](directors.qmd#directors.qmd#rick-gilmore) | W211A Pattee |
+| [*Getting credit (Part II): Making your data make sense*](sessions.html#getting-credit-part-ii-making-your-data-make-sense) |  [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
 
 : {tbl-colwidths="[60,20,20]"}
 
 ### 04:15 pm • Day 1 wrap-up {-}
 
 ### 04:30 pm • End of Day 1 {-}
+
+### 04:45 pm • Early career scholar social event {{< fa wine-glass >}} {{< fa pizza-slice >}} {-}
+
+::: {.callout-important}
+### Stay tuned
+Join other early career researchers for an informal get-together.
+
+Details to be announced soon.
+:::
+
+
 
 ## References

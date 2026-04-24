@@ -19,8 +19,8 @@ book:
       - presenters.qmd
     - part: More
       chapters:
-    #   - text: "Session Details"
-    #     href: sessions.qmd
+      - text: "Session Details"
+        href: sessions.qmd
     #   - text: "Wayfinding"
     #     href: wayfinding.qmd
       - text: "Registration Data"
