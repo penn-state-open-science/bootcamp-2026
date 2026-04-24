@@ -123,8 +123,8 @@ What's the difference? Who decides? How can researchers who share data widely pr
 
 | Topic | Presenter | Location |
 |--------------|----------|-------|
-| *Getting credit for sharing your data (Part I): Good enough data management practices* | [Alaina Pearce](directors.qmd#alaina-pearce) | TBD |
-| *Version control with git* | [Carrie Brown](program-committee.qmd#carrie-brown) | TBD |
+| *Getting credit (Part I): Good enough data management practices* | [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+| *Version control with git* | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A Pattee |
 
 : {tbl-colwidths="[60,20,20]"}
 
@@ -134,8 +134,8 @@ What's the difference? Who decides? How can researchers who share data widely pr
 
 | Topic | Presenter | Location |
 |--------------|----------|-------|
-| *Quarto (Part I): A tool for open scholarship* | [Rick Gilmore](directors.qmd#directors.qmd#rick-gilmore) | TBD |
-| *Getting credit (Part II): Sharing your data* |  [Alaina Pearce](directors.qmd#alaina-pearce) | TBD |
+| *Quarto (Part I): A tool for open scholarship* | [Rick Gilmore](directors.qmd#directors.qmd#rick-gilmore) | W211A Pattee |
+| *Getting credit (Part II): Making your data make sense* |  [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
 
 : {tbl-colwidths="[60,20,20]"}
 
