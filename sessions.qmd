@@ -50,7 +50,7 @@ Effective data management is key to research integrity, reproducibility, and mak
 
 *Resources*:
 
-<!-- - Slides: | [pdf](include/pdf/2025_GoodEnoughRDM.pdf) |  [pptx](include/pptx/2025_GoodEnoughRDM.pptx) | -->
+- Slides: | [Keynote Link](https://www.icloud.com/keynote/01avGzTTbIDfVVAWCC18p6HQg#2026S_goodenough_bootcap) |  [pptx](include/pptx/2026S_goodenough_bootcamp.pptx) |
 - Directory naming worksheet: | [pdf](include/pdf/rdm-strategy_worksheet.pdf) |
 - Data Inventory: | [pdf](include/pdf/dmsp-data_inventory.pdf) |
 
@@ -106,8 +106,7 @@ Just as important as sharing your data is how you document it. Metadata provides
 
 <!-- - Slides: | [pdf](include/pdf/2025_DataSharing.pdf) |  [pptx](include/pptx/2025_DataSharing.pptx) | -->
 - Sample data README: | [md](include/txt/cornell_data_readme.md) | [txt](include/txt/cornell_data_readme.txt) |
-- Sample Psych-DS dataset_description.json file: [json](include/json/dataset_description.json)
-- Sample PsychDS json file: [json](include/txt/dataset_description.json) |
+- Sample Psych-DS dataset_description.json file: [json](include/txt/dataset_description.json) |
 
 
 ## Day 2 • Tue May 12
@@ -159,7 +158,7 @@ Rick Gilmore will show how to build useful scholarly products in a reproducible 
 
 Sharing data openly is a growing expectation in research but getting formal recognition for the time and effort involved is still a challenge. To make data truly reusable, others must be able to find, access, and understand it. This workshop will guide participants through selecting an appropriate data repository and introduce data papers, where is one approach to increasing the visibility and citablity of your data. By the end of the session, you’ll have the knowledge to identify repository features that meet your needs, and a working knowledge of data papers. This is the third of three workshops on *Getting Credit for Sharing Your Data*.
 
-*Presenter*: [Alaina Pearce](directors.qmd#alaina-pearce)
+*Presenter*: [Alaina Pearce](directors.qmd#alaina-pearce) and [Kyle Hallisky](presenters.qmd#kyle-hallisky)
 
 *Prerequisites*: None
 
@@ -178,9 +177,9 @@ Sharing data openly is a growing expectation in research but getting formal reco
 
 ### Workshop Session 5
 
-#### Questionable research practices
+#### From Questionable to Credible: Responsible and Robust Research in the Age of AI
 
-What are questionable research practices? Why are they questionable? How do we avoid them?
+This session introduces participants to questionable research practices (QRPs) and the strategies researchers can use to conduct rigorous, transparent studies. Participants will explore how research integrity challenges are evolving in the age of AI, and review principles for responsibly incorporating AI into an open scholarship framework.
 
 *Presenters*: [Jennifer Valcin](program-committee.qmd#jennifer-valcin)
 

@@ -37,6 +37,18 @@ Librarian with the Penn State University Libraries. He earned his doctoral degre
 :::
 ::::
 
+## Kyle Hallisky {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/kyle-hallisky.jpeg){width=200px height=200px}
+:::
+::: {.column width=50%}
+[Kyle Hallisky](https://libraries.psu.edu/directory/nmh5768) is Associate Dean for Distinctive Collections and Digital Strategies and
+Librarian with the Penn State University Libraries. He earned his doctoral degree in information science from the University of North Texas.
+:::
+::::
+
 ## Bernd Haupt {-}
 
 :::: {.columns}
@@ -114,6 +126,19 @@ Aleksandra (Seša) Slavkovic, Ph.D. is a Professor of Statistics & Public Health
 :::
 ::: {.column width=50%}
 [Danielle Steinhart, J.D.](https://libraries.psu.edu/directory/djs7648) is the Interim Head of the [Office of Scholarly Communications and Copyright](https://libraries.psu.edu/about/departments/office-scholarly-communications-and-copyright) at [Penn State University Libraries](https://libraries.psu.edu) where she assists faculty, staff, and students, with copyright and scholarly communications matters and serves as a resource on these topics for the Libraries departments and projects. Danielle practiced law early in her career before transitioning to academia and has been with Penn State Libraries for almost 4 years. 
+:::
+::::
+
+## Courtney Witmer {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/witmer-courtney.jpeg){width=200px height=200px}
+:::
+::: {.column width=50%}
+[Courtney Witmer, J.D.](https://strategiccommunications.psu.edu/team/bios/courtney-witmer) is the Assistant Director of Social Media for [Penn State's Strategic Communications](https://strategiccommunications.psu.edu) where she helps plan and execute short- and long-term strategy for Penn State’s main social media accounts, curates and creates content for social media platforms, and analyzes content and campaigns. She also uses performance analytics and content evaluation to shape recommendations for continuous improvement and growth across platforms, constantly seeking new ways to engage with and respond to audiences.
+
+Before joining Strategic Communications, Courtney held digital marketing roles at Facebook, Microsoft, and various start-ups in the Bay Area. She also spent four years focusing on paid social media with Penn State World Campus and Mediahub. 
 :::
 ::::
 

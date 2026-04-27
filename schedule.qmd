@@ -18,7 +18,7 @@ See the detailed daily schedules for more information.
 
 *Presentation*: Research Data Stewardship Program, [Briana Wham](program-committee.qmd#briana-wham)
 
-*Keynote*: TBD, [Melissa Kline Struhl](presenters.qmd#melissa-kline-struhl), Director, Children Helping Science
+*Keynote*: Responsible science at scale: Lessons for everyone from baby research and (really) large collaborations, [Melissa Kline Struhl](presenters.qmd#melissa-kline-struhl), Director, Children Helping Science
 
 *Lunch provided* {{< fa bottle-water >}} {{< fa bread-slice >}}
 

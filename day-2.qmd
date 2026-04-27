@@ -46,7 +46,7 @@ This schedule is a work-in-progress and subject to change.
 | Topic | Presenter | Location |
 |--------------|----------|-------|
 | [*Quarto (Part II): Making useful things reproducibly*](sessions.html#quarto-part-ii-making-useful-things-reproducibly) | [Rick Gilmore](directors.qmd#rick-gilmore) | W211A Pattee | 
-| [*Getting credit (Part III): Making your data citable*](http://localhost:7406/sessions.html#getting-credit-part-iii-making-your-data-citable) |  [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+| [*Getting credit (Part III): Making your data citable*](http://localhost:7406/sessions.html#getting-credit-part-iii-making-your-data-citable) |  [Alaina Pearce](directors.qmd#alaina-pearce) & [Kyle Hallisky](presenters.qmd#kyle-hallisky) | Dewey Room |
 
 : {tbl-colwidths="[60,20,20]"}
 
@@ -99,8 +99,8 @@ While some data may be shared with the explicit goal of being machine actionable
 
 | Topic | Presenter | Location |
 |--------------|----------|-------|
-| HOLD FOR NEW SPEAKER | SPEAKER INFO | TBD | 
-| [*Questionable research practices*](sessions.html#questionable-research-practices) |  [Jennifer Valcin](program-committee.qmd#jennifer-valcin) | W211A Pattee |
+| Sharing your reesarch openly on social media | [Courtney Witmer](presenters.qmd#courtney-witmer) | TBD | 
+| [*From Questionable to Credible: Responsible and Robust Research in the Age of AI*](sessions.html#questionable-research-practices) |  [Jennifer Valcin](program-committee.qmd#jennifer-valcin) | W211A Pattee |
 
 : {tbl-colwidths="[60,20,20]"}
 

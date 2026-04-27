@@ -85,7 +85,7 @@ Bootcamp Co-Directors
 ### 10:00 am • Break {{< fa mug-hot >}} {-}
 
 ### 10:15 am • Keynote {- #day_1_plenary_2}
-
+- Responsible science at scale: Lessons for everyone from baby research and (really) large collaborations
 :::: {.columns}
 ::: {.column width=80%}
 [Melissa Kline Struhl](presenters.qmd#melissa-kline-struhl)
@@ -123,9 +123,10 @@ What's the difference? Who decides? How can researchers who share data widely pr
 
 | Topic | Presenter | Location |
 |--------------|----------|-------|
-| [*Getting credit (Part I): Good enough data management practices*](sessions.html#getting-credit-part-i-good-enough-data-practices) | [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+| [*Getting credit (Part I): Good enough data management practices*](sessions.html#getting-credit-part-i-good-enough-data-practices)[^1] | [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
 | [*Version control with git*](sessions.html#version-control-with-git) | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A Pattee |
 
+[^1]: This workshop contributes to the Provost Endorsement in Research Data Stewardship. Register for the program [here](https://pennstate.qualtrics.com/jfe/form/SV_0ppydquaUVYUN3U)]
 : {tbl-colwidths="[60,20,20]"}
 
 ### 02:45 pm • Break {{< fa mug-hot >}} {-}
@@ -135,7 +136,7 @@ What's the difference? Who decides? How can researchers who share data widely pr
 | Topic | Presenter | Location |
 |--------------|----------|-------|
 | [*Quarto (Part I): A tool for open scholarship*](sessions.html#quarto-part-i-a-tool-for-open-scholarship) | [Rick Gilmore](directors.qmd#directors.qmd#rick-gilmore) | W211A Pattee |
-| [*Getting credit (Part II): Making your data make sense*](sessions.html#getting-credit-part-ii-making-your-data-make-sense) |  [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+| [*Getting credit (Part II): Making your data make sense*](sessions.html#getting-credit-part-ii-making-your-data-make-sense)[^1] |  [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
 
 : {tbl-colwidths="[60,20,20]"}
 
