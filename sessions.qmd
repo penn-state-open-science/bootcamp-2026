@@ -189,7 +189,15 @@ This session introduces participants to questionable research practices (QRPs) a
 
 *Location*: Dewey Room
 
----
+<!-- --- -->
+
+<!-- #### Introduction to Python and Jupyter Notebooks -->
+
+<!-- Curious about Python and how to get started with coding? Join us for a one-hour, hands-on workshop introducing Python programming using JupyterLab. Designed for beginners, this session will guide you through the basics of Python using interactive example notebooks. You'll gain experience navigating the JupyterLab environment while working through live code, and you'll leave with a set of curated notebooks you can continue exploring on your own. No prior programming experience required! -->
+
+<!-- *Presenter*: [Carrie Brown](program-committee.qmd#carrie-brown) -->
+
+<!-- *Prerequisites*: Attendees will need an active Roar account. To request Roar access, please complete the [Account Request form](https://accounts.hpc.psu.edu/users/#) by [Tuesday, August 12, 2025]{.highlight-color}. -->
 
 <!-- #### Quarto (Part III): Reproducible research reports -->
 

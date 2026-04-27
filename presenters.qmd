@@ -14,6 +14,17 @@ format: html
 :::
 ::::
 
+## Kadir Cihan Duran {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/duran-cihan.jpg){width=200px height=200px}
+:::
+::: {.column width=50%}
+[Kadir Cihan Duran](https://kadircihanduran.github.io/) is a Ph.D. candidate in Political Science and Social Data Analytics. His research focuses on comparative politics, specifically exploring the intersection of competitive authoritarian regimes and social media. He is interested in the structures and dynamics in digital platforms, integrating network analysis, deep neural networks, and natural language processing to uncover complex patterns within these environments. 
+:::
+::::
+
 ## Wayne Figurelle {-}
 
 :::: {.columns}

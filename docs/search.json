@@ -140,7 +140,7 @@
     "href": "day-2.html#day_2_pm",
     "title": "Day 2 (Tues, May 12)",
     "section": "Afternoon",
-    "text": "Afternoon\n\n12:00 pm • Lunch  \n\n\n01:30 pm • Panel Discussion\n\nOpen research data and AI ethics\nSharing data openly is increasingly encouraged and sometimes mandated by funder policies. This panel explores ethical questions at the intersection of AI and open data. We’ll discuss use of AI in the research lifecycle prior to sharing, to the role of AI in parsing and interrogating data after it is made publicly available. While some data may be shared with the explicit goal of being machine actionable, applying AI to more sensitive data such as de-identified human subjects data, introduces distinct risks.\n\n\n\n\n\nChristopher Dancy\n\n\n\n\n\n\nCourtney Karmelita\n\n\n\n\n\n\nAleksandra (Seša) Slavkovic\n\n\n\n\n\n\nRui Zhang\n\n\n\n\n\n\n\n02:45 pm • Break \n\n\n03:00 pm • Workshop session 5\n\n\n\n\n\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nSharing your reesarch openly on social media\nCourtney Witmer\nTBD\n\n\nFrom Questionable to Credible: Responsible and Robust Research in the Age of AI\nJennifer Valcin\nW211A Pattee\n\n\n\n\n\n04:15 pm • End of bootcamp wrap-up\n\n\n04:30 pm • Open scholarship happy hour  \nHors d’oeuvres provided by the Bootcamp sponsors. Cash bar.\n\n\n\n\n\n\nImportantLocation –&gt;\n\n\n\nThe Lobby Bar\n100 West College Avenue\n2nd floor, across from The Allen Street Grill\n\n\n\n\n\n\n\nEntrance to The Lobby Bar and The Allen Street Grill\n\n\n\n\n\n\n\n\nInside The Lobby Bar",
+    "text": "Afternoon\n\n12:00 pm • Lunch  \n\n\n01:30 pm • Panel Discussion\n\nOpen research data and AI ethics\nSharing data openly is increasingly encouraged and sometimes mandated by funder policies. This panel explores ethical questions at the intersection of AI and open data. We’ll discuss use of AI in the research lifecycle prior to sharing, to the role of AI in parsing and interrogating data after it is made publicly available. While some data may be shared with the explicit goal of being machine actionable, applying AI to more sensitive data such as de-identified human subjects data, introduces distinct risks.\n\n\n\n\n\nChristopher Dancy\n\n\n\n\n\n\nCourtney Karmelita\n\n\n\n\n\n\nAleksandra (Seša) Slavkovic\n\n\n\n\n\n\nRui Zhang\n\n\n\n\n\n\n\n02:45 pm • Break \n\n\n03:00 pm • Workshop session 5\n\n\n\n\n\n\n\n\nTopic\nPresenter\nLocation\n\n\n\n\nSharing your reesarch openly on social media\nCourtney Witmer\nTBD\n\n\nFrom Questionable to Credible: Responsible and Robust Research in the Age of AI\nJennifer Valcin\nW211A Pattee\n\n\nIntroduction to Python and Jupyter Notebooks\nKadir Cihan Duran\nTBD\n\n\n\n\n\n04:15 pm • End of bootcamp wrap-up\n\n\n04:30 pm • Open scholarship happy hour  \nHors d’oeuvres provided by the Bootcamp sponsors. Cash bar.\n\n\n\n\n\n\nImportantLocation –&gt;\n\n\n\nThe Lobby Bar\n100 West College Avenue\n2nd floor, across from The Allen Street Grill\n\n\n\n\n\n\n\nEntrance to The Lobby Bar and The Allen Street Grill\n\n\n\n\n\n\n\n\nInside The Lobby Bar",
     "crumbs": [
       "Schedule",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Day 2 (Tues, May 12)</span>"
@@ -672,6 +672,17 @@
     "crumbs": [
       "Schedule",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Day 1 (Mon, May 11)</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#kadir-cihan-duran",
+    "href": "presenters.html#kadir-cihan-duran",
+    "title": "Presenters",
+    "section": "Kadir Cihan Duran",
+    "text": "Kadir Cihan Duran\n\n\n\n\nKadir Cihan Duran is a Ph.D. candidate in Political Science and Social Data Analytics. His research focuses on comparative politics, specifically exploring the intersection of competitive authoritarian regimes and social media. He is interested in the structures and dynamics in digital platforms, integrating network analysis, deep neural networks, and natural language processing to uncover complex patterns within these environments.",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Presenters</span>"
     ]
   }
 ]
