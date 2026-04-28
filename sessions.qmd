@@ -56,12 +56,17 @@ Effective data management is key to research integrity, reproducibility, and mak
 
 ---
 
-#### Version Control with git
+#### A Gentle Introduction to Git: A Graphical Overview of Version Control for Computational Workflows
 
+Version control with Git is a foundational skill for modern software development and collaborative research, yet it is often perceived as difficult to learn due to its command-driven interface and abstract conceptual model. This one-hour workshop provides a gentle, visually driven introduction designed to lower that barrier to entry.
+
+Rather than focusing on commands or terminal usage, this session emphasizes a high-level, graphical understanding of how Git works. Participants will explore key concepts such as commits, branches, merges, and repositories through intuitive diagrams and workflow illustrations. The goal is to build mental models of how changes are tracked, shared, and integrated over time, making the structure of Git more accessible and less intimidating.
+
+This workshop is intentionally designed as a conceptual on-ramp with no prior Git experience required. Additional resources and learning opportunities will be announced so attendees can build further skills.
 
 *Presenter*: [Carrie Brown](program-committee.qmd#carrie-brown)
 
-*Prerequisites*: Attendees will need an active Roar account. To request Roar access, please complete the [Account Request form](https://accounts.hpc.psu.edu/users/#) by [Tuesday, May 5, 2026]{.highlight-color}.
+*Prerequisites*: If you do not already have a [GitHub](https://github.com) account, this is a good time to create one.
 
 *Skill level*: All
 
@@ -119,7 +124,7 @@ Join us for a workshop exploring the powerful computational and data resources a
 
 *Presenter*: [Carrie Brown](program-committee.qmd#carrie-brown)
 
-*Prerequisites*: Attendees will need an active Roar account. To request Roar access, please complete the [Account Request form](https://accounts.hpc.psu.edu/users/#) by [Tuesday, May 5, 2026]{.highlight-color}.
+*Prerequisites*: Attendees will need an active Roar account. To request Roar access, please complete the [Account Request form](https://accounts.hpc.psu.edu/users/#) by [Tuesday, May 5, 2026]{.highlight-color}. If you do not already have a [GitHub](https://github.com) account, this is a good time to create one.
 
 *Skill level*: All
 

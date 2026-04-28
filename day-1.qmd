@@ -125,8 +125,8 @@ What's the difference? Who decides? How can researchers who share data widely pr
 
 | Topic | Presenter | Location |
 |--------------|----------|-------|
-| [*Getting credit (Part I): Good enough data management practices*](sessions.html#getting-credit-part-i-good-enough-data-practices) ![](include/img/Nittany-Lion-Lab-Coat-2){width="30px"} | [Alaina Pearce](directors.qmd#alaina-pearce)| Dewey Room |
-| [*Version control with git*](sessions.html#version-control-with-git) | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A Pattee |
+| [*Getting credit (Part I): Good enough data management practices*](sessions.html#getting-credit-part-i-good-enough-data-managment-practices) ![](include/img/Nittany-Lion-Lab-Coat-2){width="30px"} | [Alaina Pearce](directors.qmd#alaina-pearce)| Dewey Room |
+| [*A Gentle Introduction to Git: A Graphical Overview of Version Control for Computational Workflows*](sessions.html#a-gentle-introduction-to-git-a-graphical-overview-of-version-control-for-computational-workflows) | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A Pattee |
 
 : {tbl-colwidths="[60,20,20]"}
 
