@@ -56,7 +56,7 @@ Effective data management is key to research integrity, reproducibility, and mak
 
 ---
 
-#### A Gentle Introduction to Git: A Graphical Overview of Version Control for Computational Workflows
+#### A gentle introduction to Git: A graphical overview of version control for computational workflows
 
 Version control with Git is a foundational skill for modern software development and collaborative research, yet it is often perceived as difficult to learn due to its command-driven interface and abstract conceptual model. This one-hour workshop provides a gentle, visually driven introduction designed to lower that barrier to entry.
 
@@ -140,7 +140,6 @@ This presentation will provide a brief introduction to U.S. copyright law, open 
 
 *Location*: Foster Auditorium
 
-
 ### Workshop Session 4
 
 #### Quarto (Part II): Making useful things reproducibly {-}
@@ -182,7 +181,7 @@ Sharing data openly is a growing expectation in research but getting formal reco
 
 ### Workshop Session 5
 
-#### From Questionable to Credible: Responsible and Robust Research in the Age of AI
+#### From questionable to credible: Responsible and robust research in the age of AI
 
 This session introduces participants to questionable research practices (QRPs) and the strategies researchers can use to conduct rigorous, transparent studies. Participants will explore how research integrity challenges are evolving in the age of AI, and review principles for responsibly incorporating AI into an open scholarship framework.
 
