@@ -99,7 +99,7 @@ While some data may be shared with the explicit goal of being machine actionable
 
 | Topic | Presenter | Location |
 |--------------|----------|-------|
-| Sharing your reesarch openly on social media | [Courtney Witmer](presenters.qmd#courtney-witmer) | TBD | 
+| Sharing your research openly on social media | [Courtney Witmer](presenters.qmd#courtney-witmer) | TBD | 
 | [*From Questionable to Credible: Responsible and Robust Research in the Age of AI*](sessions.html#questionable-research-practices) |  [Jennifer Valcin](program-committee.qmd#jennifer-valcin) | W211A Pattee |
 | Introduction to Python and Jupyter Notebooks | [Kadir Cihan Duran](presenters.qmd#kadir-cihan-duran) | TBD |
 
