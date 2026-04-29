@@ -313,7 +313,8 @@ registrations_clean <- registrations_clean |>
       `Agricultural and Biological Engineering` = "Agricultural & Biological Engineering",
       `Mechanical` = "Mechanical Engineering",
       `Health Administration` = "Health Policy & Administration",
-      `CMPEN` = "Computer Engineering"
+      `CMPEN` = "Computer Engineering",
+      `College of Liberal Arts (psychology)` = "Psychology"
     )
   ) |>
   dplyr::mutate(
@@ -408,7 +409,8 @@ registrations_clean <- registrations_clean |>
       "Health Policy & Administration" ~ "HHD",
       "Chemical/Biomedical Engineering" ~ "Engineering",
       "College of Education" ~ "Education",
-      "Computer Engineering" ~ "Engineering"
+      "Computer Engineering" ~ "Engineering",
+      "Integrative Science" ~ "ECoS"
     ),
     .default = "Unknown",
     .missing = "Unknown"
