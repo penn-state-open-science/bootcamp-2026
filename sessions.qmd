@@ -193,15 +193,29 @@ This session introduces participants to questionable research practices (QRPs) a
 
 *Location*: Dewey Room
 
-<!-- --- -->
+---
 
-<!-- #### Introduction to Python and Jupyter Notebooks -->
+#### Introduction to Python and Jupyter Notebooks
 
-<!-- Curious about Python and how to get started with coding? Join us for a one-hour, hands-on workshop introducing Python programming using JupyterLab. Designed for beginners, this session will guide you through the basics of Python using interactive example notebooks. You'll gain experience navigating the JupyterLab environment while working through live code, and you'll leave with a set of curated notebooks you can continue exploring on your own. No prior programming experience required! -->
+Curious about Python and how to get started with coding? Join us for a one-hour, hands-on workshop introducing Python programming using JupyterLab. Designed for beginners, this session will guide you through the basics of Python using interactive example notebooks. You'll gain experience navigating the JupyterLab environment while working through live code, and you'll leave with a set of curated notebooks you can continue exploring on your own. No prior programming experience required!
 
-<!-- *Presenter*: [Carrie Brown](program-committee.qmd#carrie-brown) -->
+*Presenter*: [Kadir Cihan Duran](presenters.qmd#kadir-cihan-duran)
 
-<!-- *Prerequisites*: Attendees will need an active Roar account. To request Roar access, please complete the [Account Request form](https://accounts.hpc.psu.edu/users/#) by [Tuesday, August 12, 2025]{.highlight-color}. -->
+#### Engaging with Social Media
+
+As assistant director of social media, Courtney helps plan and execute short- and long-term strategy for Penn State’s main social accounts, curates and creates content for social media platforms, and uses performance analytics to shape recommendations for continuous improvement and growth across platforms.
+
+Courtney previously held digital marketing roles at Facebook, Microsoft, and start-ups in the Bay Area, and spent four years focusing on paid social media at Penn State World Campus and IPG agency Mediahub. In addition to undergraduate degrees from Penn State, she earned an M.S.Ed. from the University of Pennsylvania and an M.A. at Seton Hall University.
+
+*Presenters*: [Courtney Witmer](presenters.qmdd#courtney-witmer)
+
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+*Location*: Dewey Room
+
+---
 
 <!-- #### Quarto (Part III): Reproducible research reports -->
 
