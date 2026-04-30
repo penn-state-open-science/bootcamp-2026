@@ -1,8 +1,9 @@
 project:
   type: book
   output-dir: docs
-
-  
+  pre-render:
+    - R/download_data.R
+    
 book:
   title: "Bootcamp 2026"
   author: ["Rick Gilmore", "Alaina Pearce"]

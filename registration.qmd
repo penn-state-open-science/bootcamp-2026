@@ -318,49 +318,50 @@ registrations_clean <- registrations_clean |>
       `statistic` = "Statistics",
       `College of Engineering/Computer Science` = "Computer Science & Engineering",
       `ESM/ REI` = "Engineering Science & Mechanics",
-      `Civil Eng` = "Civil Engineering"
+      `Civil Eng` = "Civil Engineering",
+      `Meteorology and Atmospheric Science` = "Meteorology & Atmospheric Science"
     )
   ) |>
   dplyr::mutate(
     college = recode_values(
       dept,
-      "Entomology" ~ "AgSci",
-      "Ecosystem Science & Management" ~ "AgSci",
-      "Plant Pathology & Environmental Microbiology" ~ "AgSci",
-      "Food Science" ~ "AgSci",
-      "Plant Science" ~ "AgSci",
       "Agricultural & Biological Engineering" ~ "AgSci",
+      "Ecosystem Science & Management" ~ "AgSci",
+      "Entomology" ~ "AgSci",
+      "Food Science" ~ "AgSci",
+      "Plant Pathology & Environmental Microbiology" ~ "AgSci",
+      "Plant Science" ~ "AgSci",
       
-      "University of Kansas, Psychology" ~ "UKansas",
+      "German & Slavic Languages" ~ "CLA",
       "Psychology" ~ "CLA",
       "Spanish, Italian, & Portuguese" ~ "CLA",
-      "German & Slavic Languages" ~ "CLA",
-      "Research Informatics and Publishing" ~ "Libraries",
-      "Political Science" ~ "CLA",
-      "Applied Linguistics" ~ "CLA",
-      "Global Languages & Literatures" ~ "CLA",
+
       "Anthropology" ~ "CLA",
-      "Sociology" ~ "CLA",
-      "English" ~ "CLA",
-      "C-SoDA" ~ "CLA",
-      "Office of Digital Pedagogies and Initiatives" ~ "CLA",
-      "Communication Arts & Sciences" ~ "CLA",
+      "Applied Linguistics" ~ "CLA",
       "Asian Studies" ~ "CLA",
+      "C-SoDA" ~ "CLA",
+      "Demography" ~ "CLA",
+      "Communication Arts & Sciences" ~ "CLA",
+      "Economics" ~ "CLA",
+      "English" ~ "CLA",
+      "French & Francophone Studies" ~ "CLA",
+      "Global Languages & Literatures" ~ "CLA",
+      "Office of Digital Pedagogies and Initiatives" ~ "CLA",
+      "Political Science" ~ "CLA",
+      "Sociology" ~ "CLA",
       "Sociology & Criminology" ~ "CLA",
       "School of Labor & Employment Relations" ~ "CLA",
-      "Economics" ~ "CLA",
-      "Demography" ~ "CLA",
-      "French & Francophone Studies" ~ "CLA",
       
       "Bellisario College of Communication" ~ "Comm",
       "Mass Communications" ~ "Comm",
       
-      "Statistics" ~ "ECoS",
-      "Biology" ~ "ECoS",
+
       "Astronomy & Astrophysics" ~ "ECoS",
+      "Biology" ~ "ECoS",
       "Chemistry" ~ "ECoS",
-      "Mathematics" ~ "ECoS",
       "Integrative Science" ~ "ECoS",
+      "Mathematics" ~ "ECoS",
+      "Statistics" ~ "ECoS",
 
       "College of Education" ~ "Education",
       "LPS/LDT" ~ "Education",
@@ -386,12 +387,13 @@ registrations_clean <- registrations_clean |>
       "Mechanical Engineering" ~ "Engineering",
 
       "College of Human and Health Development" ~ "HHD",
-      "Nutritional Sciences" ~ "HHD",
+      "Communication Sciences & Disorders" ~ "HHD",
+      "BBH" ~ "HHD",
       "HDFS" ~ "HHD",
       "Kinesiology" ~ "HHD",
+      "Nutritional Sciences" ~ "HHD",
       "Recreation, Park, & Tourism Management" ~ "HHD",
-      "BBH" ~ "HHD",
-      "Communication Sciences & Disorders" ~ "HHD",
+
       "HHD" ~ "HHD",
       "Health Policy & Administration" ~ "HHD",
       
@@ -405,8 +407,9 @@ registrations_clean <- registrations_clean |>
       "Cybersecurity" ~ "IST",
       "Information Science and Technology" ~ "IST",
       
-      "University Libraries" ~ "Libraries",
       "Preservation Conservation & Digitization" ~ "Libraries",
+      "Research Informatics and Publishing" ~ "Libraries",
+      "University Libraries" ~ "Libraries",
       
       "Neuroscience" ~ "Medicine",
       "Medicine" ~ "Medicine",
@@ -433,6 +436,8 @@ registrations_clean <- registrations_clean |>
 
       "Accounting" ~ "Smeal",
       "Marketing" ~ "Smeal",
+      
+      "University of Kansas, Psychology" ~ "UKansas"
 
     ),
     .default = "Unknown",

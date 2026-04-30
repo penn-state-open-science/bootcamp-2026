@@ -6,6 +6,8 @@ download_registration_data <- function(csv_dir = "private/csv",
                                        reg_sheets_id = "1mM0rSuFS5_y2sQtU9AI9zm8kuOGeDzilJZdu1MUR8zk",
                                        sheet_name = "Form Responses 1",
                                        registration_fn = "registrations-2026.csv") {
+  
+  require(tibble)
   assertthat::is.string(csv_dir)
   if (!dir.exists(csv_dir)) {
     message("Creating missing `include/csv/`.")
