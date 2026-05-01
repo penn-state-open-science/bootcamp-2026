@@ -148,7 +148,7 @@ Rick Gilmore will show how to build useful scholarly products in a reproducible 
 
 *Presenter*: [Rick Gilmore](directors.qmd#rick-gilmore)
 
-*Prerequisites*: Quarto (Part I) or equivalent. If you plan to bring a laptop, please follow the [instructions here](how-to-install-rstudio-quarto.qmd) to install R, RStudio, and Quarto. If you do not already have a [GitHub](https://github.com) account, this is a good time to create one.
+*Prerequisites*: Quarto (Part I) or equivalent. If you plan to bring a laptop, please follow the [instructions here](how-to-install-rstudio-quarto.qmd) to install R, RStudio, and Quarto. If you do not already have a [GitHub](https://github.com) account, this is a good time to create one. Please also consider completing this anonymous, silly, and short Qualtrics survey: <https://pennstate.qualtrics.com/jfe/form/SV_3l7ZkwVhhLI9Re6>
 
 *Skill level*: Advanced beginner.
 
