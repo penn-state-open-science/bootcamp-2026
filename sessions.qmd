@@ -112,7 +112,7 @@ Just as important as sharing your data is how you document it. Metadata provides
 <!-- - Slides: | [pdf](include/pdf/2025_DataSharing.pdf) |  [pptx](include/pptx/2025_DataSharing.pptx) | -->
 - Sample data README: | [md](include/txt/cornell_data_readme.md) | [txt](include/txt/cornell_data_readme.txt) |
 - Sample Psych-DS dataset_description.json file: [json](include/txt/dataset_description.json) |
-
+- FAIR Checklist: | [pdf](include/pdf/fair_checklist.pdf) |
 
 ## Day 2 • Tue May 12
 
@@ -203,15 +203,10 @@ Curious about Python and how to get started with coding? Join us for a one-hour,
 
 #### Engaging with Social Media
 
-As Assistant Director of Social Media, Courtney helps plan and execute short- and long-term strategy for Penn State’s main social accounts, curates and creates content for social media platforms, and uses performance analytics to shape recommendations for continuous improvement and growth across platforms.
-
-Courtney previously held digital marketing roles at Facebook, Microsoft, and start-ups in the Bay Area, and spent four years focusing on paid social media at Penn State World Campus and IPG agency Mediahub. In addition to undergraduate degrees from Penn State, she earned an M.S.Ed. from the University of Pennsylvania and an M.A. at Seton Hall University.
 
 *Presenters*: [Courtney Witmer](presenters.qmdd#courtney-witmer)
 
 *Prerequisites*: None
-
-*Skill level*: Novice
 
 *Location*: Dewey Room
 
