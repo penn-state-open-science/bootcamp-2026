@@ -69,7 +69,9 @@ format: html
 
 ### 12:00 pm • Lunch & Learn {{< fa bottle-water >}} {{< fa bread-slice >}} {-}
 
-#### [*Engaging with Social Media*](sessions.html#engaging-with-social-media) 
+#### *Engaging with Social Media*
+
+Learn how to leverage social media to publicize your scholarship.
 
 :::: {.columns}
 ::: {.column width=80%}
@@ -79,6 +81,7 @@ format: html
 ![](include/img/witmer-courtney-sq.jpg){width=100px height=100px}
 :::
 ::::
+
 ### 01:30 pm • Panel Discussion {- #day_2_plenary_1}
 
 #### Open research data and AI ethics
@@ -109,7 +112,6 @@ While some data may be shared with the explicit goal of being machine actionable
 
 | Topic | Presenter | Location |
 |--------------|----------|-------|
-<!-- | [*Engaging with Social Media*](sessions.html#engaging-with-social-media) | [Courtney Witmer](presenters.qmd#courtney-witmer) | TBD |  -->
 | [*From questionable to credible: Responsible and robust research in the age of AI*](sessions.html#questionable-research-practices) |  [Jennifer Valcin](program-committee.qmd#jennifer-valcin) | W211A Pattee |
 | [Introduction to Python and Jupyter Notebooks](sessions.qmd#introduction-to-python-and-jupyter-notebooks) | [Kadir Cihan Duran](presenters.qmd#kadir-cihan-duran) | TBD |
 
