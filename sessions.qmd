@@ -237,6 +237,10 @@ This session introduces participants to questionable research practices (QRPs) a
 
 *Location*: Dewey Room
 
+*Resources*:
+
+Slides: [pptx](include/pptx/Open_Scholarship_Bootcamp2026_Responsible_and_Robust_Research_final.pptx)
+
 ---
 
 #### Introduction to Python and Jupyter Notebooks
